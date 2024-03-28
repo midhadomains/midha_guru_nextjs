@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer utilities {
+  .custom-transition {
+    transition-property: transform;
+    transition-duration: 6s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+  }
+}
