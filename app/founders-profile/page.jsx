@@ -1,9 +1,12 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import React from "react";
 
 export default function Page() {
   return (
     <div className="mx-auto">
+      <Navbar/>
       <div className="h-auto mx-auto bg-gradient-to-r from-[#F1C99599] to-[#FAF8F099]  flex ">
         <div className="max-w-[1300px] mx-auto">
           <div className="sm:flex justify-between">
@@ -112,6 +115,7 @@ export default function Page() {
           </p>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
