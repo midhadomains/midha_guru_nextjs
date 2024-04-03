@@ -6,8 +6,8 @@ export default function Page() {
     <div className="mx-auto">
       <div className="h-auto mx-auto bg-gradient-to-r from-[#F1C99599] to-[#FAF8F099]  flex ">
         <div className="max-w-[1300px] mx-auto">
-          <div className="sm:flex ">
-            <div className=" w-[100%]  sm:w-[60%] mt-12">
+          <div className="sm:flex justify-between">
+            <div className=" w-[100%] sm:w-[60%] mt-12">
               <h1 className="text-[#6A1C1A] text-[26px] sm:text-[26px] md:text-[32px] lg:text-[46px] font-bold mb-4 ml-8 text-center md:text-left lg:text-left ">
                 The Founder&apos;s Profile
               </h1>
@@ -31,8 +31,8 @@ export default function Page() {
                 contributions to academia and educational institutions.
               </p>
             </div>
-            <div className=" hidden sm:flex lg:justify-center  w-[40%] sm:w-[35%] lg:w-[50%] mt-8">
-              <Image src="Group 312.svg" alt="Image" width={400} height={400} />
+            <div className=" hidden sm:flex  flex-shrink-0 lg:justify-center max-w-[400px]  w-[40%] sm:w-[35%] lg:w-[50%] mt-8 pr-[32px]">
+              <Image src="Group 312.svg" alt="Image" width={400} height={400} className="flex-shrink-0"/>
             </div>
           </div>
         </div>
