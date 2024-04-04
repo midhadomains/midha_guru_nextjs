@@ -11,7 +11,7 @@ export default function Page() {
         <div className="max-w-[1300px] mx-auto">
           <div className="sm:flex justify-between">
             <div className=" w-[100%] sm:w-[60%] mt-12">
-              <h1 className="text-[#6A1C1A] text-[26px] sm:text-[26px] md:text-[32px] lg:text-[46px] font-bold mb-4 ml-8 text-center md:text-left lg:text-left ">
+              <h1 className="text-[#6A1C1A] text-[26px] sm:text-[26px] md:text-[32px] lg:text-[46px] font-bold mb-4 sm:ml-8 text-center sm:text-left ">
                 The Founder&apos;s Profile
               </h1>
               <div className="flex sm:block sm:hidden w-[70%] sm:w-[35%] lg:w-[50%] mx-auto mb-4">
@@ -23,7 +23,7 @@ export default function Page() {
                 />
               </div>
 
-              <h2 className="text-[22px] md:text-[28px] lg:text-[28px] font-semibold mb-4 ml-8 text-center md:text-left lg:text-left ">
+              <h2 className="text-[22px] md:text-[28px] lg:text-[28px] font-semibold mb-4 sm:ml-8 text-center md:text-left lg:text-left ">
                 Micky Midha
               </h2>
               <p className="text-center sm:text-left lg:w-[100%] md:w-[85%] text-[14px] sm:text-[14px] md:text-[18px] lg:text-[22px] leading-16 px-8 mb-4">
@@ -103,7 +103,7 @@ export default function Page() {
           <h1 className="text-[#6A1C1A] text-[22px] md:text-[28px] lg:text-[28px] font-bold mb-4 ml-8 text-left ">
           Beyond Academia
           </h1>
-          <p className=" text-left lg:w-[100%] md:w-[85%] text-[14px] sm:text-[14px] md:text-[18px] lg:text-[22px] leading-16 px-8">
+          <p className=" text-left lg:w-[100%] md:w-[85%] text-[14px] sm:text-[14px] md:text-[18px] lg:text-[22px] leading-16 px-8 mb-7">
             Micky Midha is not just an educator; he is also known for his
             commitment to fostering all-around development in students. His
             efforts extend beyond traditional academics, emphasizing the

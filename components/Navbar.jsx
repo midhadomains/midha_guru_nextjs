@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="mx-auto sticky top-0 z-10 bg-[#FFFDF6] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
             <div className='max-w-full '>
                 <div className="flex items-center justify-between w-[100%] h-[55px] md:h-[70px] max-w-[2500px] mx-auto">
-                    <Link href='/'><Image width={250} height={40} className='ml-4  md:ml-9  md:item-left w-[200px] h-[30px] lg:w-fit lg:h-[40px] ' src="/Logo-with-garp.svg" alt="MidhaFin Logo" /></Link>
+                    <Link href='/'><Image width={250} height={40} className='ml-4  md:ml-9  md:item-left w-[200px] h-[30px] lg:w-fit lg:h-[40px] ' src="/Midhaguru.svg" alt="MidhaFin Logo" /></Link>
                     {toggle ?
                         <IoClose onClick={() => setToggle(!toggle)} className="text-3xl md:hidden block mr-2" />
                         : <IoMenu onClick={() => setToggle(!toggle)} className="text-3xl md:hidden block mr-2" />}
@@ -29,12 +29,12 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </li> */}
-
-                        <NavItem to="https://edu.midhafin.com/s/store" name="Courses" />
-                        <NavItem to="/reviews" name="Reviews" />
-                        <NavItem to="/contact-us" name="Contact Us" />
+                        <NavItem to="https://midha.guru/about/" name="About" />
+                        <NavItem to="https://edu.midha.guru/s/store?redirectToMicroFE=true" name="Courses" />
+                        <NavItem to="https://midha.guru/contact-us/" name="Contact Us" />
+                        <NavItem to="https://midha.guru/founder-profile/" name="Founder's Profile" />
                         <li className="relative group bg-[#6A1C1A] hover:bg-[#BE4E1E] rounded-3xl py-2 px-9 text-white text-[20px] transition duration-300 flex-shrink-0">
-                            <Link href='https://edu.midhafin.com/s/authenticate' className="text-[1.2rem] font-[500] cursor-pointe">Log in</Link>
+                            <Link href='https://edu.midha.guru/s/store?redirectToMicroFE=true' className="text-[1.2rem] font-[500] cursor-pointe">Log in</Link>
                         </li>
                     </ul>
                     {/* Responsive */}
@@ -42,10 +42,11 @@ const Navbar = () => {
                      ${toggle ? "right-[0]" : "hidden"}`}>
                         <NavItem to='/' name='Home' />
                         {/* <NavItem to="/blog" name="Blogs" /> */}
-                        <NavItem to="https://edu.midhafin.com/s/store" name="Courses" />
-                        <NavItem to="/reviews" name="Reviews" />
-                        <NavItem to="/contact-us" name="Contact Us" />
-                        <NavItem to="https://edu.midhafin.com/s/authenticate" name="Login" />
+                        <NavItem to="https://midha.guru/about/" name="About" />
+                        <NavItem to="https://edu.midha.guru/s/store?redirectToMicroFE=true" name="Courses" />
+                        <NavItem to="https://midha.guru/contact-us/" name="Contact Us" />
+                        <NavItem to="https://midha.guru/founder-profile/" name="Founder's Profile" />
+                        <NavItem to="https://edu.midha.guru/s/store?redirectToMicroFE=true" name="Login" />
                     </ul>
                 </div>
             </div>
