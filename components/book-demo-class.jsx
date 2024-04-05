@@ -78,7 +78,7 @@ function BookDemoClass() {
               alt="Additional Image"
             />
           </div>
-          <div class=" 2xl:h-[600px]  h-[450px]   2xl:ml-[28] flex-shrink-0 mx-auto lg:mx-0">
+          <div class=" 2xl:h-[600px]  h-[450px] sm:h-full  2xl:ml-[28] flex-shrink-0 mx-auto lg:mx-0">
             <div className="  min-w-[200px] lg:hidden block ">
               <h1 className=" text-[20px] sm:text-[30px] py-[13px] font-bold text-[#2E3442] text-center">
                 Book Your 
