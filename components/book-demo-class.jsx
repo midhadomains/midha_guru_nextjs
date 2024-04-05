@@ -62,31 +62,31 @@ function BookDemoClass() {
   }, []);
 
   return (
-    <div className="bg-bgimage bg-contain  min-h-[600px] 2xl:max-h-[1500]   bg-no-repeat bg-bottom">
-      <div className="max-w-[1100px]   2xl:max-w-[1600px] mx-auto ">
-        <div className="flex flex-wrap flex-col-reverse sm:flex-row ">
+    <div className="lg:bg-bgimage sm:bg-tabcontactbgimg bg-mobilecontactbgimg  2xl:bg-2xlcontactbgimg  sm:min-h-[600px]  sm:bg-contain bg-contain  bg-no-repeat bg-bottom ">
+      <div className="xl:max-w-[1100px] 2xl:max-w-[1200px] lg:max-w-[1000px] mx-auto ">
+        <div className="flex flex-wrap flex-col-reverse lg:flex-row justify-between  mx-auto ">
           <div className="  min-h-[200px]  ">
-            <h1 className="leading-[70px] hidden sm:block  text-[60px] py-20 font-bold text-[#2E3442]">
+            <h1 className="lg:leading-[70px] hidden lg:block  sm:text-[30px] lg:text-[60px] py-10 xl:py-10 font-bold text-[#2E3442]">
               Book Your <br />
               <span className="text-[#9A391D] ">Free Demo Class!</span>
             </h1>
             <Image
-              width={500}
-              height={600}
-              className="lg:w-[500px] 2xl:w-[600px] w-[600px] "
+              width={1500}
+              height={1600}
+              className="lg:w-[550px]  sm:w-[217px]  w-[400px] mx-auto lg:mx-0 lg:block hidden"
               src="/Group 121.svg"
               alt="Additional Image"
             />
           </div>
-          <div class="w-[500px] 2xl:h-[500px] lg:W-[700px] mt-[60px] flex-shrink-0 ">
-            <div className="  min-w-[200px] sm:hidden block ">
-              <h1 className=" text-[20px] py-20 font-bold text-[#2E3442] text-center">
-                Book Your
-                <span className="text-[#9A391D] ">Free Demo Class!</span>
+          <div class=" 2xl:h-[600px]  h-[450px]   2xl:ml-[28] flex-shrink-0 mx-auto lg:mx-0">
+            <div className="  min-w-[200px] lg:hidden block ">
+              <h1 className=" text-[20px] sm:text-[30px] py-[13px] font-bold text-[#2E3442] text-center">
+                Book Your 
+                <span className="text-[#9A391D] "> Free Demo Class!</span>
               </h1>
             </div>
             <form
-              class="bg-[#E7D8C5] mx-auto  p-10 rounded-lg w-[390px] "
+              class="bg-[#E7D8C5]  lg:w-[450px] mx-auto lg:mt-[40px] lg:h-[550px] sm:p-10 p-6 rounded-lg sm:w-[500px] w-[310px]  lg:mb-0 "
               action="https://api.web3forms.com/submit"
               method="POST"
             >
@@ -102,7 +102,7 @@ function BookDemoClass() {
                   value="http://localhost:3000/thankyou"
                 ></input>
                 <input
-                  class="w-full bg-gray-100 px-6 py-2 my-3 rounded-3xl focus:outline-none"
+                  class="w-full  bg-gray-100 px-6 py-2 mb-1 rounded-3xl focus:outline-none"
                   type="text"
                   name="Name"
                   id="Name"
@@ -114,14 +114,14 @@ function BookDemoClass() {
                 type="phone-number"
                 name="phone"
                 placeholder="Phone Number"
-                className="w-full bg-gray-100 px-6 my-3 py-2 rounded-3xl focus:outline-none"
+                className="w-full  bg-gray-100 px-6 sm:my-3 my-1 py-2 rounded-3xl focus:outline-none"
                 required
               />
               <div class="relative">
                 <select
                   ref={classModeSelectRef}
                   name="Class Mode"
-                  class=" appearance-none w-full text-green bg-gray-100 px-6 my-3 py-2 rounded-3xl focus:outline-none"
+                  class=" appearance-none w-full text-green bg-gray-100 px-6 sm:my-3 my-1  py-2 rounded-3xl focus:outline-none"
                   id="Class Mode"
                   placeholder="Class Mode"
                 >
@@ -148,7 +148,7 @@ function BookDemoClass() {
               <div class="relative">
                 <select
                   name="Board"
-                  class=" appearance-none w-full text-green bg-gray-100 px-6 my-3 py-2 rounded-3xl focus:outline-none"
+                  class=" appearance-none w-full sm:my-3 my-1  text-green bg-gray-100 px-6 py-2 rounded-3xl focus:outline-none"
                   id="Board"
                   placeholder="Board"
                 >
@@ -176,7 +176,7 @@ function BookDemoClass() {
                 <select
                   name="class"
                   id="Class"
-                  class=" appearance-none w-full bg-gray-100 px-6 my-3 py-2 rounded-3xl focus:outline-none"
+                  class=" appearance-none w-full bg-gray-100 px-6 sm:my-3 my-1  py-2 rounded-3xl focus:outline-none"
                   placeholder="Class"
                 >
                   <option value="" selected>
@@ -205,7 +205,7 @@ function BookDemoClass() {
               <div class="relative">
                 <select
                   name="Select the Day"
-                  class="appearance-none w-full bg-gray-100 px-6 my-3 py-2 rounded-3xl focus:outline-none"
+                  class="appearance-none w-full bg-gray-100 px-6 sm:my-3 my-1  py-2 rounded-3xl focus:outline-none"
                   id="Select the Day"
                   placeholder="Select the Day"
                 >
@@ -236,7 +236,7 @@ function BookDemoClass() {
               <div class="relative" ref={timeSlotSectionRef}>
                 <select
                   name="Select the Time Slot"
-                  class="  appearance-none w-full bg-gray-100 px-6 my-3 py-2 rounded-3xl focus:outline-none "
+                  class="  appearance-none w-full  bg-gray-100 px-6 sm:my-3 my-1   py-2 rounded-3xl focus:outline-none "
                   id="Select the Time Slot"
                   placeholder="Select the Time Slot"
                 >
@@ -264,7 +264,7 @@ function BookDemoClass() {
               </div>
               <button
                 type="submit"
-                class="w-full mt-6 bg-[#6A1C1A] hover:bg-[#9A391D] rounded-3xl px-6 py-2 text-lg text-white tracking-wide font-semibold font-sans"
+                class="w-full sm:mt-6 mt-2 lg:mt-4 bg-[#6A1C1A] hover:bg-[#9A391D] rounded-3xl px-6 py-2 text-lg text-white tracking-wide font-semibold font-sans"
               >
                 Register
               </button>

@@ -36,7 +36,7 @@ export default function page() {
             <Image
               width={500}
               height={500}
-              className="w-[17px] mr-[10px]"
+              className="w-[17px] mr-[10px] "
               src="/Group 244.svg"
               alt="Midhaguru Image"
             />
