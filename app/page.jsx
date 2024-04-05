@@ -6,11 +6,11 @@ import About from "../components/About.jsx";
 
 export default function Home() {
   return (
-    <>
+    <div className="sm:p-8">
     <About/>
     <Choose/>
     
-    </>
+    </div>
   );
 }
 
