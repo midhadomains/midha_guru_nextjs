@@ -8,13 +8,12 @@ import About from "../components/About.jsx";
 
 function page() {
   return (
-<div className="sm:p-8">
-    <About/>
-    <Choose/>
-     <BookDemoClass/>
-
+    <div className="sm:p-8">
+      <About />
+      <Choose />
+      <BookDemoClass />
     </div>
   )
 }
 
-export default page
+export default page;
