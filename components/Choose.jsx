@@ -3,7 +3,9 @@ import Card from "../components/Card.jsx";
 
 export default function Choose() {
   return (
+
     <div className=" max-w-[1300px] mx-auto sm:min-w-[650px]  md:min-w-[800px] lg:px-0 p-8">
+
     
       <div className="mx-auto">
         <div className="flex flex-wrap sm:flex-nowrap justify-center ">

@@ -46,4 +46,6 @@ function hero() {
   );
 }
 
+
 export default hero;
+
