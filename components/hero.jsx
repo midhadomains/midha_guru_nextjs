@@ -27,8 +27,9 @@ function hero() {
             </p>
           <button
                 type="Sign Up"
-                class="w-[80%] bg-white sm:mt-6 mt-2 justify-content mx-auto lg:mt-[18px] border-[#6A1C1A] border-[1px] rounded-full px-6 py-2 text-lg text-[#6A1C1A]  font-semibold"
-              >
+
+                class="w-[80%] bg-white sm:mt-6 mt-2 justify-center mx-auto lg:mt-[18px] border-[#6A1C1A] border-[1px] rounded-full px-6 py-2 text-lg text-[#6A1C1A]  font-semibold"
+           >
                 Sign Up
               </button>
         </div>

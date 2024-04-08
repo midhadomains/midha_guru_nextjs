@@ -14,7 +14,8 @@ import Footer from "@/components/Footer.jsx";
 
 function page() {
   return (
-    <>
+
+     <>
     <Navbar />
     <div>
       <ContinuousSlidingText/>
@@ -33,6 +34,7 @@ function page() {
           </div>
         </div>
       </div>
+
     </div>
     <Footer/>
     </>

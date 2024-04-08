@@ -1,39 +1,3 @@
-// import React from 'react';
-// import Image from 'next/image';
-// function BookDemoClass() {
-//   return (
-//     <div className=" 2xl:h-[643px] h-[380px] ">
-//             <div className=" 2xl:h-[200px]  ml-[155px]">
-//                 <h1 className=" text-[70px] font-bold text-[#2E3442]">Book your <br/><span className="text-[#9A391D]">free demo class!</span></h1>
-//             </div>
-//         <div className="bg-bgimage flex bg-no-repeat 2xl:h-[632px] h-[380] bg-cover mt-[18px] " >
-//             <div className=" inset-0 h-[400px] 2xl-h-[800px] ml-[155px] mb-[19px]">
-//                 <Image width={500} height={600} className="2xl:w-[825px] 2xl:h-[582px] lg:h-[391px]   " src="/Group 121.svg" alt="Additional Image" />
-//             </div>
-//             <div class="lg:w-2/5 md:w-1/2 w-2/3">
-// 		<form class="bg-white p-10 rounded-lg shadow-lg min-w-full">
-// 			<div>
-// 			    <input class="w-full bg-gray-100 px-6 py-2 rounded-lg focus:outline-none" type="text" name="username" id="username" placeholder="username" />
-//             </div>
-// 			<div>
-// 				<input class="w-full bg-gray-100 px-6 my-3 py-2 rounded-lg focus:outline-none" type="text" name="email" id="email" placeholder="@email" />
-//             </div>
-// 			<div>
-// 				<input class="w-full bg-gray-100 px-6 py-2 rounded-lg focus:outline-none" type="text" name="password" id="password" placeholder="password" />
-//             </div>
-// 			<div>
-// 				<input class="w-full bg-gray-100 px-6 py-2 rounded-lg focus:outline-none" type="text" name="confirm" id="confirm" placeholder="confirm password" />
-//             </div>
-// 				<button type="submit" class="w-full mt-6 bg-indigo-600 rounded-lg px-6 py-2 text-lg text-white tracking-wide font-semibold font-sans">Register</button>
-// 		    </form>
-//         </div>
-//         </div>
-
-//     </div>
-//   );
-// }
-
-// export default BookDemoClass;
 "use client";
 import React, { useRef, useEffect } from "react";
 import Image from "next/image";
@@ -275,5 +239,6 @@ function BookDemoClass() {
     </div>
   );
 }
+
 
 export default BookDemoClass;
