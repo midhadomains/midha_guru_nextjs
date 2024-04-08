@@ -13,9 +13,11 @@ module.exports = {
         "bgimage":"url('/Vector.svg')",
         "contactbgimage":"url('/Vector 10.svg')",
         "mobilecontactbgimg":"url('/Group 346.svg' )",
-        "tabcontactbgimg":"url('/Group 364.svg' )",
+        "tabcontactbgimg":"url('/Group 364 (1).svg' )",
         "2xlcontactbgimg":"url('/Vector (8).svg' )",
+        "herobgimg":"url('/Vector 10 (1).svg' )",
       },
+      
     },
   },
   plugins: [],

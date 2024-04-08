@@ -29,10 +29,10 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </li> */}
-                        <NavItem to="https://midha.guru/about/" name="About" />
+                        <NavItem to="/about-us" name="About" />
                         <NavItem to="https://edu.midha.guru/s/store?redirectToMicroFE=true" name="Courses" />
-                        <NavItem to="https://midha.guru/contact-us/" name="Contact Us" />
-                        <NavItem to="https://midha.guru/founder-profile/" name="Founder's Profile" />
+                        <NavItem to="/contact-us/" name="Contact Us" />
+                        <NavItem to="/founders-profile/" name="Founder's Profile" />
                         <Link href='https://edu.midha.guru/s/store?redirectToMicroFE=true' className="text-[1.2rem] font-[500] cursor-pointer">
                         <li className="relative group bg-[#6A1C1A] hover:bg-[#BE4E1E] rounded-3xl py-2 px-9 text-white text-[20px] transition duration-300 flex-shrink-0">
                             Log in
