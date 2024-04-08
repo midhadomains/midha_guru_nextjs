@@ -8,16 +8,16 @@ function hero() {
       <div className="flex flex-wrap 2xl:max-w-[1400px]    justify-center mx-auto ">
         <div className="max-w-[400px] lg:max-w-[600px]">
           <h1 className="lg:leading-[70px] text-[#9A391D] text-center lg:text-left text-2xl sm:text-2xl md:text-4xl lg:text-5xl  font-bold ">
-            <span className="text-[#202124] ">"</span>
+            <span className="text-[#202124] ">&quot;</span>
             Your exam
             <span className="text-[#202124] "> is</span>
             <span className="text-[#9A391D] "> Our </span>
-            <span className="text-[#202124] ">Exam"</span>
+            <span className=" text-[#202124] ">Exam&quot;</span>
           </h1>
           <h3 className="text-[#202124] text-center lg:text-left sm:text-[22px] mb-[18px] ">
             is what the team at
-            <span className="text-[#9A391D] "> MidhaGURU </span>proudly <br />{" "}
-            announces and lives up to.
+            <span className="text-[#9A391D] "> MidhaGURU </span>proudly <br />
+            &nbsp;announces and lives up to.
           </h3>
           <h3 className="text-[#202124]  text-sm   text-center lg:text-left min-w-[20px] ma">
             Enroll with us now for high quality and smartest way of learning for classes 6th to 10th students.
