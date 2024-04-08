@@ -37,8 +37,10 @@ function hero() {
             width={1500}
             height={1600}
             className="2xl:w-[610px] lg:w-[500px] w-[300px] sm:w-[450px] mx-auto lg:mx-0 "
-            src="/Group 331.svg"
+            src="/Group 331.png"
             alt="Additional Image"
+            priority={true}
+            quality={100}
           />
         </div>
       </div>
