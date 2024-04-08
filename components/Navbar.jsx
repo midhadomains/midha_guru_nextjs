@@ -41,7 +41,7 @@ const Navbar = () => {
                         <Link href="tel:+91 95061 25061" className='m-auto w-fit'>
                             <MdCall className='block md:hidden m-auto text-[#6A1C1A] text-[25px] ' />
                         </Link>
-                        <Link href='https://edu.midhafin.com/s/authenticate' className='block md:hidden bg-[#6A1C1A] py-1 px-5 rounded-3xl text-[#F9ECC7] mx-4 max-w-[100px] w-fit'>Login</Link>
+                        <Link href='https://edu.midha.guru/s/authenticate' className='block md:hidden bg-[#6A1C1A] py-1 px-5 rounded-3xl text-[#F9ECC7] mx-4 max-w-[100px] w-fit'>Login</Link>
                         {toggle ? (
                             <IoClose
                                 onClick={() => setToggle(!toggle)}
@@ -71,8 +71,8 @@ const Navbar = () => {
                             </div>
                         </li> */}
 
-                        <NavItem to="https://edu.midhaguru.com/s/store" name="About" />
-                        <NavItem to="https://edu.midha.guru/s/store?redirectToMicroFE=true" name="Courses" />
+                        <NavItem to="/About" name="About" />
+                        <NavItem to="https://edu.midha.guru/s/store" name="Courses" />
                         <NavItem to="/contact-us" name="Contact Us" />
                         <NavItem to="/founders-profile" name="Founder's Profile" />
                         <Link href='https://edu.midha.guru/s/authenticate' className="text-[1.2rem] font-[500] cursor-pointe">
@@ -91,11 +91,11 @@ const Navbar = () => {
                         {/* <NavItem to="/blog" name="Blogs" /> */}
                         <SmNavItem to="/about-us" name="About" />
                         <hr/>
-                        <SmNavItem to="https://edu.midha.guru/s/store?redirectToMicroFE=true" name="Courses" />
+                        <SmNavItem to="https://edu.midha.guru/s/store" name="Courses" />
                         <hr />
                         <SmNavItem to="/contact-us" name="Contact Us" />
                         <hr />                       
-                        <SmNavItem to="/founders-profile" name="Founder's Profile" />
+                        <SmNavItem to="/founder-profile" name="Founder's Profile" />
                         <hr />
                     </ul>
                 </div>
