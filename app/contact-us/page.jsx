@@ -1,11 +1,14 @@
 import React from "react";
 import Image from "next/image";
+
 import Navbar from "../../components/Navbar.jsx";
 import Footer from "../../components/Footer.jsx";
+
 
 export default function page() {
   //after submitting redirect to "/thankyou"
   return (
+
     <>
       <Navbar />
       <div className="min-h-[1220px] sm:min-h-[100%]">

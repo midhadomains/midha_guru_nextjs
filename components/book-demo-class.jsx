@@ -1,39 +1,3 @@
-// import React from 'react';
-// import Image from 'next/image';
-// function BookDemoClass() {
-//   return (
-//     <div className=" 2xl:h-[643px] h-[380px] ">
-//             <div className=" 2xl:h-[200px]  ml-[155px]">
-//                 <h1 className=" text-[70px] font-bold text-[#2E3442]">Book your <br/><span className="text-[#9A391D]">free demo class!</span></h1>
-//             </div>
-//         <div className="bg-bgimage flex bg-no-repeat 2xl:h-[632px] h-[380] bg-cover mt-[18px] " >
-//             <div className=" inset-0 h-[400px] 2xl-h-[800px] ml-[155px] mb-[19px]">
-//                 <Image width={500} height={600} className="2xl:w-[825px] 2xl:h-[582px] lg:h-[391px]   " src="/Group 121.svg" alt="Additional Image" />
-//             </div>
-//             <div class="lg:w-2/5 md:w-1/2 w-2/3">
-// 		<form class="bg-white p-10 rounded-lg shadow-lg min-w-full">
-// 			<div>
-// 			    <input class="w-full bg-gray-100 px-6 py-2 rounded-lg focus:outline-none" type="text" name="username" id="username" placeholder="username" />
-//             </div>
-// 			<div>
-// 				<input class="w-full bg-gray-100 px-6 my-3 py-2 rounded-lg focus:outline-none" type="text" name="email" id="email" placeholder="@email" />
-//             </div>
-// 			<div>
-// 				<input class="w-full bg-gray-100 px-6 py-2 rounded-lg focus:outline-none" type="text" name="password" id="password" placeholder="password" />
-//             </div>
-// 			<div>
-// 				<input class="w-full bg-gray-100 px-6 py-2 rounded-lg focus:outline-none" type="text" name="confirm" id="confirm" placeholder="confirm password" />
-//             </div>
-// 				<button type="submit" class="w-full mt-6 bg-indigo-600 rounded-lg px-6 py-2 text-lg text-white tracking-wide font-semibold font-sans">Register</button>
-// 		    </form>
-//         </div>
-//         </div>
-
-//     </div>
-//   );
-// }
-
-// export default BookDemoClass;
 "use client";
 import React, { useRef, useEffect } from "react";
 import Image from "next/image";
@@ -65,15 +29,15 @@ function BookDemoClass() {
     <div className="lg:bg-bgimage sm:bg-tabcontactbgimg bg-mobilecontactbgimg  2xl:bg-2xlcontactbgimg  sm:min-h-[600px]   bg-contain  bg-no-repeat bg-bottom  mb-[50px]">
       <div className="xl:max-w-[1100px] 2xl:max-w-[1200px] lg:max-w-[1000px] mx-auto max-w-[900px] ">
         <div className="flex flex-wrap flex-col-reverse lg:flex-row justify-between  mx-auto ">
-          <div className="  min-h-[200px]  ">
+          <div className="  min-h-[200px] sm:mt-0 ">
             <h1 className="lg:leading-[70px] hidden lg:block  sm:text-[30px] lg:text-5xl py-10 xl:py-10 font-bold text-[#2E3442]">
               Book Your <br />
               <span className="text-[#9A391D] ">Free Demo Class!</span>
             </h1>
             <Image
-              width={1500}
-              height={1600}
-              className="lg:w-[550px]  sm:w-[217px]  w-[400px] mx-auto lg:mx-0 lg:block hidden"
+              width={500}
+              height={500}
+              className="lg:w-[550px]  sm:w-[217px]  w-[400px] mx-auto lg:mx-0 lg:block hidden "
               src="/Group 121.svg"
               alt="Additional Image"
             />
@@ -275,5 +239,6 @@ function BookDemoClass() {
     </div>
   );
 }
+
 
 export default BookDemoClass;
