@@ -11,7 +11,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "bgimage":"url('/Vector.svg')",
-        "contactbgimage":"url('/Vector 10.svg')",
+        "contactbgimage":"url('/bgimg.svg')",
         "mobilecontactbgimg":"url('/Group 346.svg' )",
         "tabcontactbgimg":"url('/Group 364 (1).svg' )",
         "2xlcontactbgimg":"url('/Vector (8).svg' )",
