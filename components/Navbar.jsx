@@ -34,7 +34,7 @@ const Navbar = () => {
                             height={40}
                             className='ml-1 sm:ml-4 md:item-left w-[200px] h-[30px] lg:w-fit lg:h-[40px] '
                             src="/Midhaguru.svg"
-                            alt="Midhaguru Logo"
+                            alt="Midhaguru"
                         />
                     </Link>
                     <div className='flex'>
@@ -57,7 +57,6 @@ const Navbar = () => {
 
                     <ul className="hidden md:flex  justify-around flex-nowrap  max-w-[1000px] w-[100%]">
                         <NavItem to='/' name='Home' />
-                        {/* <NavItem to="/blog" name="Blogs" /> */}
                         {/* <li>
                             <div className="relative inline-block group py-[0.6rem] text-center">
                                 <button className="text-[1.1rem] font-[500] h-[100%] cursor-pointe  px-1 hover:text-[#BE4E1E] my-auto  transition duration-300 ">
@@ -75,7 +74,7 @@ const Navbar = () => {
                         <NavItem to="https://edu.midha.guru/s/store" name="Courses" />
                         <NavItem to="/contact-us" name="Contact Us" />
                         <NavItem to="/founder-profile" name="Founder's Profile" />
-                        <Link href='https://edu.midha.guru/s/authenticate' className="text-[1.2rem] font-[500] cursor-pointe">
+                        <Link href='https://edu.midha.guru/s/authenticate' className="text-[1.2rem] font-[500] cursor-pointer">
                             <li className="relative group bg-[#6A1C1A] hover:bg-[#BE4E1E] rounded-3xl py-2 px-9 text-white text-[20px] transition duration-300 flex-shrink-0">
                                 Log In
                             </li>
@@ -83,12 +82,11 @@ const Navbar = () => {
                     </ul>
                     {/* Responsive */}
                     <ul
-                        className={`md:hidden w-[50%] sm:w-[40%] md:w-[40%] h-auto fixed bg-white top-[60px]  shadow-2xl
+                        className={`md:hidden w-[60%] sm:w-[40%] md:w-[40%] h-auto fixed bg-white top-[60px]  shadow-2xl
                      ${toggle ? 'right-[0]' : 'hidden'}`}
                     >
                         <SmNavItem to='/' name='Home' />
                         <hr />
-                        {/* <NavItem to="/blog" name="Blogs" /> */}
                         <SmNavItem to="/about-us" name="About" />
                         <hr/>
                         <SmNavItem to="https://edu.midha.guru/s/store" name="Courses" />

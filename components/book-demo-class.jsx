@@ -29,15 +29,15 @@ function BookDemoClass() {
     <div className="lg:bg-bgimage sm:bg-tabcontactbgimg bg-mobilecontactbgimg  2xl:bg-2xlcontactbgimg  sm:min-h-[600px]   bg-contain  bg-no-repeat bg-bottom ">
       <div className="xl:max-w-[1100px] 2xl:max-w-[1200px] lg:max-w-[1000px] mx-auto max-w-[900px] ">
         <div className="flex flex-wrap flex-col-reverse lg:flex-row justify-between  mx-auto ">
-          <div className="  min-h-[200px]  ">
+          <div className="  min-h-[200px] sm:mt-0 ">
             <h1 className="lg:leading-[70px] hidden lg:block  sm:text-[30px] lg:text-5xl py-10 xl:py-10 font-bold text-[#2E3442]">
               Book Your <br />
               <span className="text-[#9A391D] ">Free Demo Class!</span>
             </h1>
             <Image
-              width={1500}
-              height={1600}
-              className="lg:w-[550px]  sm:w-[217px]  w-[400px] mx-auto lg:mx-0 lg:block hidden"
+              width={500}
+              height={500}
+              className="lg:w-[550px]  sm:w-[217px]  w-[400px] mx-auto lg:mx-0 lg:block hidden "
               src="/Group 121.svg"
               alt="Additional Image"
             />

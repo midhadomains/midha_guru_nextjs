@@ -24,7 +24,7 @@ function page() {
       <About/>
       <Choose/>
       <PlatformFeatures />
-      <div className='bg-contactbgimage bg-cover bg-no-repeat bg-bottom	 md:my-[100px] my-[40px]'>
+        <div className='sm:bg-contactbgimage bg-smherobgimg bg-contain sm:bg-cover bg-no-repeat bg-bottom	 md:my-[100px] my-[40px]'>
         <div className='max-w-[1340px] flex justify-center md:justify-around flex-col-reverse items-center md:items-end md:flex-row mx-auto flex-wrap md:flex-nowrap md:px-5 px-2 '>
           <Image src='/Group 161.svg' width={500} height={500} alt='Image' className='flex-shrink-1 md:w-[40%] md:mr-5 md:mx-0 px-4 md:px-0' />
           <div className='text-center md:text-left md:min-w-[400px] my-auto '>
