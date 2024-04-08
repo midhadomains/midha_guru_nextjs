@@ -5,15 +5,22 @@ import Image from "next/image";
 import Card from "../components/Card.jsx";
 import Choose from "@/components/Choose.jsx";
 import About from "../components/About.jsx";
+import Navbar from "@/components/Navbar.jsx";
+import Footer from "@/components/Footer.jsx";
 
 function page() {
   return (
-    <div className="sm:p-8">
-      <About />
-      <Choose />
-      <BookDemoClass />
+
+    <>
+    <Navbar/>
+    <div className="">
+    <About/>
+    <Choose/>
+    
     </div>
-  )
+    <Footer/>
+    </>
+  );
 }
 
 export default page;

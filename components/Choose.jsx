@@ -3,12 +3,12 @@ import Card from "../components/Card.jsx";
 
 export default function Choose() {
   return (
-    <div className="container max-w-[1330px] px-4 md:min-w-[900px] sm:min-w-[750px]  mx-auto lg:px-0 p-8">
+    <div className="container max-w-[1300px] px-4 sm:min-w-[750px]  md:min-w-[900px]  mx-auto lg:px-0 p-8">
     
       <div className="mx-auto  ">
         <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-between">
          
-        <div className=" relative overflow-hidden border border-gray-300 font-bold rounded-md shadow-md  w-[350px] h-[80px]  sm:w-[500px] sm:h-[190px] lg:w-[562px] lg:h-[280px] xl:w-[650px] xl:h-[300px]  mb-1 flex justify-center items-center sm:m-4">
+        <div className=" relative overflow-hidden border border-gray-300 font-bold rounded-md shadow-md  w-[350px] h-[80px]  sm:w-[500px] sm:h-[200px] lg:w-[562px] lg:h-[280px] xl:w-[650px] xl:h-[300px]  mb-1 flex justify-center items-center sm:m-4">
             <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl">
               Why to <span className="text-[#6A1C1A]">choose us.</span>
             </h1>
