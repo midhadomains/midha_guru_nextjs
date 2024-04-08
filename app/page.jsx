@@ -11,18 +11,11 @@ import ContinuousSlidingText from "../components/ContinuousSlidingText.jsx";
 
 function page() {
   return (
-    <>
-    <Navbar/>
-    <div className="">
-     <ContinuousSlidingText />
-      <Hero />
-      <BookDemoClass />
+    <div className="sm:p-8">
       <About />
       <Choose />
+      <BookDemoClass />
     </div>
-    <Footer/>
-    </>
-  );
+  )
 }
-
 export default page;
