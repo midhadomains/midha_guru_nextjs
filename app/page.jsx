@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-    <div className="">
+    <div>
     <About/>
     <Choose/>
     

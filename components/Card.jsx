@@ -7,7 +7,7 @@ const Card = ({ imageSrc, title, details }) => {
 
   return (
     <div
-      className=" relative overflow-hidden border border-gray-300 rounded-md shadow-lg custom-transition  w-[350px] h-[180px] sm:w-[500px] sm:h-[200px]  lg:w-[562px] lg:h-[280px] xl:w-[650px] xl:h-[300px] sm:m-4 mt-2"
+      className=" relative overflow-hidden border border-gray-300 rounded-md shadow-lg custom-transition  w-[350px] h-[180px] sm:w-[500px] sm:h-[170px] md:w-[350px] md:h-[200px]  lg:w-[562px] lg:h-[280px] xl:w-[650px] xl:h-[300px] sm:m-4 mt-2"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
