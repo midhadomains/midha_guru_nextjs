@@ -26,7 +26,7 @@ function BookDemoClass() {
   }, []);
 
   return (
-    <div className="lg:bg-bgimage sm:bg-tabcontactbgimg bg-mobilecontactbgimg  2xl:bg-2xlcontactbgimg  sm:min-h-[600px]   bg-contain  bg-no-repeat bg-bottom ">
+    <div className="lg:bg-bgimage sm:bg-tabcontactbgimg bg-mobilecontactbgimg  2xl:bg-2xlcontactbgimg  sm:min-h-[600px]   bg-contain  bg-no-repeat bg-bottom  mb-[50px]">
       <div className="xl:max-w-[1100px] 2xl:max-w-[1200px] lg:max-w-[1000px] mx-auto max-w-[900px] ">
         <div className="flex flex-wrap flex-col-reverse lg:flex-row justify-between  mx-auto ">
           <div className="  min-h-[200px] sm:mt-0 ">
