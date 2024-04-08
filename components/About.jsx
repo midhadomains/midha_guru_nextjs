@@ -30,7 +30,7 @@ export default function About() {
           </div>
 
           <div className=" flex-1 hidden md:block">
-            <p className="text-[14px] sm:text-[20px] mt-4 mb-4 flex-1 px-7   lg:w-[100%]">
+            <p className="text-[14px] sm:text-[20px] mt-4 mb-4 flex-1 px-7  w-[100%]">
               At MidhaGuru, our mission is to empower students in grades 6 to 10
               with the knowledge, skills and confidence needed to excel
               academically and personally. We are committed to providing

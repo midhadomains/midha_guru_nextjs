@@ -16,6 +16,8 @@ module.exports = {
         "tabcontactbgimg":"url('/Group 364 (1).svg' )",
         "2xlcontactbgimg":"url('/Vector (8).svg' )",
         "herobgimg":"url('/Vector 10 (1).svg' )",
+        "2xlherobgimg":"url('/Vector 10 (2).svg' )",
+        "smherobgimg":"url('/Vector 10 (3).svg' )",
       },
       
     },
