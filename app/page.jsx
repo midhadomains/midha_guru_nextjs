@@ -4,21 +4,27 @@ import Image from "next/image";
 import Card from "../components/Card.jsx";
 import Choose from "@/components/Choose.jsx";
 import About from "../components/About.jsx";
-import Navbar from "../components/Navbar.jsx";
-import Footer from "../components/Footer.jsx";
+
+
 import Hero from "../components/hero.jsx";
 import ContinuousSlidingText from "../components/ContinuousSlidingText.jsx";
 
+import Navbar from "@/components/Navbar.jsx";
+import Footer from "@/components/Footer.jsx";
+
 function page() {
   return (
+
     <>
     <Navbar/>
     <div className="">
-     <ContinuousSlidingText />
+       <ContinuousSlidingText />
       <Hero />
       <BookDemoClass />
-      <About />
-      <Choose />
+    <About/>
+    <Choose/>
+    
+
     </div>
     <Footer/>
     </>
@@ -26,3 +32,4 @@ function page() {
 }
 
 export default page;
+

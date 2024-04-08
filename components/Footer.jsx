@@ -55,7 +55,7 @@ function Footer() {
                     About us
                   </Link>
                   <Link
-                    href="https://edu.midhafin.com/s/store"
+                    href="https://edu.midha.guru/s/store?redirectToMicroFE=true"
                     className="transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
                   >
                     Courses
@@ -80,7 +80,7 @@ function Footer() {
                   <Link href="tel:+91 91551 99555">
                     <h1 className=" transition-colors duration-300  hover:underline hover:text-[#6A1C1A] w-[110%] text-sm sm:text-lg">
                       {" "}
-                      Call : +91-91551-99555
+                      Call : +91-95061 25061
                     </h1>
                   </Link>
                 </div>
@@ -88,7 +88,7 @@ function Footer() {
                   <TiMail className="my-auto mr-1" />
                   <Link target="_blank" href="mailto:midhafin@gmail.com">
                     <h1 className="transition-colors duration-300  hover:underline hover:text-[#6A1C1A] text-sm sm:text-lg tracking-wider	">
-                      midhafin@gmail.com
+                      midhaguru@gmail.com
                     </h1>
                   </Link>
                 </div>
@@ -96,7 +96,7 @@ function Footer() {
                 <div className="flex -mx-2">
                   <Link
                     target="_blank"
-                    href="https://www.instagram.com/midhafin/"
+                    href="https://www.instagram.com/midhaguru/"
                     className="mx-2 text-white transition-colors duration-300 hover:text-[#6A1C1A] dark:hover:text-[#6A1C1A]"
                     aria-label="Instagram"
                   >
@@ -105,7 +105,7 @@ function Footer() {
       
                   <Link
                     target="_blank"
-                    href="https://www.facebook.com/MidhaFin"
+                    href="https://www.facebook.com/Midhaguru"
                     className="mx-2 text-white transition-colors duration-300 hover:text-[#6A1C1A] dark:hover:text-[#6A1C1A]"
                     aria-label="Facebook"
                   >
@@ -114,7 +114,7 @@ function Footer() {
       
                   <Link
                     target="_blank"
-                    href="https://www.linkedin.com/company/midhafin/"
+                    href="https://www.linkedin.com/company/midhaguru/"
                     className="mx-2 text-white transition-colors duration-300 hover:text-[#6A1C1A] dark:hover:text-[#6A1C1A]"
                     aria-label="Linkedin"
                   >
@@ -123,16 +123,7 @@ function Footer() {
       
                   <Link
                     target="_blank"
-                    href="https://twitter.com/midhafin"
-                    className="mx-2 text-white transition-colors duration-300 hover:text-[#6A1C1A] dark:hover:text-[#6A1C1A]"
-                    aria-label="Twitter"
-                  >
-                    <SlSocialTwitter />
-                  </Link>
-      
-                  <Link
-                    target="_blank"
-                    href="https://www.youtube.com/@MidhaFin"
+                    href="https://www.youtube.com/@Midhaguru"
                     className="mx-2 text-white transition-colors duration-300 hover:text-[#6A1C1A] dark:hover:text-[#6A1C1A]"
                     aria-label="You Tube"
                   >
