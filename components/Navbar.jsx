@@ -71,7 +71,7 @@ const Navbar = () => {
                             </div>
                         </li> */}
 
-                        <NavItem to="https://edu.midhaguru.com/s/store" name="About" />
+                        <NavItem to="/about" name="About" />
                         <NavItem to="https://edu.midha.guru/s/store?redirectToMicroFE=true" name="Courses" />
                         <NavItem to="/contact-us" name="Contact Us" />
                         <NavItem to="/founders-profile" name="Founder's Profile" />
