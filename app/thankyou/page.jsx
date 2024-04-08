@@ -35,7 +35,7 @@ const RedirectPage = () => {
                 <hr className='w-[30%] mx-auto'/>
                 <h1 className="text-center text-lg lg:text-2xl my-1 font-semibold p-2 tracking-wide	">Your Query was successfully submitted. </h1>
                 <h1 className="text-center text-lg lg:text-xl mb-1 p-2 tracking-wide	">We will get in touch with you shortly</h1>
-                <Image className='mx-auto mt-[30px]' alt="check" width={200} height={300} src='/MidhaFin-logo.webp' />
+                {/* <Image className='mx-auto mt-[30px]' alt="check" width={200} height={300} src='/MidhaFin-logo.webp' /> */}
                 <hr className='w-[20%] mx-auto my-2'/>
             </div>
         </div>
