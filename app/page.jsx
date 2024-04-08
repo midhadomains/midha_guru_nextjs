@@ -8,7 +8,7 @@ import Choose from "../components/Choose.jsx"
 import About from "../components/About.jsx";
 import Hero from "../components/hero.jsx";
 import ContinuousSlidingText from "../components/ContinuousSlidingText.jsx";
-
+import Carousel from "../components/home/carousel.jsx";
 import Navbar from "@/components/Navbar.jsx";
 import Footer from "@/components/Footer.jsx";
 
@@ -33,6 +33,7 @@ function page() {
           </div>
         </div>
       </div>
+      <Carousel/>
     </div>
     <Footer/>
     </>
