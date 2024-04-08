@@ -18,6 +18,7 @@ function page() {
      <>
     <Navbar />
     <div>
+      <ContinuousSlidingText/>
       <Hero/>
       <BookDemoClass/>
       <About/>
