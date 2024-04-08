@@ -4,8 +4,8 @@ import Image from "next/image";
 import PlatformFeatures from '@/components/home/PlatformFeatures';
 import Link from 'next/link';
 import { BiSolidPhoneCall } from "react-icons/bi";
-
-
+import Choose from "../components/Choose.jsx"
+import About from "../components/About.jsx";
 import Hero from "../components/hero.jsx";
 import ContinuousSlidingText from "../components/ContinuousSlidingText.jsx";
 
@@ -14,7 +14,13 @@ import Footer from "@/components/Footer.jsx";
 
 function page() {
   return (
+    <>
+    <Navbar />
     <div>
+      <Hero/>
+      <BookDemoClass/>
+      <About/>
+      <Choose/>
       <PlatformFeatures />
       <div className='bg-contactbgimage bg-cover bg-no-repeat bg-bottom	 md:my-[100px] my-[40px]'>
         <div className='max-w-[1340px] flex justify-center md:justify-around flex-col-reverse items-center md:items-end md:flex-row mx-auto flex-wrap md:flex-nowrap md:px-5 px-2 '>
@@ -27,6 +33,8 @@ function page() {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 
