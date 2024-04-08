@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="mx-auto">
+      <div className="mx-auto my-[30px] md:my-[60px]">
         <div className="max-w-[1300px]  flex flex-wrap justify-between mx-auto">
         <div>
           <h1 className="max-w-[250px] text-[22px] sm:text-[44px] sm:flex sm:flex-col font-bold ml-6 mt-4 ">
