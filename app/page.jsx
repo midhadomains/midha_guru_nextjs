@@ -1,8 +1,16 @@
-import React from 'react';
+import React from "react";
+import BookDemoClass from "../components/book-demo-class";
 import Image from "next/image";
 import PlatformFeatures from '@/components/home/PlatformFeatures';
 import Link from 'next/link';
 import { BiSolidPhoneCall } from "react-icons/bi";
+
+
+import Hero from "../components/hero.jsx";
+import ContinuousSlidingText from "../components/ContinuousSlidingText.jsx";
+
+import Navbar from "@/components/Navbar.jsx";
+import Footer from "@/components/Footer.jsx";
 
 function page() {
   return (
@@ -19,7 +27,8 @@ function page() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default page;
+
