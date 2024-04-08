@@ -34,7 +34,7 @@ function page() {
           </div>
         </div>
       </div>
-      <Carousel/>
+      {/* <Carousel/> */}
     </div>
     <Footer/>
     </>

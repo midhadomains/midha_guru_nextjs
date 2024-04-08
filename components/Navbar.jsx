@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { IoClose } from 'react-icons/io5';
 import { CgMenuLeftAlt } from 'react-icons/cg';
 import { MdCall } from 'react-icons/md';
+import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
                         <Image
                             width={250}
                             height={40}
-                            className='ml-1 sm:ml-4 md:item-left w-[200px] h-[30px] lg:w-fit lg:h-[40px] '
+                            className='ml-1 lg:ml-4 md:item-left w-[150px] h-[30px] lg:w-fit lg:h-[40px] '
                             src="/Midhaguru.svg"
                             alt="Midhaguru"
                         />
@@ -57,21 +58,23 @@ const Navbar = () => {
 
                     <ul className="hidden md:flex  justify-around flex-nowrap  max-w-[1000px] w-[100%]">
                         <NavItem to='/' name='Home' />
-                        {/* <li>
+                        <li>
                             <div className="relative inline-block group py-[0.6rem] text-center">
                                 <button className="text-[1.1rem] font-[500] h-[100%] cursor-pointe  px-1 hover:text-[#BE4E1E] my-auto  transition duration-300 ">
-                                    <span className=' '>Study Materials</span>
+                                    <span className='flex'>Courses <IoIosArrowDown className='mt-[5px] ml-1'/> </span>
                                 </button>
-                                <div className="absolute -right-4 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 delay-50">
+                                <div className="absolute -right-12 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 delay-50">
                                     <ul>
-                                        <Link href='/frm'><li className="py-2 px-4 hover:bg-gray-100 cursor-pointer">FRM<sup>®</sup> </li></Link>
+                                        <Link href='/contact-us'><li className="py-2 px-4 hover:bg-gray-100 cursor-pointer">Classroom Coaching</li></Link>
+                                        <hr />
+                                        <Link href='https://edu.midha.guru/s/store'><li className="py-2 px-4 hover:bg-gray-100 cursor-pointer">Online Courses</li></Link>
+
                                     </ul>
                                 </div>
                             </div>
-                        </li> */}
+                        </li>
 
                         <NavItem to="/about" name="About" />
-                        <NavItem to="https://edu.midha.guru/s/store" name="Courses" />
                         <NavItem to="/contact-us" name="Contact Us" />
                         <NavItem to="/founder-profile" name="Founder's Profile" />
                         <Link href='https://edu.midha.guru/s/authenticate' className="text-[1.2rem] font-[500] cursor-pointer">
