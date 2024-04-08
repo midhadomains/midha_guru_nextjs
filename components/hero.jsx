@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function hero() {
   return (
-    <div className=" sm:bg-herobgimg bg-smherobgimg 2xl:bg-2xlherobgimg sm:bg-cover bg-contain  bg-no-repeat bg-bottom 2xl:bg-cover flex-shrink-0 mt-12 ">
+    <div className=" sm:bg-herobgimg bg-smherobgimg 2xl:bg-2xlherobgimg sm:bg-cover bg-contain  bg-no-repeat bg-bottom 2xl:bg-cover flex-shrink-0 lg:mt-12 mb-[50px] ">
     
       <div className="flex flex-wrap 2xl:max-w-[1400px]    justify-center mx-auto ">
         <div className="max-w-[400px] lg:max-w-[600px]">
