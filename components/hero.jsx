@@ -6,15 +6,15 @@ function hero() {
     <div className=" bg-herobgimg  bg-cover  bg-no-repeat bg-bottom 2xl:bg-cover flex-shrink-0 mt-12 ">
     
       <div className="flex flex-wrap 2xl:max-w-[1400px]    justify-center mx-auto ">
-        <div className="w-[600px]">
-          <h1 className="lg:leading-[70px] text-[#9A391D]  sm:text-[30px] lg:text-5xl  font-bold ">
+        <div className="w-[600px] ">
+          <h1 className="lg:leading-[70px] text-[#9A391D]  text-2xl sm:text-2xl md:text-4xl lg:text-5xl  font-bold ">
             <span className="text-[#202124] ">"</span>
             Your exam
             <span className="text-[#202124] "> is</span>
             <span className="text-[#9A391D] "> Our </span>
             <span className="text-[#202124] ">Exam"</span>
           </h1>
-          <h3 className="text-[#202124] text-[25px] mb-[18px] ">
+          <h3 className="text-[#202124] sm:text-[22px] mb-[18px] ">
             is what the team at
             <span className="text-[#9A391D] "> MidhaGURU </span>proudly <br />{" "}
             announces and lives up to.
