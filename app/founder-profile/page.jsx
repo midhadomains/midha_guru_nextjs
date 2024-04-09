@@ -81,7 +81,7 @@ export default function Page() {
           </p>
 
           <div className=" w-[12%] sm:w-[30%] lg:w-[50%] ml-8 mt-12">
-            <Image src="Mask Group1.svg" alt="image" width={100} height={60} />
+            <Image src="Mask group copy.svg" alt="image" width={100} height={60} />
           </div>
           <h1 className="text-[#6A1C1A] text-[22px] md:text-[28px] lg:text-[28px] font-bold mb-4 ml-8 text-left ">
             Teaching and Mentoring
