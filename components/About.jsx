@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function About() {
   return (
     <>
@@ -10,8 +12,8 @@ export default function About() {
           <hr className="block md:hidden lg:border-4 border-[3px] rounded-3xl border-[#BE4E1E]  w-[40px] sm:w-[130px] my-2 mb-1 md:mb-0 ml-6 sm:ml-8"/ >
           </div> 
           <div className="hidden md:block border border-[#BE4E1E] border-t-0 border-l-[8px] border-r-0 border-b-0 mx-4 rounded-3xl my-6"></div>
-          <div className="max-w-[750px] md:hidden">
-            <p className="text-[14px] sm:text-[20px] mt-4 flex-1 px-7 w-[100%] mb-4">
+          <div className="max-w-[750px] md:hidden px-7">
+            <p className="text-[14px] sm:text-[20px] mt-4 flex-1 w-[100%] mb-4">
               At MidhaGuru, our mission is to empower students in grades 6 to 10
               with the knowledge, skills and confidence needed to excel
               academically and personally. We are committed to providing
@@ -22,15 +24,15 @@ export default function About() {
               platform which gives high-end technological exposure to our
               students.
             </p>
-            <a href = "#">
-              <span className="text-[#9A391D] text-[16px] font-semibold ml-6">
+            <Link href='/about'>
+              <span className="text-[#9A391D] text-[20px] md:text-[30px] font-semibold  hover:text-[#a55039dc]">
                 More About Us &gt;
               </span>
-            </a>
+            </Link>
           </div>
 
-          <div className="sm:max-w-[850px] flex-1 hidden md:block">
-            <p className="text-[14px] sm:text-[20px] mt-4 mb-4 flex-1 px-7 w-[100%]">
+          <div className="sm:max-w-[850px] flex-1 hidden md:block px-7">
+            <p className="text-[14px] sm:text-[20px] mt-4 mb-4 flex-1  w-[100%]">
               At MidhaGuru, our mission is to empower students in grades 6 to 10
               with the knowledge, skills and confidence needed to excel
               academically and personally. We are committed to providing
@@ -41,11 +43,11 @@ export default function About() {
               platform which gives high-end technological exposure to our
               students.
             </p>
-            <a>
-              <span className="text-[#9A391D] text-[22px] font-semibold ml-6 ">
+            <Link href='/about'>
+              <span className="text-[#9A391D] text-[20px] md:text-[30px] font-semibold  hover:text-[#a55039dc]">
                 More About Us &gt;
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

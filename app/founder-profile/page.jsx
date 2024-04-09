@@ -17,7 +17,7 @@ export default function Page() {
               <h1 className="text-[#6A1C1A] text-[26px] sm:text-[26px] md:text-[32px] lg:text-[46px] font-bold mb-4 sm:ml-8 text-center sm:text-left ">
                 The Founder&apos;s Profile
               </h1>
-              <div className="flex sm:block sm:hidden w-[70%] sm:w-[35%] lg:w-[50%] mx-auto mb-4">
+              <div className="flex sm:hidden w-[70%] sm:w-[35%] lg:w-[50%] mx-auto mb-4">
                 <Image
                   src="Group 312.svg"
                   alt="Image"
@@ -93,7 +93,7 @@ export default function Page() {
             roles as a faculty member at esteemed institutions like the Bombay
             Stock Exchange Institute, where he imparts valuable knowledge. He
             has also served as a mentor at the e-Cell IIT Kharagpur, guest
-            faculty at St. Xavier’s College, and a freelance trainer at IIM
+            faculty at St. Xavier&apos;s College, and a freelance trainer at IIM
             Ranchi. Additionally, his contributions as a keynote speaker and
             judge at institutions like XISS and BIT Mesra have further
             solidified his reputation as an expert and a respected figure in

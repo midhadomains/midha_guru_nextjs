@@ -35,7 +35,7 @@ export default function page() {
             </div>
             <p className='text-[14px] sm:text-[16px] md:text-[18px] lg:[20px] xl:text-[24px] text-center sm:text-left w-[95%]'>Midha Guru is a dynamic coaching institute offering comprehensive online and offline educational support for school students from class 6 to 10 in ICSE and CBSE curriculum . Our offline centre features smart classrooms, embracing the power of technology to create an interactive and engaging learning environment. Tailored to meet the specific demands of ICSE and CBSE, our separate batches in the offline mode ensure focused guidance on the intricacies of each curriculum.</p>
           </div>
-          <div className='sm:w-[50%] sm:flex flex-col justify-center hidden sm:block'>
+          <div className='sm:w-[50%] sm:flex flex-col justify-center hidden '>
             <Image height={650} width={650} className='lg:m-3 rounded-xl' src="/About us heroImg-1.png" alt="About us heroImg" priority />
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function page() {
           <Image height={450} width={450} className='m-2 sm:w-[30%]' src="/Rectangle 51.png" alt="About us heroImg" priority />
           <Image height={450} width={450} className='m-2 sm:w-[30%]' src="/Rectangle 52.png" alt="About us heroImg" priority />
         </div> */}
-        <Slider/>
+        <Slider />
       </div>
       <Footer />
     </div>

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function PlatformFeatures() {
   return (
-    <>
+    <div className="mt-[50px] md:mt-[100px]">
       <h1 className="text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] font-bold text-center my-3 md:my-7">Our Platform <span className="text-[#9A391D]">Features</span></h1>
       <div className="md:flex flex-wrap justify-center max-w-[1300px] mx-auto ">
         <Card img='/lecture-video.svg' title='Lecture Videos' desc='"Lecture Videos" is one of the standout features of our platform, designed to enrich your learning experience. With a commitment to providing high-quality educational content, we offer a vast library of lecture videos led by experienced instructors. ' />
@@ -12,7 +12,7 @@ export default function PlatformFeatures() {
         <Card img='/ief.svg' title='Expert Faculty' desc=" With our expert faculty, you're not just learning you're learning from the best. Their dedication to your success, their practical insights, and their commitment to your development ensure that you receive a world-class education. Our faculty's excellent teaching style ensures that complex concepts are presented in a clear and engaging manner " />
         <Card img='/doubt-solving-forum.svg' title='Doubt Solving' desc=' Our Doubt solving sessions offer a haven where no question is too trivial and no inquiry goes unanswered.You gain deeper insights, and enhance their understanding of various subjects here. We provide interactive discussions, where learners can pose specific questions or present challenging problems to our mentors.' />
       </div>
-    </>
+    </div>
   )
 }
 const Card = ({ img, title, desc }) => {
