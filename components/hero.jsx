@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link';
 
 function hero() {
   return (
@@ -25,12 +26,16 @@ function hero() {
           <p className="text-[#9A391D] font-bold text-center lg:text-left  w-[100%]">
             Separate batches for CBSE and ICSE
           </p>
+          <Link href='https://edu.midha.guru/s/authenticate' > 
           <button
+          
             type="Sign Up"
             class="w-[50%] md:w-[80%] bg-white sm:mt-6 mt-2 justify-center mx-auto lg:mt-[18px] border-[#6A1C1A] border-[1px] rounded-full px-6 py-2 text-lg text-[#6A1C1A]  font-semibold"
           >
             Sign Up
+           
           </button>
+          </Link>
         </div>
         <div className="">
           <Image
