@@ -77,7 +77,7 @@ function Footer() {
               <div className="mt-5 ml-3">
                 <div className="flex text-white my-2 ">
                   <MdOutlinePhoneIphone className="my-auto mr-1" />
-                  <Link href="tel:+91 91551 99555">
+                  <Link href="tel:+91 95061 25061">
                     <h1 className=" transition-colors duration-300  hover:underline hover:text-[#6A1C1A] w-[110%] text-sm sm:text-lg">
                       {" "}
                       Call : +91-95061 25061
@@ -86,7 +86,7 @@ function Footer() {
                 </div>
                 <div className="flex text-white my-2">
                   <TiMail className="my-auto mr-1" />
-                  <Link target="_blank" href="mailto:midhafin@gmail.com">
+                  <Link target="_blank" href="mailto:midhaguru@gmail.com">
                     <h1 className="transition-colors duration-300  hover:underline hover:text-[#6A1C1A] text-sm sm:text-lg tracking-wider	">
                       midhaguru@gmail.com
                     </h1>
