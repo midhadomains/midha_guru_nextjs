@@ -28,10 +28,12 @@ function hero() {
 
           <Link href='https://edu.midhafin.com/s/authenticate' className="mx-auto ">
           <button
+          
             type="Sign Up"
               class="w-[150px] md:min-w-[300px] md:w-[80%] hover:text-white transition-colors duration-200 hover:bg-[#9A391D] bg-white sm:mt-6 mt-2 justify-center mx-auto lg:mt-[18px] border-[#6A1C1A] border-2 rounded-full px-6 py-2 text-lg text-[#6A1C1A]  font-semibold"
           >
             Sign Up
+           
           </button>
             </Link>
         </div>
