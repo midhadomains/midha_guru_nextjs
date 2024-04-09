@@ -8,31 +8,22 @@ import Card from './card.jsx';
 export default function Home() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [visibleComponents, setVisibleComponents] = useState(1);
-    const [dotCount, setDotCount] = useState(6);
+    const [dotCount, setDotCount] = useState(2);
     const [dotColors, setDotColors] = useState(['bg-indigo-900', 'bg-gray-200']);
 
     const images = [
-        '/Student1.webp',
-        '/Student2.webp',
-        '/Student3.webp',
-        '/Student4.webp',
-        '/Student5.webp',
+        "https://files.midhafin.com/wp-content/uploads/Diksha.png",
+        " https://files.midhafin.com/wp-content/uploads/Nandini.png"
     ];
 
     const titles = [
-        'Aryaman Singh',
-        'Vansh Sardana',
-        'Vedant Jasuja',
-        ' Aarav Midha',
-        'Tanmay Dutta'
+        "Deeksha",
+        "Nandini"
     ];
 
     const videos = [
-        "A wonderful opportunity is awaiting in the best coaching institute of Ranchi where one on one doubts are paid attention to.",
-        " I have been a part of MidhaGuru class 9 ICSE batch since the start. My concepts had become very poor after 2 years of online studies during covid times.But joining MidhaGuru classes I got concept clarity for the topics. Daily Practice Problems are given for each chapter and home work is checked every single day. Teachers of Maths, Science and Computer are very good. Even if the batch size is small, still we get different teachers for each subject. Overall I'm very satisfied.",
-        "I am Vedant Jasuja, a student from Midha GURU.I took admission in Midha GURU, hardly 3weeks ago and I am surprised that teachers are very friendly and I don't know from where I got the nerve but i can't really spend a day without studying maths and science and i use to hate maths earlier and isn't it curious but because of teachers support in the institute the change came in me." ,
-        " I took admission in Midha Guru in June 2022 for class 9 tutions. I am from ICSE board and there is a separate batch for ICSE. In these 4 months, I have loved the way of teaching in these smart classrooms where we can see new things. The teachers are very supportive and environment is really competitive. Also, all classrooms are air conditioned for our comfort." ,
-        "All the teachers here are highly qualified and helpful. Good guidance and proper environment for competitive exams. Best Coaching for Personality Development ... Midha Guru is supposed to be the best one in the city ."
+        "https://www.youtube.com/embed/wFBpOKlZIKE?si=vMJqA9N1dhDVdvJK",
+        "https://www.youtube.com/embed/hgfLEgadyug?si=0olbz12AogWIjhwo"
     ];
 
 
@@ -41,15 +32,15 @@ export default function Home() {
     useEffect(() => {
         const handleResize = () => {
             const screenWidth = window.innerWidth;
-            if (screenWidth < 640) {
+            if (screenWidth < 800) {
                 setVisibleComponents(1);
-                setDotCount(6);
+                setDotCount(2);
             } else if (screenWidth < 1024) {
                 setVisibleComponents(2);
-                setDotCount(3);
+                setDotCount(1);
             } else {
-                setVisibleComponents(3);
-                setDotCount(2);
+                setVisibleComponents(2);
+                setDotCount(1);
             }
         };
 
@@ -90,7 +81,7 @@ export default function Home() {
     };
 
     return (
-        <div className="bg-custom-background bg-repeat flex items-center justify-around px-5  relative mx-auto mb-[50px]">
+        <div className="bg-custom-background bg-repeat flex items-center justify-around px-5  relative mx-auto mb-[50px] max-w-[900px]">
             {renderCarousels()}
             <button
                 type="button"

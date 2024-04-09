@@ -1,24 +1,28 @@
 import React from 'react';
+import Image from 'next/image'
 
-function ReviewCarousel({ images, titles, videos, currentIndex }) {
+function ReviewCarousel({ images, titles, videos, currentIndex }){
     return (
-        <div className="mx-3 border-2 rounded-lg shadow-xl transition-transform	duration-300 hover:shadow-2xl flex-shrink-0 w-[400px] h-[100%]" >
+        <div className=" max-w-[320px] transition-transform	duration-300 ">
             <div>
-                <div className='h-[140px] bg-white m-4 b'>
-                    <div className="border rounded-full w-[100px] h-[100px] bg-cover mx-auto shadow-xl" style={{ backgroundImage: `url(${images[currentIndex]})` }}></div>
-                    <h2 className=" text-xl lg:text-xl font-semibold	  text-center my-3 pl-2 uppercase tracking-wide	"><span className='border-[#6A1C1A] border-l-[3px] pl-2'>{titles[currentIndex]}</span></h2>
-                </div>
-                {/* <iframe
+                <iframe
+                    style={{borderRadius:"10px"}}
                     title="false"
                     showinfo="false"
-                    width="300px"
-                    height="170px"
+                    width="320px"
+                    height="190px"
                     src={videos[currentIndex]}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
-                ></iframe> */}
-                <p>{videos}</p>
+                ></iframe>
+                <div className=' bg-white flex justify-between py-4 '>
+                    <div className='my-auto py-2'>
+                        <h2 className=" text-xl lg:text-2xl font-semibold  my-auto   tracking-wide">{titles[currentIndex]}</h2>
+                        <p className='mt-2 font-[500] text-[16px] lg:text-xl'>Class 10  <span className='font-bold'>ICSE</span> </p>
+                    </div>
+                    <div className="border rounded-full w-[80px] h-[80px] bg-cover m shadow-xl "style={{ backgroundImage:`url(${images[currentIndex]})`}}></div>
+                </div>
             </div>
         </div>
     );
