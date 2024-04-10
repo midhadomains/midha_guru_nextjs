@@ -23,6 +23,7 @@ export default function Page() {
                   alt="Image"
                   width={400}
                   height={400}
+                  priority={true}
                 />
               </div>
 
@@ -38,7 +39,7 @@ export default function Page() {
               </p>
             </div>
             <div className=" hidden sm:flex  flex-shrink-0 lg:justify-center max-w-[400px]  w-[40%] sm:w-[35%] lg:w-[50%] mt-8 pr-[32px]">
-              <Image src="Group 312.svg" alt="Image" width={400} height={400} className="flex-shrink-0"/>
+              <Image src="Group 312.svg" alt="Image" width={400} height={400} className="flex-shrink-0" priority={true} />
             </div>
           </div>
         </div>
