@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function PlatformFeatures() {
   return (
     <div className="mt-[50px] md:mt-[100px]">
-      <h1 className="text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] font-bold text-center my-3 md:my-7">Our Platform <span className="text-[#9A391D]">Features</span></h1>
+      <h1 className="text-[30px] sm:text-[40px] md:text-[50px]  font-bold text-center my-3 md:my-7">Our Platform <span className="text-[#9A391D]">Features</span></h1>
       <div className="md:flex flex-wrap justify-center max-w-[1300px] mx-auto ">
         <Card img='/lecture-video.svg' title='Lecture Videos' desc='"Lecture Videos" is one of the standout features of our platform, designed to enrich your learning experience. With a commitment to providing high-quality educational content, we offer a vast library of lecture videos led by experienced instructors. ' />
         <Card img='/mock-test.png' title='Topic wise tests' desc='Our platform offers a comprehensive assessment experience through topic-wise and full-length tests. These tests are meticulously designed to evaluate your knowledge and skills across various  subjects and domains. ' />

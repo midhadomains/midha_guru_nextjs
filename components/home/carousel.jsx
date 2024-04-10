@@ -81,63 +81,67 @@ export default function Home() {
     };
 
     return (
-        <div className="bg-custom-background bg-repeat flex items-center justify-around px-5  relative mx-auto mb-[50px] max-w-[900px]">
-            {renderCarousels()}
-            <button
-                type="button"
-                className="absolute -top-9 left-0 z-30 justify-center items-center px-1 h-full cursor-pointer group focus:outline-none"
-                data-carousel-prev
-                onClick={prevSlide}
-            >
-                <span className="inline-flex justify-start items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 ">
-                    <svg
-                        className="w-5 h-5 text-black sm:w-6 sm:h-6 dark:text-black"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
-                    </svg>
-                    <span className="hidden">Previous</span>
-                </span>
-            </button>
+        <div className=''>
+            <div>
+                <h1 className='text-[20px] sm:text-[30px] md:text-[45px] font-bold text-center mb-[30px] md:mb-[50px]  mx-auto px-5'>Hear success stories from our <span className='text-[#9A391D]'>satisfied students.</span></h1>
+            </div>
+            <div className="bg-custom-background bg-repeat flex items-between justify-around px-5  relative mx-auto mb-[50px] max-w-[900px]">
+                {renderCarousels()}
+                <button
+                    type="button"
+                    className="absolute -top-9 left-0 z-30 justify-center items-center px-1 h-full cursor-pointer group focus:outline-none"
+                    data-carousel-prev
+                    onClick={prevSlide}
+                >
+                    <span className="inline-flex justify-start items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 ">
+                        <svg
+                            className="w-5 h-5 text-black sm:w-6 sm:h-6 dark:text-black"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                        <span className="hidden">Previous</span>
+                    </span>
+                </button>
 
-            <button
-                type="button"
-                className="absolute -top-9 right-0 z-30 justify-center items-center px-1 h-full cursor-pointer group focus:outline-none"
-                data-carousel-next
-                onClick={nextSlide}
-            >
-                <span className="inline-flex justify-end items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 ">
-                    <svg
-                        className="w-5 h-5 text-black sm:w-6 sm:h-6 dark:text-black"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                    </svg>
-                    <span className="hidden">Next</span>
-                </span>
-            </button>
-            <div className="flex justify-center gap-0 absolute -bottom-8 w-[350px] ">
-                {[...Array(dotCount)].map((_, index) => (
-                    <span
-                        key={index}
-                        className={`md:w-3 md:h-3 w-2 h-2 rounded-full mx-3 cursor-pointer ${dotCount === 2
-                            ? index % 2 === currentIndex % 2 ? dotColors[0] : dotColors[1]
-                            : dotCount === 3
-                                ? index % 3 === currentIndex % 3 ? dotColors[0] : dotColors[1]
-                                : index === currentIndex ? dotColors[0] : dotColors[1]
-                            }`}
+                <button
+                    type="button"
+                    className="absolute -top-9 right-0 z-30 justify-center items-center px-1 h-full cursor-pointer group focus:outline-none"
+                    data-carousel-next
+                    onClick={nextSlide}
+                >
+                    <span className="inline-flex justify-end items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 ">
+                        <svg
+                            className="w-5 h-5 text-black sm:w-6 sm:h-6 dark:text-black"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <span className="hidden">Next</span>
+                    </span>
+                </button>
+                <div className="flex justify-center gap-0 absolute -bottom-8 w-[350px] ">
+                    {[...Array(dotCount)].map((_, index) => (
+                        <span
+                            key={index}
+                            className={`md:w-3 md:h-3 w-2 h-2 rounded-full mx-3 cursor-pointer ${dotCount === 2
+                                ? index % 2 === currentIndex % 2 ? dotColors[0] : dotColors[1]
+                                : dotCount === 3
+                                    ? index % 3 === currentIndex % 3 ? dotColors[0] : dotColors[1]
+                                    : index === currentIndex ? dotColors[0] : dotColors[1]
+                                }`}
 
-                        onClick={() => handleDotClick(index)}
-                    ></span>
-                ))}
+                            onClick={() => handleDotClick(index)}
+                        ></span>
+                    ))}
+                </div>
             </div>
         </div>
-
     );
 }

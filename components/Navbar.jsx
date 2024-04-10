@@ -36,6 +36,7 @@ const Navbar = () => {
                             className='ml-1 lg:ml-4 md:item-left w-[150px] h-[30px] lg:w-fit lg:h-[40px] '
                             src="/Midhaguru.svg"
                             alt="Midhaguru"
+                            priority={true}
                         />
                     </Link>
                     <div className='flex'>
