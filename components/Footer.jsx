@@ -49,7 +49,7 @@ function Footer() {
                     Home
                   </Link>
                   <Link
-                    href="/about-us"
+                    href="/about"
                     className="transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
                   >
                     About us

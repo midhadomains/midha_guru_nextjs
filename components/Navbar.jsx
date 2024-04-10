@@ -91,7 +91,7 @@ const Navbar = () => {
                     >
                         <SmNavItem to='/' name='Home' />
                         <hr />
-                        <SmNavItem to="/about-us" name="About" />
+                        <SmNavItem to="/about" name="About" />
                         <hr/>
                         <SmNavItem to="https://edu.midha.guru/s/store" name="Courses" />
                         <hr />
