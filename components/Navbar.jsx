@@ -62,7 +62,7 @@ const Navbar = () => {
                         <li>
                             <div className="relative inline-block group py-[0.6rem] text-center">
                                 <button className="text-[1.1rem] font-[500] h-[100%] cursor-pointe  px-1 hover:text-[#BE4E1E] my-auto  transition duration-300 ">
-                                    <span className='flex'>Courses <IoIosArrowDown className='mt-[5px] ml-1'/> </span>
+                                    <span className='flex'>Courses <IoIosArrowDown className='mt-[5px] ml-1' /> </span>
                                 </button>
                                 <div className="absolute -right-12 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 delay-50">
                                     <ul>
@@ -92,11 +92,11 @@ const Navbar = () => {
                         <SmNavItem to='/' name='Home' />
                         <hr />
                         <SmNavItem to="/about" name="About" />
-                        <hr/>
+                        <hr />
                         <SmNavItem to="https://edu.midha.guru/s/store" name="Courses" />
                         <hr />
                         <SmNavItem to="/contact-us" name="Contact Us" />
-                        <hr />                       
+                        <hr />
                         <SmNavItem to="/founder-profile" name="Founder's Profile" />
                         <hr />
                     </ul>
@@ -119,13 +119,13 @@ const NavItem = ({ to, name }) => {
 };
 const SmNavItem = ({ to, name }) => {
     return (
-        <li className="relative group  p-4 md:p-0 my-auto text-[#6A1C1A]">
-            <Link
-                href={to}
-                className="text-[1.1rem] font-[500] cursor-pointer pb-2 px-1 hover:text-[#BE4E1E]  transition duration-300 ">
+        <Link
+            href={to}
+            className="text-[1.1rem] font-[500] cursor-pointer pb-2 px-1 hover:text-[#BE4E1E]  transition duration-300 ">
+            <li className="relative group pl-2 md:p-0 my-auto text-[#6A1C1A]">
                 {name}
-            </Link>
-        </li>
+            </li>
+        </Link>
     );
 };
 export default Navbar;
