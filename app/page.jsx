@@ -12,6 +12,14 @@ import Carousel from "../components/home/carousel.jsx";
 import Navbar from "@/components/Navbar.jsx";
 import Footer from "@/components/Footer.jsx";
 
+
+export const metadata = {
+ userAgent: '*',
+   allow: '/',
+   disallow: '',
+   Sitemap: 'https://www.midha.guru/sitemap.xml'
+  }
+
 function page() {
   return (
 
