@@ -23,7 +23,8 @@ function Slider() {
                 // Handle the case when the first item is not found
                 console.error("Could not find the first item within the list.");
             }
-        } else {
+        } 
+        else {
             // Handle the case when 'list' is null or empty
             console.error("List element is not available or empty.");
         }
