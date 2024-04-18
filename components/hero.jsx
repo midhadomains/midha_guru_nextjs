@@ -26,7 +26,7 @@ function hero() {
             Separate batches for CBSE and ICSE
           </p>
 
-          <Link href='https://edu.midhafin.com/s/authenticate' className="mx-auto ">
+          <Link href='https://edu.midha.guru/s/authenticate' className="mx-auto ">
           <button
           
             type="Sign Up"
