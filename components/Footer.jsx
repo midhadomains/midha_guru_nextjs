@@ -15,9 +15,9 @@ function Footer() {
   return (
     <footer className="bg-gray-900">
       <div className="container px-6 py-12 mx-auto">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10">
+        <div className="mx-auto grid grid-cols-1 gap-6 md:grid-cols-2 sm:gap-y-10">
           <div className="mx-auto sm:max-w-[70%]">
-          <div className="flex justify-center sm:justify-start">
+          <div className="flex justify-center md:justify-start">
           <Link href="#">
             <Image
               width={200}
@@ -29,12 +29,12 @@ function Footer() {
             />
           </Link>
         </div>
-            <div className="sm:w-[60%] mt-2 text-center sm:text-left">
+            <div className="mx-auto md:mx-0 sm:w-[60%] mt-2 text-center md:text-left">
             <p className="text-white">3rd & 5th Floor, The Westend Tower, Lah Kothi, Ratu Road, Ranchi (JHARKHAND)</p>
             </div>
           </div>
 
-          <div className="flex justify-end ">
+          <div className="flex  justify-start  lg:justify-center ">
             <div className=" w-[75%]  sm:w-[33%]">
               {/* <hr/> */}
               <p className="font-semibold text-white text-left mb-1 uppercase max-w-[126px]">
@@ -78,17 +78,17 @@ function Footer() {
                 <div className="flex text-white my-2 ">
                   <MdOutlinePhoneIphone className="my-auto mr-1" />
                   <Link href="tel:+91 95061 25061">
-                    <h1 className=" transition-colors duration-300  hover:underline hover:text-[#6A1C1A] w-[110%] text-sm sm:text-lg">
+                    <h1 className=" transition-colors duration-300  hover:underline hover:text-[#6A1C1A] w-[110%] text-[14px] sm:text-[18px]">
                       {" "}
                       Call : +91-95061 25061
                     </h1>
                   </Link>
                 </div>
-                <div className="flex text-white my-2">
+                <div className="flex-shrink-0 flex sm:min-w-[250px] text-white my-2">
                   <TiMail className="my-auto mr-1" />
                   <Link target="_blank" href="mailto:midhaguru@gmail.com">
-                    <h1 className="transition-colors duration-300  hover:underline hover:text-[#6A1C1A] text-sm sm:text-lg tracking-wider	">
-                      midhaguru@gmail.com
+                    <h1 className="transition-colors duration-300  hover:underline hover:text-[#6A1C1A] text-[14px] sm:text-[18px] tracking-wider	">
+                       midhaguru@gmail.com
                     </h1>
                   </Link>
                 </div>
