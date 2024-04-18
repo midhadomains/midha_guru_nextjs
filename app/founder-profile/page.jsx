@@ -12,12 +12,12 @@ export default function Page() {
       <Navbar/>
       <div className="h-auto mx-auto bg-gradient-to-r from-[#F1C99599] to-[#FAF8F099]  flex ">
         <div className="max-w-[1300px] mx-auto">
-          <div className="sm:flex justify-between">
+          <div className="sm:flex justify-between overflow-hidden">
             <div className=" w-[100%] sm:w-[60%] mt-12">
               <h1 className="text-[#6A1C1A] text-[26px] sm:text-[26px] md:text-[32px] lg:text-[46px] font-bold mb-4 sm:ml-8 text-center sm:text-left ">
                 The Founder&apos;s Profile
               </h1>
-              <div className="flex sm:hidden w-[70%] sm:w-[35%] lg:w-[50%] mx-auto mb-4">
+              <div className="block sm:hidden w-[70%] sm:w-[35%] lg:w-[50%] mx-auto mb-4">
                 <Image
                   src="Group 312.svg"
                   alt="Image"
@@ -27,7 +27,7 @@ export default function Page() {
                 />
               </div>
 
-              <h2 className="text-[22px] md:text-[28px] lg:text-[28px] font-semibold mb-4 sm:ml-8 text-center md:text-left lg:text-left ">
+              <h2 className="text-[22px] md:text-[28px] lg:text-[28px] font-semibold mb-4 sm:ml-8 text-center md:text-left sm:text-left ">
                 Micky Midha
               </h2>
               <p className="text-center sm:text-left lg:w-[100%] md:w-[85%] text-[14px] sm:text-[14px] md:text-[18px] lg:text-[22px] leading-16 px-8 mb-4">
@@ -38,8 +38,8 @@ export default function Page() {
                 contributions to academia and educational institutions.
               </p>
             </div>
-            <div className=" hidden sm:flex  flex-shrink-0 lg:justify-center max-w-[400px]  w-[40%] sm:w-[35%] lg:w-[50%] mt-8 pr-[32px]">
-              <Image src="Group 312.svg" alt="Image" width={400} height={400} className="flex-shrink-0" priority={true} />
+            <div className=" hidden sm:block max-w-[400px]  w-[40%] sm:w-[35%] lg:w-[50%] mt-8 pr-[32px] overflow-hidden">
+              <Image src="Group 312.svg" alt="Image" width={400} height={400} className="" priority={true} />
             </div>
           </div>
         </div>

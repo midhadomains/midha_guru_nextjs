@@ -27,14 +27,14 @@ const Navbar = () => {
         <>
             <nav
                 ref={navbarRef}
-                className="mx-auto sticky top-0 z-10 bg-[#FFFDF6] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
+                className="mx-auto  sticky top-0 z-10 bg-[#FFFDF6] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
                 <div className='bg-[#6A1C1A] md:flex justify-center  hidden'>
                     <Link href="tel:+91 95061 25061" className='flex py-[10px] text-[20px] lg:text-[25px] text-center text-white  font-[500] mx-auto'><MdCall className='mt-[6px] mr-2' /><h1>Call <span className=' ml-6 bg-[#8F4846] py-1 px-5 rounded-full font-[400] text-[18px] lg:text-[20px] my-auto'>9506125061</span></h1>
                 </Link>
 
                     </div>
-                <div className='max-w-full '>
-                    <div className="flex items-center justify-between  w-[100%] h-[55px] md:h-[70px] max-w-[2500px] mx-auto">
+                <div className=''>
+                    <div className="flex items-center justify-between  w-[100%] h-[55px] md:h-[70px] max-w-[2500px] mx-auto overflow:hidden">
                         <Link href='/'>
                             <Image
                                 width={250}
@@ -92,8 +92,8 @@ const Navbar = () => {
                         </ul>
                         {/* Responsive */}
                         <ul
-                            className={`md:hidden w-[60%] sm:w-[40%] md:w-[40%] h-auto fixed bg-white top-[60px]  shadow-2xl
-                     ${toggle ? 'right-[0]' : 'hidden'}`}
+                            className={`md:hidden w-[220px] sm:w-[300px] md:w-[40%] h-auto fixed bg-white top-[60px] right-[0]  shadow-2xl
+                     ${toggle ? 'visible' : 'hidden'}`}
                         >
                             <SmNavItem to='/' name='Home' />
                             <hr />
