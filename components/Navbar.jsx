@@ -72,7 +72,7 @@ const Navbar = () => {
                                     </button>
                                     <div className="absolute -right-12 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 delay-50">
                                         <ul>
-                                            <Link href='/clasroom-coaching'><li className="py-2 px-4 hover:bg-gray-100 cursor-pointer">Classroom Coaching</li></Link>
+                                            <Link href='/classroom-coaching'><li className="py-2 px-4 hover:bg-gray-100 cursor-pointer">Classroom Coaching</li></Link>
                                             <hr />
                                             <Link href='https://edu.midha.guru/s/store'><li className="py-2 px-4 hover:bg-gray-100 cursor-pointer">Online Courses</li></Link>
 
@@ -102,7 +102,7 @@ const Navbar = () => {
                             <li className='text-[1.3rem] font-[700] pt-2 pb-0  px-5 hover:text-[#BE4E1E] text-[] '>Courses</li>
                             <SmNavItem to="https://edu.midha.guru/s/store" name="Online Courses" />
                             <hr className='w-[70%] ml-5' />
-                            <SmNavItem to="clasroom-coaching" name="Classroom Coaching" />
+                            <SmNavItem to="classroom-coaching" name="Classroom Coaching" />
                             <hr />
                             <SmNavItem to="/contact-us" name="Contact Us" />
                             <hr />
