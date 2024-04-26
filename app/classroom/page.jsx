@@ -36,7 +36,7 @@ export default function page() {
            Smart Classroom
           </h1>
           <h3 className="text-[#BE4E1E] max-w-[280px] xl:max-w-[380px] text-center text-[14px]  md:text-[18px] sm:max-w-[330px] lg:my-[20px] sm:my-[15px]  mx-auto">
-            Unlocking brilliance One lesson at a time in Midha Guru's Classroom.
+            Unlocking brilliance One lesson at a time in Midha Guru&apos;s Classroom.
           </h3>
           <div className=" lg:ml-[155px] xl:ml-[180px] mx-auto md:ml-[60px] ml-[66px] sm:ml-[50px] mt-[10px]">
             <Link
