@@ -60,6 +60,16 @@
     right: 1.5rem;
 }
 
+.indicator {
+    transition: top 0.3s ease;
+  }
+  
+  .clicked {
+    color: red; 
+  }
+  
+  
+
 
 /* Responsive styles */
 @media (max-width: 768px) {

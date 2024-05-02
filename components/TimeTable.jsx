@@ -54,7 +54,7 @@ function TimeTable() {
 
   return (
     <>
-    <div className="hidden sm:block">  
+    <div className="hidden sm:block mt-32">  
       <div className="relative overflow-x-auto shadow-md  max-w-[1100px] justify-center mx-auto pb-12">
         <h1 className="text-3xl text-[#2E3442] text-center font-bold my-[10px]">
           Student Time Table
