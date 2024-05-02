@@ -18,21 +18,21 @@ export default function Scrollefec() {
   return (
     <div>
       <div className="flex flex-wrap md:flex-nowrap justify-center max-w-[1350px] mx-auto md:px-[25px] mt-20 mb-8 sm:mb-0">
-        <ul className="flex flex-row md:flex-col sm:mr-10 sm:border-r-2 border-b-2 sm:border-b-0 overflow-x-scroll no-scrollbar sm:overflow-hidden w-full sm:w-auto px-[20px] sm:px-0">
+        <ul className="flex flex-row md:flex-col sm:mr-10 md:border-r-2 border-b-2 md:border-b-0 overflow-x-scroll no-scrollbar sm:overflow-hidden w-full sm:w-cover md:w-auto sm:justify-center md:justify-normal px-[20px] sm:px-0 md:flex-shrink-0">
           {/* Other list items */}
           <li
             onClick={() => handleButtonClick(1)}
             className={selectedButton === 2 ? "activee" : ""}
           >
             <div
-              className={`sm:pr-8 mr-7 sm:mr-0 ${
+              className={`md:pr-8 mr-7 md:mr-0 ${
                 selectedButton === 1
-                  ? "border-b-4 sm:border-b-0 sm:border-r-4 border-[#BE4E1E]"
+                  ? "border-b-4 md:border-b-0 md:border-r-4 border-[#BE4E1E]"
                   : ""
               }`}
             >
               <p
-                className={`text-[12px] sm:text-[24px] mb-2 sm:mb-0  justify-center font-semibold sm:leading-[100px] flex cursor-pointer  ${
+                className={`text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2   justify-center font-semibold md:leading-[100px] flex cursor-pointer  ${
                   selectedButton === 1 ? "text-[#BE4E1E]" : ""
                 }`}
               >
@@ -45,14 +45,14 @@ export default function Scrollefec() {
             className={selectedButton === 3 ? "activee" : ""}
           >
             <div
-              className={`sm:pr-8 mr-7 sm:mr-0 ${
+              className={`md:pr-8 mr-7 md:mr-0 ${
                 selectedButton === 2
-                  ? "border-b-4 sm:border-b-0 sm:border-r-4 border-[#BE4E1E]"
+                  ? "border-b-4 md:border-b-0 md:border-r-4 border-[#BE4E1E]"
                   : ""
               }`}
             >
               <p
-                className={`text-[12px] sm:text-[24px] mb-2 sm:mb-0 justify-center font-semibold sm:leading-[100px] flex cursor-pointer ${
+                className={`text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2  justify-center font-semibold md:leading-[100px] flex cursor-pointer ${
                   selectedButton === 2 ? "text-[#BE4E1E]" : ""
                 }`}
               >
@@ -65,14 +65,14 @@ export default function Scrollefec() {
             className={selectedButton === 4 ? "activee" : ""}
           >
             <div
-              className={`sm:pr-8 mr-7 sm:mr-0 ${
+              className={`md:pr-8 mr-7 md:mr-0 ${
                 selectedButton === 3
-                  ? "border-b-4 sm:border-b-0 sm:border-r-4 border-[#BE4E1E]"
+                  ? "border-b-4 md:border-b-0 md:border-r-4 border-[#BE4E1E]"
                   : ""
               }`}
             >
               <p
-                className={`text-[12px] sm:text-[24px] mb-2 sm:mb-0 justify-center font-semibold sm:leading-[100px] flex cursor-pointer ${
+                className={`text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2  justify-center font-semibold md:leading-[100px] flex cursor-pointer ${
                   selectedButton === 3 ? "text-[#BE4E1E]" : ""
                 }`}
               >
@@ -85,14 +85,14 @@ export default function Scrollefec() {
             className={selectedButton === 5 ? "activee" : ""}
           >
             <div
-              className={` sm:pr-8 ${
+              className={` md:pr-8 ${
                 selectedButton === 4
-                  ? "border-b-4 sm:border-b-0 sm:border-r-4 border-[#BE4E1E]"
+                  ? "border-b-4 md:border-b-0 md:border-r-4 border-[#BE4E1E]"
                   : ""
               }`}
             >
               <p
-                className={` text-[12px] sm:text-[24px] mb-2 sm:mb-0 justify-center font-semibold sm:leading-[100px] flex  cursor-pointer ${
+                className={` text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2  justify-center font-semibold md:leading-[100px] flex  cursor-pointer ${
                   selectedButton === 4 ? "text-[#BE4E1E]" : ""
                 }`}
               >
@@ -101,10 +101,10 @@ export default function Scrollefec() {
             </div>
           </li>
         </ul>
-        <div className="">
+        <div className="md:max-w-[600px] lg:max-w-[700px]">
           {selectedButton === 1 && (
             <div className="">
-              <p className=" w-[300px] sm:w-[70%] mb-3 mt-2 sm:mt-0 sm:mb-0">
+              <p className=" w-[300px] md:w-[70%] mb-3 mt-2">
                 <span className="font-bold text-[#BE4E1E] text-[14px] sm:text-[18px] lg:mt-8">
                   Experience the difference with our free demo class!
                 </span>
@@ -122,12 +122,12 @@ export default function Scrollefec() {
               </p>
 
               <form
-                className="bg-[#E7D8C5] lg:w-[700px] lg:h-[300px]  mx-auto lg:mt-[20px] sm:p-10 p-6 rounded-lg sm:w-[500px] w-[310px] h-[430px] sm:absolute"
+                className="bg-[#E7D8C5] md:w-[600px] md:h-[300px] lg:w-[700px] lg:h-[300px]  mx-auto lg:mt-[20px] sm:p-10 p-6 rounded-lg  w-[310px] h-[430px]"
                 action="https://api.web3forms.com/submit"
                 method="POST"
               >
-                <div className="sm:flex">
-                  <div className="sm:w-[50%]">
+                <div className="md:flex sm:-mt-5 md:mt-5 lg:-mt-0">
+                  <div className="md:w-[50%]">
                     <div>
                       <input
                         type="hidden"
@@ -140,7 +140,7 @@ export default function Scrollefec() {
                         value="http://localhost:3000/thankyou"
                       />
                       <input
-                        className="w-full  bg-gray-100 px-6 py-2 sm:mb-2 mb-1 rounded-3xl focus:outline-none"
+                        className="w-full  bg-gray-100 px-6 py-2 my-1 lg:mb-2 md:-mt-2  rounded-3xl focus:outline-none"
                         type="text"
                         name="Name"
                         id="Name"
@@ -152,7 +152,7 @@ export default function Scrollefec() {
                       type="phone-number"
                       name="phone"
                       placeholder="Phone Number"
-                      className="w-full  bg-gray-100 px-6 sm:my-3 my-1 py-2 sm:mb-2 mb-1 rounded-3xl focus:outline-none"
+                      className="w-full  bg-gray-100 px-6 lg:my-3 my-1 py-2 lg:mb-2 md:mt-3 rounded-3xl focus:outline-none"
                       required
                     />
                     {/* Rest of your form elements */}
@@ -160,7 +160,7 @@ export default function Scrollefec() {
                       <select
                         //   ref={classModeSelectRef}
                         name="Mode of class"
-                        class=" appearance-none w-full text-green bg-gray-100 px-6 sm:my-3 my-1  py-2 rounded-3xl focus:outline-none"
+                        class=" appearance-none w-full text-green bg-gray-100 px-6 lg:my-3 md:mt-2 my-1  py-2 rounded-3xl focus:outline-none"
                         id="Class Mode"
                         placeholder="Class Mode"
                       >
@@ -187,7 +187,7 @@ export default function Scrollefec() {
                     <div class="relative">
                       <select
                         name="Board"
-                        class=" appearance-none w-full sm:my-3 my-1  text-green bg-gray-100 px-6 py-2 rounded-3xl focus:outline-none"
+                        class=" appearance-none w-full lg:my-3 my-1 md:mt-2 text-green bg-gray-100 px-6 py-2 rounded-3xl focus:outline-none"
                         id="Board"
                         placeholder="Board"
                       >
@@ -213,12 +213,12 @@ export default function Scrollefec() {
                     </div>
                   </div>
 
-                  <div className="sm:w-[50%] sm:-mt-3 sm:ml-4">
+                  <div className="md:w-[50%] lg:-mt-5 md:-mt-3 md:ml-4">
                     <div class="relative sm:mb-3">
                       <select
                         name="class"
                         id="Class"
-                        class=" appearance-none w-full bg-gray-100 px-6 sm:my-3 sm:mb-3 my-1  py-2 rounded-3xl focus:outline-none"
+                        class=" appearance-none w-full bg-gray-100 px-6 lg:my-3 sm:mb-3 my-1  py-2 rounded-3xl focus:outline-none"
                         placeholder="Class"
                       >
                         <option value="" selected>
@@ -247,7 +247,7 @@ export default function Scrollefec() {
                     <div class="relative sm:-mt-4">
                       <select
                         name="Select the Day"
-                        class="appearance-none w-full bg-gray-100 px-6 sm:my-3  py-2 sm:mb-2 my-1 rounded-3xl focus:outline-none"
+                        class="appearance-none w-full bg-gray-100 px-6 lg:mt-3 lg:mb-2  py-2 sm:mb-2 my-1 rounded-3xl focus:outline-none"
                         id="Select the Day"
                         placeholder="Select the Day"
                       >
@@ -280,7 +280,7 @@ export default function Scrollefec() {
                       {/* ref={timeSlotSectionRef} */}
                       <select
                         name="Select the Time Slot"
-                        class="  appearance-none w-full  bg-gray-100 px-6 sm:my-4 my-1   py-2 rounded-3xl focus:outline-none"
+                        class="  appearance-none w-full  bg-gray-100 px-6 lg:my-3 my-1   py-2 rounded-3xl focus:outline-none"
                         id="Select the Time Slot"
                         placeholder="Select the Time Slot"
                       >
@@ -308,7 +308,7 @@ export default function Scrollefec() {
                     </div>
                     <button
                       type="submit"
-                      className="w-full  sm:mt-6 mt-2 lg:mt-2 bg-[#6A1C1A] hover:bg-[#9A391D] rounded-3xl px-6 py-2 text-lg text-white tracking-wide font-semibold font-sans"
+                      className="w-full mt-2 lg:mt-2 bg-[#6A1C1A] hover:bg-[#9A391D] rounded-3xl px-6 py-2 text-lg text-white tracking-wide font-semibold font-sans"
                     >
                       Register
                     </button>
@@ -321,7 +321,7 @@ export default function Scrollefec() {
             <div>
               {/* Render announcements here */}
 
-              <Image src="Announce.svg" alt="image" width={807} height={553} className="mt-4 sm:mt-0 w-[100%] max-w-[800px]" />
+              <Image src="Announce.svg" alt="image" width={807} height={553} className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[800px]" />
             </div>
           )}
           {selectedButton === 3 && (
@@ -332,14 +332,14 @@ export default function Scrollefec() {
                 alt="image"
                 width={807}
                 height={553}
-                className="mt-4 sm:mt-0" 
+                className="mt-4 md:mt-16 lg:mt-10 w-[100%] max-w-[800px]" 
               />
             </div>
           )}
           {selectedButton === 4 && (
-            <div className="bg-[#FCFBF7] sm:w-[42vw] w-[320px] border text-center  h-[395px] overflow-y-scroll mt-4 sm:mt-0 ">
+            <div className="bg-[#FCFBF7]  w-[320px] sm:w-[500px] lg:w-[42vw] border text-center  h-[395px] overflow-y-scroll mt-4  ">
               {/* Render achievements here */}
-              <p className="font-bold text-[#BE4E1E] text-[14px] sm:text-[32px] mt-2 lg:mt-8 lg:ml-4">
+              <p className="font-bold text-[#BE4E1E] text-[16px] lg:text-[32px] mt-2 lg:mt-8 lg:ml-4">
                 Holidays 2024-2025
               </p>
               <table className="mt-4  w-[100%]">
