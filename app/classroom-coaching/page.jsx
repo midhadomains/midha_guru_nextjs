@@ -1,8 +1,11 @@
+
 import Footer from '@/components/Footer.jsx';
 import Navbar from '@/components/Navbar.jsx';
 import dynamic from 'next/dynamic'
 import Image from "next/image";
 import Link from "next/link";
+import Scrolleffect from '@/components/Scrolleffect.jsx';
+import Scrollefec from '@/components/Scrollefec.jsx';
 const TimeTable = dynamic(() => import ("../../components/TimeTable.jsx"), { ssr: false })
 
 export default function page() {
@@ -77,6 +80,8 @@ export default function page() {
         </div>
       </div>
     </div>
+   
+    <Scrollefec/>
     <TimeTable/>
     <Footer/>
     </>
