@@ -54,10 +54,12 @@ function TimeTable() {
 
   return (
     <>
-    <div className="hidden sm:block mt-32">  
-      <div className="relative overflow-x-auto shadow-md  max-w-[1100px] justify-center mx-auto pb-12">
+
+    <div className="hidden sm:block">  
+      <div className="relative overflow-x-auto   xl:max-w-[1100px] sm:max-w-[630px] md:max-w-[700px] lg:max-w-[900px] justify-center mx-auto pb-12">
+
         <h1 className="text-3xl text-[#2E3442] text-center font-bold my-[10px]">
-          Student Time Table
+        Student Time Table
         </h1>
       
         <div className="mb-4 border-b border-gray-200 ">
@@ -127,7 +129,7 @@ function TimeTable() {
             >
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r   file:  ${
+                  className={`inline-block border-[#AB9A9F] sm:text-[12px]  lg:text-[100%] my-[13px]  py-1 xl:px-[75px] sm:px-[36px] md:px-[44px]  lg:px-[55px] border-r file:  ${
                     activeTab === "tab1" || activeTab === "Class-6"
                       ? "text-[#BE4E1E] underline "
                       : ""
@@ -142,7 +144,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r   ${
+                  className={`inline-block border-[#AB9A9F] my-[13px] py-1 xl:px-[76px]  sm:px-[37px] sm:text-[12px]  lg:text-[100%]  lg:px-[55px] md:px-[43px] border-r   ${
                     activeTab === "Class-7" ? "text-[#BE4E1E] underline " : ""
                   }`}
                   onClick={() => handleTabClick("Class-7")}
@@ -155,7 +157,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r   ${
+                  className={`inline-block border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px]  sm:px-[37px]  lg:px-[56px] md:px-[44px] border-r   ${
                     activeTab === "Class-8" ? "text-[#BE4E1E] underline  " : ""
                   }`}
                   onClick={() => handleTabClick("Class-8")}
@@ -168,7 +170,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block  border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r  ${
+                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px]  sm:px-[37px]  lg:px-[56px] md:px-[44px]  border-r  ${
                     activeTab === "Class-9" ? "text-[#BE4E1E] underline  " : ""
                   }`}
                   onClick={() => handleTabClick("Class-9")}
@@ -181,7 +183,7 @@ function TimeTable() {
               </li>
               <li role="presentation">
                 <button
-                  className={`inline-block  border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r  ${
+                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[75px] sm:px-[37px]  lg:px-[56px] md:px-[44px]   ${
                     activeTab === "Class-10" ? "text-[#BE4E1E] underline  " : ""
                   }`}
                   onClick={() => handleTabClick("Class-10")}
@@ -197,7 +199,7 @@ function TimeTable() {
 
           <table
             id="Class-6-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] justify-center mx-auto text-sm text-left rtl:text-right text-gray-500 ${
               activeTab === "tab1" || activeTab === "Class-6" ? "" : "hidden"
             }`}
           >
@@ -211,35 +213,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -248,59 +250,57 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]  leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E]  sm:text-[11px]  xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-l-[#FF204E] border-l-[6px] font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] w-[90px] text-center py-4 border-r bg-[#FFE4E9] border-l-[#FF204E] border-l-[6px] font-bold border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r bg-[#FFE4E9] border-l-[#FF204E] border-l-[6px] font-bold border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r bg-[#FFE4E9] border-l-[#FF204E] border-l-[6px] font-bold border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden leading-none"/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
-                    <td class="px-6 py-4  border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4  border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] w-[90px] xl:px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
                   </tr>
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden leading-none"/>-<br className="sm:block md:hidden hidden"/>
                       6:00 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] w-[90px] md:px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] md:px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]">
@@ -309,29 +309,29 @@ function TimeTable() {
                         class="font-medium text-white hover:underline"
                       ></a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden leading-none"/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English <br />
                       <a href="#" class=" font-normal">
                         (Literature)
                       </a>
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] h-[52.67px]  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                       <a href="#" class="font-normal">
                         <br />
@@ -345,7 +345,7 @@ function TimeTable() {
           </table>
           <table
             id="Class-7-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
               activeTab === "Class-7" ? "" : "hidden"
             }`}
           >
@@ -359,35 +359,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -396,93 +396,90 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] h-[52.67px] xl:px-6 text-center  border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]   border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English <br />
-                      <a href="#" class=" font-normal">
+                      <a href="#" class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] font-normal">
                         (Literature)
                       </a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
                   </tr>
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
-                      6:00 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]   border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English <br />
-                      <a href="#" class=" font-normal">
+                      <a href="#" class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] font-normal">
                         (Grammar)
                       </a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]">
                       <a
                         href="#"
                         class="font-medium text-white hover:underline"
                       ></a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
                   </tr>
@@ -492,7 +489,7 @@ function TimeTable() {
           </table>
           <table
             id="Class-8-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
               activeTab === "Class-8" ? "" : "hidden"
             }`}
           >
@@ -506,35 +503,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -543,35 +540,33 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center h-[52.67px] border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
@@ -579,19 +574,18 @@ function TimeTable() {
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
-                      6:00 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]">
@@ -600,30 +594,30 @@ function TimeTable() {
                         class="font-medium text-white hover:underline"
                       ></a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
                   </tr>
@@ -633,7 +627,7 @@ function TimeTable() {
           </table>
           <table
             id="Class-9-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
               activeTab === "Class-9" ? "" : "hidden"
             }`}
           >
@@ -647,35 +641,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -684,84 +678,81 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  h-[52.67px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class=" xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
+                    <td class=" py-4 border-r h-[52.67px] border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="pxl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
                   </tr>
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
-                      6:00 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6  py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
                     <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                 </tbody>
               </table>
@@ -770,7 +761,7 @@ function TimeTable() {
 
           <table
             id="Class-10-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
               activeTab === "Class-10" ? "" : "hidden"
             }`}
           >
@@ -784,35 +775,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -821,82 +812,79 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] h-[52.67px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="pxl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
                   </tr>
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
-                      6:00 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
                   </tr>
@@ -905,6 +893,24 @@ function TimeTable() {
             </div>
           </table>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div>
           <div className="mb-4 bg-[#F7F1EF]  ">
@@ -924,7 +930,7 @@ function TimeTable() {
             >
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r   file:  ${
+                  className={`inline-block border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px] sm:px-[37px] md:px-[44px]  lg:px-[56px] border-r   file:  ${
                     activeTab === "tab2" || activeTab === "CBSE-Class-6"
                       ? "text-[#BE4E1E] underline "
                       : ""
@@ -939,7 +945,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r   ${
+                  className={`inline-block border-[#AB9A9F] sm:text-[12px]  lg:text-[100%] my-[13px] py-1 xl:px-[76px] sm:px-[37px] md:px-[43px]  lg:px-[56px] border-r   ${
                     activeTab === "CBSE-Class-7"
                       ? "text-[#BE4E1E] underline "
                       : ""
@@ -954,7 +960,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r   ${
+                  className={`inline-block border-[#AB9A9F] sm:text-[12px]  lg:text-[100%] my-[13px] py-1 xl:px-[76px] sm:px-[37px] md:px-[44px]  lg:px-[55px] border-r   ${
                     activeTab === "CBSE-Class-8"
                       ? "text-[#BE4E1E] underline  "
                       : ""
@@ -969,7 +975,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block  border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r  ${
+                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px] sm:px-[37px] md:px-[44px]  lg:px-[56px] border-r  ${
                     activeTab === "CBSE-Class-9"
                       ? "text-[#BE4E1E] underline  "
                       : ""
@@ -984,7 +990,7 @@ function TimeTable() {
               </li>
               <li role="presentation">
                 <button
-                  className={`inline-block  border-[#AB9A9F] my-[13px] py-1 xl:px-[75px] md:px-[40px] sm:px-[30px]  lg:px-[65px] border-r  ${
+                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[75px] sm:px-[37px] md:px-[44px]  lg:px-[56px]   ${
                     activeTab === "CBSE-Class-10"
                       ? "text-[#BE4E1E] underline  "
                       : ""
@@ -1002,7 +1008,7 @@ function TimeTable() {
 
           <table
             id="CBSE-Class-6-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] text-sm text-left rtl:text-right text-gray-500 ${
               activeTab === "tab2" || activeTab === "CBSE-Class-6"
                 ? ""
                 : "hidden"
@@ -1018,35 +1024,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -1055,91 +1061,88 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-l-[#FF204E] border-l-[6px] font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-l-[#FF204E] border-l-[6px] font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r bg-[#FFE4E9] border-l-[#FF204E] border-l-[6px] font-bold border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r bg-[#FFE4E9] border-l-[#FF204E] border-l-[6px] font-bold border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
-                    <td class="px-6 py-4  border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4  border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                       <a href="#" class="font-normal">
                         <br />
                         (Literature)
                       </a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
                   </tr>
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
-                      6:00 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]">
                       <a
                         href="#"
                         class="font-medium text-white hover:underline"
                       ></a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] h-[52.67px] border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                       <a href="#" class="font-normal">
                         <br />
@@ -1153,7 +1156,7 @@ function TimeTable() {
           </table>
           <table
             id="CBSE-Class-7-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
               activeTab === "CBSE-Class-7" ? "" : "hidden"
             }`}
           >
@@ -1167,35 +1170,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -1204,104 +1207,101 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English <br />
                       <a href="#" class=" font-normal">
                         (Grammar)
                       </a>
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                       <a href="#" class="font-normal">
                         <br />
                         (Literature)
                       </a>
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
                   </tr>
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
-                      6:00 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]">
                       <a
                         href="#"
                         class="font-medium text-white hover:underline"
                       ></a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]">
                       <a
                         href="#"
                         class="font-medium text-white hover:underline"
                       ></a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]">
                       <a
                         href="#"
                         class="font-medium text-white hover:underline"
                       ></a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none "
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
                   </tr>
@@ -1311,7 +1311,7 @@ function TimeTable() {
           </table>
           <table
             id="CBSE-Class-8-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
               activeTab === "CBSE-Class-8" ? "" : "hidden"
             }`}
           >
@@ -1325,35 +1325,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -1362,87 +1362,84 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
                   </tr>
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
-                      6:00 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]">
                       <a
                         href="#"
                         class="font-medium text-white hover:underline"
                       ></a>
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] h-[52.67px] border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
                   </tr>
@@ -1453,7 +1450,7 @@ function TimeTable() {
 
           <table
             id="CBSE-Class-9-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
               activeTab === "CBSE-Class-9" ? "" : "hidden"
             }`}
           >
@@ -1467,35 +1464,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -1504,84 +1501,81 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
-                      6:00 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] h-[52.67px] border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] h-[52.67px] border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                 </tbody>
               </table>
@@ -1590,7 +1584,7 @@ function TimeTable() {
 
           <table
             id="CBSE-Class-10-table"
-            className={`w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
+            className={`xl:w-full sm:w-[630px] md:w-[700px] lg:w-[900px] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ${
               activeTab === "CBSE-Class-10" ? "" : "hidden"
             }`}
           >
@@ -1604,35 +1598,35 @@ function TimeTable() {
                     ></th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Monday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Tuesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Wednesday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Thursday
                     </th>
                     <th
                       scope="col"
-                      class="w-[10%] text-center py-4 border-r border-[#B7B7B7]"
+                      class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-4 border-r border-[#B7B7B7]"
                     >
                       Friday
                     </th>
-                    <th scope="col" class="w-[10%] text-center py-3 ">
+                    <th scope="col" class="xl:w-[10%]  sm:w-[90px] lg:w-[120px] text-center py-3 ">
                       Saturday
                     </th>
                   </tr>
@@ -1641,85 +1635,82 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none "
                     >
-                      <span class="text-[#BE4E1E] text-sm">3:30 PM</span>&nbsp;-
-                      4:20 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#F4D73C] border-l-[6px] font-bold text-center bg-[#FDFAE7] border-[#B7B7B7]">
                       Biology
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#62DA44] border-l-[6px] font-bold text-center bg-[#ECFAE8] border-[#B7B7B7]">
                       Chemistry
                     </td>
-                    <td class="w-[10%] text-center py-4 border-r  border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-r  border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">4:20 PM</span>&nbsp;-
-                      5:10 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7]"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
-                      6:00 PM
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  border-r border-l-[#CC78FF] border-l-[6px] font-bold text-center bg-[#F8EEFF] border-[#B7B7B7]">
                       English
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="w-[10%] text-center py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] "
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
-                      <span class="text-[#BE4E1E] ">6:00 PM</span>&nbsp;- 6:50
+                      <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
                     </th>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
 
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="w-[10%] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] text-center py-4 border-l-[#FF204E] border-l-[6px]   border-r font-bold bg-[#FFE4E9] border-[#B7B7B7]">
                       SST
                     </td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
-                    <td class="px-6 py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
+                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]"></td>
                   </tr>
                 </tbody>
               </table>
@@ -1753,7 +1744,7 @@ function TimeTable() {
       <div className="flex justify-center mx-auto">
         <div className="mt-[20px] relative mx-auto">
           <button
-            className="rounded-full bg-[#F1EEED] text-[12px]  py-2 w-[95px] flex justify-center  text-[#2E3442] transition-colors "
+            className="rounded-full bg-[#F1EEED] text-[12px] font-semibold  py-2 w-[95px] flex justify-center  text-[#2E3442] transition-colors "
             onClick={() => setOpenClass(!openClass)}
           >
             {selectedClass || "Class"}
@@ -1809,7 +1800,7 @@ function TimeTable() {
 
         <div className="mt-[20px] mx-auto relative">
           <button
-            className="rounded-full bg-[#F1EEED] text-[12px]  py-2 w-[100px] flex justify-center  text-[#2E3442] transition-colors "
+            className="rounded-full bg-[#F1EEED] font-semibold text-[12px]  py-2 w-[100px] flex justify-center  text-[#2E3442] transition-colors "
             onClick={() => setOpenDays(!openDays)}
           >
             {selectedDays || "Days"}
@@ -1865,7 +1856,7 @@ function TimeTable() {
 
         <div className="mt-[20px] mx-auto relative">
           <button
-            className="rounded-full bg-[#F1EEED] text-[12px] py-2 w-[95px] flex justify-center  text-[#2E3442] transition-colors "
+            className="rounded-full bg-[#F1EEED] font-semibold text-[12px] py-2 w-[95px] flex justify-center  text-[#2E3442] transition-colors "
             onClick={() => setOpenBoard(!openBoard)}
           >
             {selectedBoard || "Board"}
