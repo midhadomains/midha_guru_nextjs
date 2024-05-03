@@ -337,7 +337,7 @@ export default function Scrollefec() {
             </div>
           )}
           {selectedButton === 4 && (
-            <div className="bg-[#FCFBF7]  w-[320px] sm:w-[500px] lg:w-[42vw] border text-center  h-[395px] overflow-y-scroll mt-4  ">
+            <div className="bg-[#FCFBF7]  w-[320px] sm:w-[500px] lg:w-[55vw] xl:w-[42vw] border text-center  h-[395px] overflow-y-scroll mt-4  ">
               {/* Render achievements here */}
               <p className="font-bold text-[#BE4E1E] text-[16px] lg:text-[32px] mt-2 lg:mt-8 lg:ml-4">
                 Holidays 2024-2025
