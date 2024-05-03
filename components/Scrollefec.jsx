@@ -137,7 +137,7 @@ export default function Scrollefec() {
                       <input
                         type="hidden"
                         name="redirect"
-                        value="http://localhost:3000/thankyou"
+                        value="http://www.midha.guru/thankyou"
                       />
                       <input
                         className="w-full  bg-gray-100 px-6 py-2 my-1 lg:mb-2 md:-mt-2  rounded-3xl focus:outline-none"
