@@ -945,7 +945,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] sm:text-[12px]  lg:text-[100%] my-[13px] py-1 xl:px-[76px] sm:px-[37px] md:px-[43px]  lg:px-[56px] border-r   ${
+                  className={`inline-block border-[#AB9A9F] sm:text-[12px]  lg:text-[100%] my-[13px] py-1 xl:px-[76px] sm:px-[36px] md:px-[43px]  lg:px-[56px] border-r   ${
                     activeTab === "CBSE-Class-7"
                       ? "text-[#BE4E1E] underline "
                       : ""
