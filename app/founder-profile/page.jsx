@@ -108,7 +108,7 @@ export default function Page() {
           Beyond Academia
           </h1>
           <p className=" text-left lg:w-[100%] md:w-[85%] text-[14px] sm:text-[14px] md:text-[18px] lg:text-[22px] leading-16 px-8 mb-7">
-            Micky Midha is not just an educator; he is also known for his
+            Micky Midha is not just an educator, he is also known for his
             commitment to fostering all-around development in students. His
             efforts extend beyond traditional academics, emphasizing the
             importance of extracurricular activities in shaping well-rounded

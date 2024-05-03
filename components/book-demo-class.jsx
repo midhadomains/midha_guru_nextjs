@@ -63,7 +63,7 @@ function BookDemoClass() {
                 <input
                   type="hidden"
                   name="redirect"
-                  value="http://localhost:3000/thankyou"
+                  value="http://www.midha.guru/thankyou"
                 ></input>
                 <input
                   class="w-full  bg-gray-100 px-6 py-2 mb-1 rounded-3xl focus:outline-none"
