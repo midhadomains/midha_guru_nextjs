@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic'
 import Image from "next/image";
 import Link from "next/link";
 import Scrollefec from '@/components/Scrollefec.jsx';
+import Structureofstudies from '@/components/Structureofstudies.jsx';
 const TimeTable = dynamic(() => import ("../../components/TimeTable.jsx"), { ssr: false })
 
 export default function page() {
@@ -82,6 +83,7 @@ export default function page() {
    
     <Scrollefec/>
     <TimeTable/>
+    <Structureofstudies/>
     <Footer/>
     </>
   );
