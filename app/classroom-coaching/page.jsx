@@ -7,6 +7,9 @@ import Link from "next/link";
 import Scrollefec from '@/components/Scrollefec.jsx';
 import Structureofstudies from '@/components/Structureofstudies.jsx';
 import Approachtolearning from '@/components/Approachtolearning.jsx';
+import ReviewSection from '@/components/ReviewSection.jsx';
+
+
 const TimeTable = dynamic(() => import ("../../components/TimeTable.jsx"), { ssr: false })
 
 export default function page() {
@@ -86,6 +89,7 @@ export default function page() {
     <TimeTable/>
     <Structureofstudies/>
     <Approachtolearning/>
+    <ReviewSection/>
     <Footer/>
     </>
   );
