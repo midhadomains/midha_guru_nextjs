@@ -25,7 +25,7 @@ function ReviewSection() {
             titles: 'myths in biology & debunking it',
             author: "Prashanti Bharagava",
             dates: 'April 22, 2024',
-            images: 'myths.svg',
+            images: 'Myths.svg',
             link: ""
         },
         {
