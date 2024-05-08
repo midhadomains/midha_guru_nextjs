@@ -3,14 +3,15 @@ import Link from "next/link";
 
 export default function Approachtolearning() {
   return (
-    <div className="flex flex-wrap sm:flex-nowrap ">
+    <div className="flex flex-wrap sm:flex-nowrap xl:mx-40">
       <div className="my-4 sm:my-20 sm:ml-10 md:ml-20 lg:ml-40 ">
         <Image
-          src="/Approachtolearning.svg"
+          src="/Approach.png"
           alt="Approach to Learning"
           width={500}
-          height={382}
+          height={300}
           className="w-[100%] min-w-[310px] max-w-[500px] px-5 sm:px-0"
+
         />
       </div>
 
