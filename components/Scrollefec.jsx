@@ -321,7 +321,7 @@ export default function Scrollefec() {
             <div>
               {/* Render announcements here */}
 
-              <Image src="Announce.svg" alt="image" width={807} height={553} className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[800px]" />
+              <Image src="Announce.svg" alt="image" width={807} height={553} className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[800px]"  priority={true} />
             </div>
           )}
           {selectedButton === 3 && (
@@ -333,6 +333,7 @@ export default function Scrollefec() {
                 width={807}
                 height={553}
                 className="mt-4 md:mt-16 lg:mt-10 w-[100%] max-w-[800px]" 
+                priority={true}
               />
             </div>
           )}

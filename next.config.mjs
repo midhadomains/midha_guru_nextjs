@@ -8,9 +8,16 @@ const nextConfig = {
                 hostname: 'media.geeksforgeeks.org',
                 port: '',
                 pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'files.midhafin.com',
+                port: '',
+                pathname: '/**',
             }
         ]
     }
 };
+
 
 export default nextConfig;

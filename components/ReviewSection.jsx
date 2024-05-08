@@ -25,14 +25,14 @@ function ReviewSection() {
             titles: 'myths in biology & debunking it',
             author: "Prashanti Bharagava",
             dates: 'April 22, 2024',
-            images: 'Myths.svg',
+            images: '/Myths.png',
             link: ""
         },
         {
             titles: '5 Magic Foods which can keep students cool during summer',
             author: 'Prashanti Bharagava',
             dates: 'April 30, 2024',
-            images: 'fruitdrink.svg',
+            images: '/fruitdrink.png',
             link: ""
         },
         {
@@ -46,14 +46,14 @@ function ReviewSection() {
             titles: 'Embracing New Horizons: The Transformative Power of Studying Abroad and Cultural Exchange',
             author: "Malobika Mukherjee",
             dates: "May 7, 2024",
-            images: 'Abroad.svg',
+            images: '/Abroad.png',
             link: ""
         },
         {
             titles: 'Unraveling the Enigma: Exploring the Intricacies of Mind Psychology',
             author: "Sachin Semwal",
             dates: "May 10, 2024",
-            images: 'Mindpysc.svg',
+            images: '/Mindpysc.png',
             link: ""
         },
     ]
