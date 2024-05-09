@@ -24,7 +24,7 @@ export default function page() {
           quality={100}
         />
 
-        <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
           The human mind, a labyrinth of thoughts, emotions, and perceptions,
           has captivated philosophers, scientists, and thinkers for centuries.
           It&apos;s a realm where the tangible meets the intangible, where
@@ -33,6 +33,10 @@ export default function page() {
           depths of mind psychology, unraveling its mysteries, and uncovering
           the secrets that shape our consciousness.
         </p>
+
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+          The Essence of Mind Psychology:
+        </h2>
 
         <Image
           src="/Essence.png"
@@ -44,11 +48,8 @@ export default function page() {
           quality={100}
         />
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
-          The Essence of Mind Psychology:
-        </h2>
-
-        <p className="text-[14px] lg:text-[16px] mt-2">
+       
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
           Mind psychology delves into the inner workings of the human psyche,
           seeking to understand the mechanisms behind thought, emotion, and
           behavior. It explores the interplay between the conscious and
@@ -58,6 +59,10 @@ export default function page() {
           motivations, mind psychology offers a comprehensive framework for
           understanding the intricacies of human experience.
         </p>
+
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+          Perception and Reality:
+        </h2>
 
         <Image
           src="/perception.png"
@@ -69,11 +74,7 @@ export default function page() {
           quality={100}
         />
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
-          Perception and Reality:
-        </h2>
-
-        <p className="text-[14px] lg:text-[16px] mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
           One of the fundamental tenets of mind psychology is the relationship
           between perception and reality. How we perceive the world around us is
           not merely a reflection of objective reality but is deeply influenced
@@ -85,6 +86,10 @@ export default function page() {
           of reality.
         </p>
 
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+          The Power of Belief:
+        </h2>
+
         <Image
           src="/power.png"
           alt="img"
@@ -95,11 +100,7 @@ export default function page() {
           quality={100}
         />
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
-          The Power of Belief:
-        </h2>
-
-        <p className="text-[14px] lg:text-[16px] mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
           Belief, whether in oneself, others, or higher powers, is a potent
           force that shapes our reality. Mind psychology explores the role of
           belief systems in shaping our attitudes, behaviors, and outcomes.
@@ -109,6 +110,10 @@ export default function page() {
           of cults demonstrates how deeply held beliefs can influence behavior,
           often with devastating consequences.
         </p>
+
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+          Emotions Unveiled:
+        </h2>
 
         <Image
           src="/emotions.png"
@@ -120,11 +125,7 @@ export default function page() {
           quality={100}
         />
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
-          Emotions Unveiled:
-        </h2>
-
-        <p className="text-[14px] lg:text-[16px] mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
           Emotions are the palette with which we paint the canvas of our lives,
           imbuing each moment with depth and meaning. Mind psychology offers
           insights into the nature of emotions, their evolutionary origins, and
@@ -138,7 +139,7 @@ export default function page() {
           tragic consequences.
         </p>
 
-        <p className="text-[14px] lg:text-[16px] mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
           By examining Bundy&apos;s psyche through the lens of mind psychology,
           we gain a glimpse into the depths of human nature and the factors that
           contribute to the development of antisocial behavior. While
@@ -147,7 +148,7 @@ export default function page() {
           and psychological factors that shape human behavior.
         </p>
 
-        <p className="text-[14px] lg:text-[16px] mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
           This example highlights the relevance of mind psychology in
           elucidating the complexities of human nature and the role of emotions
           in driving behavior, even in cases as extreme as that of Ted Bundy.
@@ -167,7 +168,7 @@ export default function page() {
           quality={100}
         />
 
-        <p className="text-[14px] lg:text-[16px] mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
           Mind psychology is a captivating journey into the depths of human
           consciousness, offering profound insights into the mysteries of the
           mind. By unraveling the intricacies of perception, belief, emotion,
