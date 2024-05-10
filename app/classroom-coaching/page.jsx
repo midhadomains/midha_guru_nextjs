@@ -48,7 +48,7 @@ export default function page() {
           <h3 className="text-[#BE4E1E] max-w-[280px] xl:max-w-[380px] text-center text-[14px]  md:text-[18px] sm:max-w-[330px] lg:my-[20px] sm:my-[15px]  mx-auto">
             Unlocking brilliance One lesson at a time in Midha Guru&apos;s Classroom.
           </h3>
-          <div className=" lg:ml-[155px] xl:ml-[180px] mx-auto md:ml-[60px] ml-[66px] sm:ml-[50px] mt-[10px]">
+          <div className=" lg:ml-[200px] xl:ml-[209px] mx-auto md:ml-[75px] ml-[66px] sm:ml-[75px] mt-[10px]">
             <Link
               href="https://edu.midha.guru/s/authenticate"
               className=" mx-auto  "
