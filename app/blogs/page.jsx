@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 import React from "react";
 import Navbar from "../../components/Navbar.jsx";
 import Footer from "../../components/Footer.jsx";
@@ -30,4 +29,3 @@ function page() {
 }
 
 export default page;
->>>>>>> cab1e510055caa827a3bc74161fd28b9f2b62585
