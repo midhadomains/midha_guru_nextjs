@@ -1,8 +1,13 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Navbar2 from "@/components/Navbar2.tsx";
 import Image from "next/image";
 
 export default function page() {
   return (
-    <div className=" mx-auto  mt-10 ">
+    <>    
+    <Navbar/>
+    <div className=" mx-auto   ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[36px] ">
           Unraveling the Enigma: Exploring the Intricacies of Mind Psychology
@@ -168,7 +173,7 @@ export default function page() {
           quality={100}
         />
 
-        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3 mb-2">
           Mind psychology is a captivating journey into the depths of human
           consciousness, offering profound insights into the mysteries of the
           mind. By unraveling the intricacies of perception, belief, emotion,
@@ -180,5 +185,7 @@ export default function page() {
         </p>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }

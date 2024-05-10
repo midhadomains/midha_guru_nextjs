@@ -1,8 +1,12 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 export default function page() {
   return (
-    <div className=" mx-auto  mt-10 ">
+    <>
+    <Navbar/>
+    <div className=" mx-auto  ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[36px] ">
           Embracing New Horizons: The Transformative Power of Study Abroad and
@@ -168,7 +172,7 @@ export default function page() {
           understanding needed to thrive in an interconnected world.
         </p>
 
-        <p className="text-[14px] lg:text-[16px] mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 mb-2">
           Whether it&apos;s a semester, a year, or a short-term program, studying
           abroad offers a life-changing adventure that leaves a lasting impact
           on students&apos; personal and professional lives. As we continue to
@@ -178,5 +182,7 @@ export default function page() {
         </p>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }

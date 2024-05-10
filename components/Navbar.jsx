@@ -27,7 +27,7 @@ const Navbar = () => {
         <>
             <nav
                 ref={navbarRef}
-                className="mx-auto  sticky top-0 z-10 bg-[#FFFDF6] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
+                className="mx-auto sticky top-0 z-10 bg-[#FFFDF6] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
                 <div className='bg-[#6A1C1A] md:flex justify-center  hidden'>
                     <Link href="tel:+91 95061 25061" className='flex py-[10px] text-[20px] lg:text-[25px] text-center text-white  font-[500] mx-auto'><MdCall className='mt-[6px] mr-2' /><h1>Call <span className=' ml-6 bg-[#8F4846] py-1 px-5 rounded-full font-[400] text-[18px] lg:text-[20px] my-auto'>9506125061</span></h1>
                 </Link>
