@@ -17,7 +17,7 @@ export default function Scrollefec() {
 
   return (
     <div>
-      <div className="flex flex-wrap md:flex-nowrap justify-center max-w-[1350px] mx-auto md:px-[25px] mt-20 mb-8 sm:mb-0">
+      <div className="flex flex-wrap md:flex-nowrap justify-center max-w-[1350px] mx-auto md:px-[25px] mt-6 md:mt-20 mb-8 sm:mb-0">
         <ul className="flex flex-row md:flex-col sm:mr-10 md:border-r-2 border-b-2 md:border-b-0 overflow-x-scroll no-scrollbar sm:overflow-hidden w-full sm:w-cover md:w-auto sm:justify-center md:justify-normal px-[20px] sm:px-0 md:flex-shrink-0">
           {/* Other list items */}
           <li
@@ -122,7 +122,7 @@ export default function Scrollefec() {
               </p>
 
               <form
-                className="bg-[#E7D8C5] md:w-[600px] md:h-[300px] lg:w-[700px] lg:h-[300px]  mx-auto lg:mt-[20px] sm:p-10 p-6 rounded-lg  w-[310px] h-[430px]"
+                className="bg-[#E7D8C5] md:w-[550px] md:h-[300px] lg:w-[700px] lg:h-[300px]  mx-auto lg:mt-[20px] sm:p-10 p-6 rounded-lg  w-[310px] h-[430px]"
                 action="https://api.web3forms.com/submit"
                 method="POST"
               >
@@ -321,7 +321,7 @@ export default function Scrollefec() {
             <div>
               {/* Render announcements here */}
 
-              <Image src="Announce.svg" alt="image" width={807} height={553} className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[800px]" />
+              <Image src="Announce.svg" alt="image" width={807} height={553} className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[800px]"  priority={true} />
             </div>
           )}
           {selectedButton === 3 && (
@@ -333,6 +333,7 @@ export default function Scrollefec() {
                 width={807}
                 height={553}
                 className="mt-4 md:mt-16 lg:mt-10 w-[100%] max-w-[800px]" 
+                priority={true}
               />
             </div>
           )}
