@@ -1,8 +1,12 @@
 import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function page() {
   return (
-    <div className=" mx-auto  mt-10 ">
+    <>
+    <Navbar/>
+    <div className=" mx-auto ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] underline text-center">
           The power of visualization in teaching
@@ -137,7 +141,7 @@ export default function page() {
           to take ownership of their learning journey.
         </p>
 
-        <p className="text-[14px] lg:text-[16px] mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 mb-2">
           <span className="font-bold text-[16px] sm:text-[24px]">Conclusion -</span> As technology continues to advance, the potential for
           innovative visualization tools and techniques to revolutionize
           education is boundless. By embracing visualization as a cornerstone of
@@ -146,5 +150,7 @@ export default function page() {
         </p>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
