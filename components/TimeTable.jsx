@@ -144,7 +144,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] my-[13px] py-1 xl:px-[76px]  sm:px-[37px] sm:text-[12px]  lg:text-[100%]  lg:px-[55px] md:px-[43px] border-r   ${
+                  className={`inline-block border-[#AB9A9F] my-[13px] py-1 xl:px-[76px]  sm:px-[36px] sm:text-[12px]  lg:text-[100%]  lg:px-[55px] md:px-[43px] border-r   ${
                     activeTab === "Class-7" ? "text-[#BE4E1E] underline " : ""
                   }`}
                   onClick={() => handleTabClick("Class-7")}
@@ -157,7 +157,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px]  sm:px-[37px]  lg:px-[56px] md:px-[44px] border-r   ${
+                  className={`inline-block border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px]  sm:px-[36px]  lg:px-[56px] md:px-[43px] border-r   ${
                     activeTab === "Class-8" ? "text-[#BE4E1E] underline  " : ""
                   }`}
                   onClick={() => handleTabClick("Class-8")}
@@ -170,7 +170,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px]  sm:px-[37px]  lg:px-[56px] md:px-[44px]  border-r  ${
+                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px]  sm:px-[37px]  lg:px-[56px] md:px-[43px]  border-r  ${
                     activeTab === "Class-9" ? "text-[#BE4E1E] underline  " : ""
                   }`}
                   onClick={() => handleTabClick("Class-9")}
@@ -183,7 +183,7 @@ function TimeTable() {
               </li>
               <li role="presentation">
                 <button
-                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[75px] sm:px-[37px]  lg:px-[56px] md:px-[44px]   ${
+                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[75px] sm:px-[37px]  lg:px-[56px] md:px-[43px]   ${
                     activeTab === "Class-10" ? "text-[#BE4E1E] underline  " : ""
                   }`}
                   onClick={() => handleTabClick("Class-10")}
@@ -540,7 +540,7 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7] ">
                     <th
                       scope="row"
-                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7]  whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
                       <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">3:30 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 4:20 PM
                     </th>
@@ -554,7 +554,7 @@ function TimeTable() {
                   <tr class=" border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7] text-[#202124] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
                       <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">4:20 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 5:10 PM
                     </th>
@@ -574,7 +574,7 @@ function TimeTable() {
                   <tr class="border-b border-[#B7B7B7]">
                     <th
                       scope="row"
-                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
                       <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">5:10 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:00 PM
                     </th>
@@ -601,7 +601,7 @@ function TimeTable() {
                   <tr class=" border-b border-[] ">
                     <th
                       scope="row"
-                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] xl:px-6 text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
+                      class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px]  text-center md:py-4 font-medium bg-[#FCFBF7] whitespace-nowrap border-r border-[#B7B7B7] leading-none"
                     >
                       <span class="text-[#BE4E1E] sm:text-[11px] xl:text-[14px] lg:text-[13px]">6:00 PM</span>&nbsp;<br className="sm:block md:hidden hidden "/>-<br className="sm:block md:hidden hidden"/> 6:50
                       PM
@@ -930,7 +930,7 @@ function TimeTable() {
             >
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px] sm:px-[37px] md:px-[44px]  lg:px-[56px] border-r   file:  ${
+                  className={`inline-block border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px] sm:px-[36px] md:px-[43px]  lg:px-[55px] border-r   file:  ${
                     activeTab === "tab2" || activeTab === "CBSE-Class-6"
                       ? "text-[#BE4E1E] underline "
                       : ""
@@ -945,7 +945,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] sm:text-[12px]  lg:text-[100%] my-[13px] py-1 xl:px-[76px] sm:px-[36px] md:px-[43px]  lg:px-[56px] border-r   ${
+                  className={`inline-block border-[#AB9A9F] sm:text-[12px]  lg:text-[100%] my-[13px] py-1 xl:px-[76px] sm:px-[36px] md:px-[43px]  lg:px-[55px] border-r   ${
                     activeTab === "CBSE-Class-7"
                       ? "text-[#BE4E1E] underline "
                       : ""
@@ -960,7 +960,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block border-[#AB9A9F] sm:text-[12px]  lg:text-[100%] my-[13px] py-1 xl:px-[76px] sm:px-[37px] md:px-[44px]  lg:px-[55px] border-r   ${
+                  className={`inline-block border-[#AB9A9F] sm:text-[12px]  lg:text-[100%] my-[13px] py-1 xl:px-[76px] sm:px-[36px] md:px-[43px]  lg:px-[55px] border-r   ${
                     activeTab === "CBSE-Class-8"
                       ? "text-[#BE4E1E] underline  "
                       : ""
@@ -975,7 +975,7 @@ function TimeTable() {
               </li>
               <li className="me-2" role="presentation">
                 <button
-                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[76px] sm:px-[37px] md:px-[44px]  lg:px-[56px] border-r  ${
+                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[75px] sm:px-[37px] md:px-[44px]  lg:px-[55px] border-r  ${
                     activeTab === "CBSE-Class-9"
                       ? "text-[#BE4E1E] underline  "
                       : ""
@@ -990,7 +990,7 @@ function TimeTable() {
               </li>
               <li role="presentation">
                 <button
-                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[75px] sm:px-[37px] md:px-[44px]  lg:px-[56px]   ${
+                  className={`inline-block  border-[#AB9A9F] my-[13px] sm:text-[12px]  lg:text-[100%] py-1 xl:px-[75px] sm:px-[37px] md:px-[43px]  lg:px-[55px]   ${
                     activeTab === "CBSE-Class-10"
                       ? "text-[#BE4E1E] underline  "
                       : ""
