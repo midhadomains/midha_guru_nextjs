@@ -1,68 +1,30 @@
-"use client"
-import Image from 'next/image';
-import TableOfContents from '@/components/tableofcontents'; // Import your TableOfContents component
-import React from 'react';
+import React from "react";
+import Navbar from "../../components/Navbar.jsx";
+import Footer from "../../components/Footer.jsx";
+import BlogsCards from "../../components/BlogsCards.jsx";
 
-export default function Page() {
-  // Dummy content (replace with your actual blog content)
-  const content = (
-    <div>
-      <h1>Introduction</h1>
-      <p>This is an introduction to inventory management.</p>
-      <h2>Types of Inventory</h2>
-      <p>Here are some types of inventory...</p>
-      <h2>Inventory Management Techniques</h2>
-      <p>Discussing various inventory management techniques...</p>
-    </div>
-  );
-
-  // Function to extract headings from JSX content
-  const extractHeadings = (jsxContent) => {
-    const headings = [];
-    React.Children.forEach(jsxContent.props.children, (child) => {
-      if (child.type && child.type.match(/^h[1-6]$/)) {
-        headings.push({
-          text: child.props.children,
-          id: child.props.id,
-          level: parseInt(child.type.charAt(1)),
-        });
-      }
-    });
-    return headings;
-  };
-
-  // Extract headings
-  const headings = extractHeadings(content);
-
+function page() {
   return (
-    <div className="mx-auto mt-10">
-      <div className="max-w-[850px] mx-auto mt-10">
-        <h1 className="font-bold text-[40px]">
-          Here are some myths in biology and debunking it
-        </h1>
-
-        <div className="flex mt-4">
-          <p className="text-[16px]">Prashanti Bharagava</p>
-          <span className="inline-block ml-2 mr-2">&#8226;</span>
-          <p className="text-[16px]">April 22, 2024</p>
+    <>
+      <Navbar />
+      <div>
+        <div className="bg-[#C1A06029] h-[300px] ">
+          <h1 className="text-[#6A1C1A] xl:text-[50px] md:text-[35px] text-[25px] pt-[20px] lg:pt-[30px] xl:pt-[20px] font-bold text-center">
+            Midha Guru <span className="text-[#BE4E1E]  ">Blogs </span>
+          </h1>
+          <div className="text-[#2E3442] lg:text-[20px] sm:text-[16px] text-[14px] text-center mt-[23px] sm:w-[500px] w-[310px] md:w-[700px] lg:w-[900px] mx-auto">
+            Join us as we explore the diverse realms of education, from
+            insightful articles to practical tips, guiding you on your journey
+            towards academic excellence and personal growth.
+          </div>
         </div>
-
-        {/* Render the Table of Contents */}
-        <div className="lg:hidden">
-          <TableOfContents headings={headings} />
-        </div>
-
-        {/* Your blog content */}
-        <div className="flex flex-col space-y-8 mt-8">
-          {/* Render your blog content here */}
-          {content}
+        <div className="-mt-[130px] sm:-mt-[140px] lg:-mt-[88px]">
+          <BlogsCards />
         </div>
       </div>
-
-      {/* Render Table of Contents for larger screens */}
-      <div className="hidden lg:block sticky top-20 max-h-[calc(100vh-5rem)] overflow-y-auto">
-        <TableOfContents headings={headings} />
-      </div>
-    </div>
+      <Footer />
+    </>
   );
 }
+
+export default page;
