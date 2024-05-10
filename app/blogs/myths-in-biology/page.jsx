@@ -39,7 +39,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section1'>
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8">
           Myth 1 - Humans only use 10% of their brain.
         </h2>
         <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2">
@@ -62,7 +62,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8 " id='section2' >
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8 " >
           Myth 2 - A person&apos;s blood is blue inside their body until it is
           exposed to oxygen.
         </h2>
@@ -83,7 +83,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section3'>
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" >
           Myth 3 - The belief that humans evolved from chimpanzees.
         </h2>
         <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2">
@@ -104,7 +104,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section4'>
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8">
           Myth 4 - The belief that hair & fingernails continue to grow after
           death
         </h2>
@@ -126,7 +126,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section5'>
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" >
           Myth 5 - The idea that people can sweat out toxins from their bodies
           during exercise.
         </h2>
