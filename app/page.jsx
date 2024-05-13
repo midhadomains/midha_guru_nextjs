@@ -9,7 +9,7 @@ import About from "../components/About.jsx";
 import Hero from "../components/hero.jsx";
 import ContinuousSlidingText from "../components/ContinuousSlidingText.jsx";
 import Carousel from "../components/home/carousel.jsx";
-import Navbar from "@/components/Navbar.jsx";
+import Navbar3 from "@/components/Navbar3.jsx";
 import Footer from "@/components/Footer.jsx";
 
 
@@ -23,7 +23,7 @@ function page() {
   return (
 
     <>
-      <Navbar />
+      <Navbar3 />
       <div>
         <ContinuousSlidingText />
         <Hero />
