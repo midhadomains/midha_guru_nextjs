@@ -11,13 +11,13 @@ export default function page() {
     
     <div className=" mx-auto  ">  
     <Navbar3/>        
-      {/* <ul className="fixed top-[150px] left-2 ml-8">
+       <ul className="fixed top-[150px] left-2 ml-8">
         <li><Link href='#section1'>Myth 1.</Link></li>
         <li><Link href='#section2'>Myth 2.</Link></li>
         <li><Link href='#section3'>Myth 3.</Link></li>
         <li><Link href='#section4'>Myth 4.</Link></li>
         <li><Link href='#section5'>Myth 5.</Link></li>
-      </ul>   */}
+      </ul>  
       <div className="max-w-[850px] mx-auto  sm:px-[50px] px-[25px] scroll-smooth ">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] " >
           Here are some myths in biology and debunking it

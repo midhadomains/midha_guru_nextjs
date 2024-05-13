@@ -38,7 +38,7 @@ const Navbar = () => {
     <>
       <nav
         ref={navbarRef}
-        className={`mx-auto sticky top-0 z-10 bg-[#FFFDF6] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition-all duration-300 ease-in-out ${visible ? 'transform translate-y-0' : '-translate-y-full'}`}
+        className={`mx-auto block sticky top-0 z-10 bg-[#FFFDF6] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition-all duration-300 ease-in-out ${visible ? 'transform translate-y-0' : '-translate-y-full'}`}
       >
         <div className="bg-[#6A1C1A] md:flex justify-center  hidden">
           <Link

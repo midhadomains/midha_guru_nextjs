@@ -172,7 +172,7 @@ export default function page() {
           understanding needed to thrive in an interconnected world.
         </p>
 
-        <p className="text-[14px] lg:text-[16px] mt-2 mb-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 mb-14">
           Whether it&apos;s a semester, a year, or a short-term program, studying
           abroad offers a life-changing adventure that leaves a lasting impact
           on students&apos; personal and professional lives. As we continue to
