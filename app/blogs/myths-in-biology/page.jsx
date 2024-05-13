@@ -11,13 +11,13 @@ export default function page() {
     
     <div className=" mx-auto  ">  
     <Navbar3/>        
-       <ul className="fixed top-[150px] left-2 ml-8">
+       {/* <ul className="fixed top-[150px] left-2 ml-8">
         <li><Link href='#section1'>Myth 1.</Link></li>
         <li><Link href='#section2'>Myth 2.</Link></li>
         <li><Link href='#section3'>Myth 3.</Link></li>
         <li><Link href='#section4'>Myth 4.</Link></li>
         <li><Link href='#section5'>Myth 5.</Link></li>
-      </ul>  
+      </ul>   */}
       <div className="max-w-[850px] mx-auto  sm:px-[50px] px-[25px] scroll-smooth ">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] " >
           Here are some myths in biology and debunking it
@@ -129,7 +129,7 @@ export default function page() {
           Myth 5 - The idea that people can sweat out toxins from their bodies
           during exercise.
         </h2>
-        <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2 mb-2">
+        <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2 mb-14">
           <span className="font-bold">Debunking -</span> Sweating is primarily a
           mechanism for regulating body temperature by dissipating heat through
           evaporation. While sweating can eliminate small amounts of metabolic
