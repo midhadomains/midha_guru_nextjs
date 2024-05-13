@@ -1,11 +1,20 @@
 import Image from "next/image";
 import Navbar3 from "@/components/Navbar3";
 import Footer from "@/components/Footer";
+import TableOfContents from "@/components/TableOfContents";
 
 export default function page() {
+  const toc = [
+    {id : "section1" , title : "Engaging students:" },
+    {id : "section2" , title : "Stimulating Imagination:" },
+    {id : "section3" , title : "Facilitating Understanding:" },
+    {id : "section4" , title : "Enhancing Memory:" },
+    {id : "section5" , title : "Promoting Active Learning:" }
+  ]
   return (
     <>
     <Navbar3/>
+    <TableOfContents toc={toc}/>   
     <div className=" mx-auto ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] underline text-center">
@@ -32,7 +41,7 @@ export default function page() {
           Let&apos;s explore why visualization is considered one of the best
           ways of teaching and how it can transform the learning process. -
         </p>
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-1">Engaging students:</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-1" id='section1'>Engaging students:</h2>
 
         <Image
           src="/students.jpg"
@@ -53,7 +62,7 @@ export default function page() {
           catering to the diverse needs of students.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">Stimulating Imagination:</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4"id='section2'>Stimulating Imagination:</h2>
         <Image
           src="/imagination.jpg"
           alt="img"
@@ -75,7 +84,7 @@ export default function page() {
           from multiple perspectives.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">Facilitating Understanding:</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section3'>Facilitating Understanding:</h2>
         <Image
           src="/understanding.jpg"
           alt="img"
@@ -97,7 +106,7 @@ export default function page() {
           accessible to students.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">Enhancing Memory:</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section4'>Enhancing Memory:</h2>
         <Image
           src="/memory.jpg"
           alt="img"
@@ -119,7 +128,7 @@ export default function page() {
           memorable and enjoyable experience.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">Promoting Active Learning:</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4"id='section5'>Promoting Active Learning:</h2>
         <Image
           src="/learnings.jpg"
           alt="img"

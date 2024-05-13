@@ -1,11 +1,21 @@
 import Footer from "@/components/Footer";
 import Navbar3 from "@/components/Navbar3";
+import TableOfContents from "@/components/TableOfContents";
 import Image from "next/image";
 
 export default function page() {
+
+  const toc = [
+    {id : "section1" , title : "Broadening Horizons" },
+    {id : "section2" , title : "Academic Enrichment" },
+    {id : "section3" , title : "Language Proficiency" },
+    {id : "section4" , title : "Building Networks and Global Competence" },
+    {id : "section5" , title : "Conclusion" }
+  ]
   return (
     <>
     <Navbar3/>
+    <TableOfContents toc={toc}/>
     <div className=" mx-auto  ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[36px] ">
@@ -42,7 +52,7 @@ export default function page() {
           quality={100}
         />
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">Broadening Horizons</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section1'>Broadening Horizons</h2>
 
         <p className="text-[14px] lg:text-[16px] mt-2">
           Studying abroad offers students a unique opportunity to step outside
@@ -72,7 +82,7 @@ export default function page() {
           quality={100}
         />
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">Academic Enrichment</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section2'>Academic Enrichment</h2>
 
         <p className="text-[14px] lg:text-[16px] mt-2">
           Beyond cultural immersion, studying abroad offers access to
@@ -100,7 +110,7 @@ export default function page() {
           quality={100}
         />
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">Language Proficiency</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section3'>Language Proficiency</h2>
 
         <p className="text-[14px] lg:text-[16px] mt-2">
           Language proficiency is a crucial skill in today&apos;s globalized
@@ -129,7 +139,7 @@ export default function page() {
           quality={100}
         />
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section4'>
           Building Networks and Global Competence
         </h2>
 
@@ -161,7 +171,7 @@ export default function page() {
           quality={100}
         />
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">Conclusion</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section5'>Conclusion</h2>
 
         <p className="text-[14px] lg:text-[16px] mt-2">
           In conclusion, study abroad and cultural exchange are transformative

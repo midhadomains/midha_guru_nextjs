@@ -1,23 +1,28 @@
 import Footer from "@/components/Footer";
 import Navbar3 from "@/components/Navbar3";
+import TableOfContents from "@/components/TableOfContents";
 import Image from "next/image";
 import Link from "next/link";
 
 
 export default function page() {
+
+  const toc = [
+    {id : "section1" , title : "Myth 1 - Humans only use 10% of their brain." },
+    {id : "section2" , title : "Myth 2 - A person's blood is blue inside their body until it is exposed to oxygen." },
+    {id : "section3" , title : "Myth 3 - The belief that humans evolved from chimpanzees." },
+    {id : "section4" , title : "Myth 4 - The belief that hair & fingernails continue to grow after death" },
+    {id : "section5" , title : "Myth 5 - The idea that people can sweat out toxins from their bodies during exercise." }
+  ]
+
   return (
     <>
     <div >
     
     <div className=" mx-auto  ">  
-    <Navbar3/>        
-       {/* <ul className="fixed top-[150px] left-2 ml-8">
-        <li><Link href='#section1'>Myth 1.</Link></li>
-        <li><Link href='#section2'>Myth 2.</Link></li>
-        <li><Link href='#section3'>Myth 3.</Link></li>
-        <li><Link href='#section4'>Myth 4.</Link></li>
-        <li><Link href='#section5'>Myth 5.</Link></li>
-      </ul>   */}
+    <Navbar3/>   
+    <TableOfContents toc={toc}/>     
+       
       <div className="max-w-[850px] mx-auto  sm:px-[50px] px-[25px] scroll-smooth ">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] " >
           Here are some myths in biology and debunking it
