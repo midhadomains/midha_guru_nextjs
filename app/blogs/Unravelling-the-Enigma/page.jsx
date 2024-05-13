@@ -173,7 +173,7 @@ export default function page() {
           quality={100}
         />
 
-        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3 mb-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3 mb-14">
           Mind psychology is a captivating journey into the depths of human
           consciousness, offering profound insights into the mysteries of the
           mind. By unraveling the intricacies of perception, belief, emotion,

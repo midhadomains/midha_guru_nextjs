@@ -141,7 +141,7 @@ export default function page() {
           to take ownership of their learning journey.
         </p>
 
-        <p className="text-[14px] lg:text-[16px] mt-2 mb-2">
+        <p className="text-[14px] lg:text-[16px] mt-2 mb-14">
           <span className="font-bold text-[16px] sm:text-[24px]">Conclusion -</span> As technology continues to advance, the potential for
           innovative visualization tools and techniques to revolutionize
           education is boundless. By embracing visualization as a cornerstone of
