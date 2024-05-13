@@ -110,7 +110,7 @@ export default function Scrollefec() {
                 </span>
                 <br />
                 <span
-                  className="w-full text-[14px] sm:text-[18px]"
+                  className="w-[110%] text-[14px] sm:text-[18px]"
                   style={{ display: "inline-block" }}
                 >
                   Join us for an engaging session designed to inspire and
