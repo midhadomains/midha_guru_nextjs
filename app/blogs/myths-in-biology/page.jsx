@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import Navbar3 from "@/components/Navbar3";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,19 +7,18 @@ import Link from "next/link";
 export default function page() {
   return (
     <>
-    
     <div >
-    <div className=" mx-auto  ">
-      {/* <ul className="sticky top-[120px]  left-2 ml-8">
+    
+    <div className=" mx-auto  ">  
+    <Navbar3/>        
+      {/* <ul className="fixed top-[150px] left-2 ml-8">
         <li><Link href='#section1'>Myth 1.</Link></li>
         <li><Link href='#section2'>Myth 2.</Link></li>
         <li><Link href='#section3'>Myth 3.</Link></li>
         <li><Link href='#section4'>Myth 4.</Link></li>
         <li><Link href='#section5'>Myth 5.</Link></li>
-      </ul> */}
-      <Navbar/>
-
-      <div className="max-w-[850px] mx-auto   sm:px-[50px] px-[25px] scroll-smooth ">
+      </ul>   */}
+      <div className="max-w-[850px] mx-auto  sm:px-[50px] px-[25px] scroll-smooth ">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] " >
           Here are some myths in biology and debunking it
         </h1>
@@ -39,7 +38,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8">
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section1'>
           Myth 1 - Humans only use 10% of their brain.
         </h2>
         <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2">
@@ -62,7 +61,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8 " >
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8 " id='section2'>
           Myth 2 - A person&apos;s blood is blue inside their body until it is
           exposed to oxygen.
         </h2>
@@ -83,7 +82,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" >
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section3'>
           Myth 3 - The belief that humans evolved from chimpanzees.
         </h2>
         <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2">
@@ -104,7 +103,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8">
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section4'>
           Myth 4 - The belief that hair & fingernails continue to grow after
           death
         </h2>
@@ -126,7 +125,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" >
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section5'>
           Myth 5 - The idea that people can sweat out toxins from their bodies
           during exercise.
         </h2>

@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
+import Navbar3 from "@/components/Navbar3";
 import Footer from "@/components/Footer";
 
 export default function page() {
   return (
     <>
-    <Navbar/>
+    <Navbar3/>
     <div className=" mx-auto  mt-10 ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] ">
@@ -14,7 +14,7 @@ export default function page() {
 
         <div className="flex mt-4">
           <p className="text-[12px] md:text-[16px] my-auto">
-            Prashanti Bharagava
+            Prashanti Bharagava 
           </p>
           <span class="inline-block ml-2 mr-2">&#8226;</span>
           <p className="text-[12px] md:text-[16px] my-auto">April 30, 2024</p>

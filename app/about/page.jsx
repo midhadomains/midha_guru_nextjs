@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Navbar from '@/components/Navbar'
+import Navbar3 from '@/components/Navbar3'
 import Footer from '@/components/Footer'
 import Slider from '@/components/Slider';
 
@@ -25,7 +25,7 @@ export default function page() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar3 />
       <div className='bg-gradient-to-r from-[#F1C995] to-[#FAF8F0]'>
         <div className='max-w-[1400px] px-[10px] sm:px-[5%] xl:px-0 mx-auto py-9 sm:flex justify-around'>
           <div className='sm:w-[50%]'>
