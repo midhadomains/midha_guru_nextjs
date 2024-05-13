@@ -42,7 +42,7 @@ const data = [
 
 function BlogsCards() {
   return (
-    <div className="mx-auto max-w-[1150px]   md:px-[25px] px-[10px] overflow-hidden mt-6 mb-[80px]">
+    <div className="mx-auto xl:max-w-[1150px] lg:max-w-[1000px] md:max-w-[710px]   md:px-[25px] px-[10px] overflow-hidden mt-6 ">
       <div className="flex flex-wrap justify-start -mx-4">
         {data.map((data, index) => (
           <div key={index} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 px-4 mb-8">
