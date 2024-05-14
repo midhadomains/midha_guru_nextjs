@@ -55,10 +55,16 @@ function Footer() {
                     About us
                   </Link>
                   <Link
-                    href="https://edu.midha.guru/s/store?redirectToMicroFE=true"
+                    href="https://edu.midha.guru/s/store"
                     className="transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
                   >
                     Courses
+                  </Link>
+                  <Link
+                    href="/blogs"
+                    className="transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
+                  >
+                    Blogs
                   </Link>
                   <Link
                     href="https://www.midha.in/"

@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../../components/Navbar.jsx";
+import Navbar3 from "../../components/Navbar3.jsx";
 import Footer from "../../components/Footer.jsx";
 import BlogsCards from "../../components/BlogsCards.jsx";
 
 function page() {
   return (
     <>
-      <Navbar />
+      <Navbar3 />
       <div>
         <div className="bg-[#C1A06029] h-[300px] ">
           <h1 className="text-[#6A1C1A] xl:text-[50px] md:text-[35px] text-[25px] pt-[20px] lg:pt-[30px] xl:pt-[20px] font-bold text-center">
@@ -28,3 +28,4 @@ function page() {
 }
 
 export default page;
+

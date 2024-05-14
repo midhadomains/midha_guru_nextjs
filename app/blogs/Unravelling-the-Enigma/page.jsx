@@ -1,8 +1,22 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Navbar3 from "@/components/Navbar3.jsx";
+import TableOfContents from "@/components/TableOfContents";
 import Image from "next/image";
 
 export default function page() {
+  const toc = [
+    {id : "section1" , title : "The Essence of Mind Psychology:" },
+    {id : "section2" , title : "Perception and Reality:" },
+    {id : "section3" , title : "The Power of Belief:" },
+    {id : "section4" , title : "Emotions Unveiled:" },
+    {id : "section5" , title : " Conclusion" }
+  ]
   return (
-    <div className=" mx-auto  mt-10 ">
+    <>    
+    <Navbar3/>
+    <TableOfContents toc={toc}/>   
+    <div className=" mx-auto   ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[36px] ">
           Unraveling the Enigma: Exploring the Intricacies of Mind Psychology
@@ -34,7 +48,7 @@ export default function page() {
           the secrets that shape our consciousness.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section1'>
           The Essence of Mind Psychology:
         </h2>
 
@@ -60,7 +74,7 @@ export default function page() {
           understanding the intricacies of human experience.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section2'>
           Perception and Reality:
         </h2>
 
@@ -86,7 +100,7 @@ export default function page() {
           of reality.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4"id='section3'>
           The Power of Belief:
         </h2>
 
@@ -111,7 +125,7 @@ export default function page() {
           often with devastating consequences.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section4'>
           Emotions Unveiled:
         </h2>
 
@@ -154,7 +168,7 @@ export default function page() {
           in driving behavior, even in cases as extreme as that of Ted Bundy.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4"id='section5'>
           Conclusion
         </h2>
 
@@ -168,7 +182,7 @@ export default function page() {
           quality={100}
         />
 
-        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3">
+        <p className="text-[14px] lg:text-[16px] mt-2 sm:mt-3 mb-14">
           Mind psychology is a captivating journey into the depths of human
           consciousness, offering profound insights into the mysteries of the
           mind. By unraveling the intricacies of perception, belief, emotion,
@@ -180,5 +194,7 @@ export default function page() {
         </p>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }

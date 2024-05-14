@@ -1,6 +1,6 @@
 
 import Footer from '@/components/Footer.jsx';
-import Navbar from '@/components/Navbar.jsx';
+import Navbar3 from '@/components/Navbar3.jsx';
 import dynamic from 'next/dynamic'
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +15,7 @@ const TimeTable = dynamic(() => import ("../../components/TimeTable.jsx"), { ssr
 export default function page() {
   return ( 
     <>
-    <Navbar/>
+    <Navbar3/>
     <div className=" bg-[#FFFAEB] bg-auto">
       <div className="flex flex-wrap  justify-center lg:max-w-[1000px] md:max-w-[700px] sm:max-w-[650px] mx-auto  ">
         <div>

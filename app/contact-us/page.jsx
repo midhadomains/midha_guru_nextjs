@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Navbar from "../../components/Navbar.jsx";
+import Navbar3 from "../../components/Navbar3.jsx";
 import Footer from "../../components/Footer.jsx";
 
 
@@ -10,7 +10,7 @@ export default function page() {
   return (
 
     <>
-      <Navbar />
+      <Navbar3 />
       <div className="min-h-[1220px] sm:min-h-[100%]">
         <div className="bg-contactbgimage w-[100%]  bg-contain  bg-no-repeat bg-bottom flex flex-wrap md:flex-nowrap flex-col-reverse md:flex-row justify-center xl:bg-cover">
           <Image

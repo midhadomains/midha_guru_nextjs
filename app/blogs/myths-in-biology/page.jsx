@@ -1,11 +1,30 @@
+import Footer from "@/components/Footer";
+import Navbar3 from "@/components/Navbar3";
+import TableOfContents from "@/components/TableOfContents";
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function page() {
+
+  const toc = [
+    {id : "section1" , title : "Myth 1 - Humans only use 10% of their brain." },
+    {id : "section2" , title : "Myth 2 - A person's blood is blue inside their body until it is exposed to oxygen." },
+    {id : "section3" , title : "Myth 3 - The belief that humans evolved from chimpanzees." },
+    {id : "section4" , title : "Myth 4 - The belief that hair & fingernails continue to grow after death" },
+    {id : "section5" , title : "Myth 5 - The idea that people can sweat out toxins from their bodies during exercise." }
+  ]
+
   return (
-    <div className=" mx-auto  mt-10 ">
-      <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
-        <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] ">
+    <>
+    <div >
+    
+    <div className=" mx-auto  ">  
+    <Navbar3/>   
+    <TableOfContents toc={toc}/>     
+       
+      <div className="max-w-[850px] mx-auto  sm:px-[50px] px-[25px] scroll-smooth ">
+        <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] " >
           Here are some myths in biology and debunking it
         </h1>
 
@@ -24,7 +43,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8">
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section1'>
           Myth 1 - Humans only use 10% of their brain.
         </h2>
         <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2">
@@ -47,7 +66,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8">
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8 " id='section2'>
           Myth 2 - A person&apos;s blood is blue inside their body until it is
           exposed to oxygen.
         </h2>
@@ -68,7 +87,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8">
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section3'>
           Myth 3 - The belief that humans evolved from chimpanzees.
         </h2>
         <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2">
@@ -89,7 +108,7 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8">
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section4'>
           Myth 4 - The belief that hair & fingernails continue to grow after
           death
         </h2>
@@ -111,11 +130,11 @@ export default function page() {
           priority={true}
           quality={100}
         />
-        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8">
+        <h2 className="font-bold text-[14px] lg:text-[24px] mt-4 sm:mt-8" id='section5'>
           Myth 5 - The idea that people can sweat out toxins from their bodies
           during exercise.
         </h2>
-        <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2">
+        <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2 mb-14">
           <span className="font-bold">Debunking -</span> Sweating is primarily a
           mechanism for regulating body temperature by dissipating heat through
           evaporation. While sweating can eliminate small amounts of metabolic
@@ -127,7 +146,8 @@ export default function page() {
       </div>
       
     </div>
-    
-    
+    <Footer/>
+    </div>
+    </>
   );
 }

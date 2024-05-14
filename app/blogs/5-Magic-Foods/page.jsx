@@ -1,7 +1,20 @@
 import Image from "next/image";
+import Navbar3 from "@/components/Navbar3";
+import Footer from "@/components/Footer";
+import TableOfContents from "@/components/TableOfContents";
 
 export default function page() {
+  const toc = [
+    {id : "section1" , title : "1. Watermelon" },
+    {id : "section2" , title : "2. yogurt" },
+    {id : "section3" , title : "3. Cucumber" },
+    {id : "section4" , title : "4. Berries" },
+    {id : "section5" , title : "5. Coconut water" }
+  ]
   return (
+    <>
+    <Navbar3/>
+    <TableOfContents toc={toc}/>
     <div className=" mx-auto  mt-10 ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] ">
@@ -10,7 +23,7 @@ export default function page() {
 
         <div className="flex mt-4">
           <p className="text-[12px] md:text-[16px] my-auto">
-            Prashanti Bharagava
+            Prashanti Bharagava 
           </p>
           <span class="inline-block ml-2 mr-2">&#8226;</span>
           <p className="text-[12px] md:text-[16px] my-auto">April 30, 2024</p>
@@ -26,7 +39,7 @@ export default function page() {
           Here are <span className="font-bold">5 “Magic Foods”</span> which can
           help students stay cool and energized during the summer months.
         </p>
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-1">1. Watermelon</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-1" id='section1'>1. Watermelon</h2>
 
         <Image
           src="/watemelon.jpg"
@@ -46,7 +59,7 @@ export default function page() {
           popsicles, or watermelon salad.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">2. yogurt</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section2'>2. yogurt</h2>
         <Image
           src="/cup.jpg"
           alt="img"
@@ -65,7 +78,7 @@ export default function page() {
           smoothies with frozen berries for a refreshing treat.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">3. Cucumber</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section3'>3. Cucumber</h2>
         <Image
           src="/cucumber.jpg"
           alt="img"
@@ -84,7 +97,7 @@ export default function page() {
           yogurt cucumber salad.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">4. Berries</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section4'>4. Berries</h2>
         <Image
           src="/bluberries.jpg"
           alt="img"
@@ -103,7 +116,7 @@ export default function page() {
           oatmeal, or blended into smoothies.
         </p>
 
-        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4">5.Coconut water</h2>
+        <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section5'>5.Coconut water</h2>
         <Image
           src="/coconut.jpg"
           alt="img"
@@ -123,12 +136,14 @@ export default function page() {
         </p>
 
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-2">Bonus tips -</h2>
-        <ul className="list-disc mt-2 ml-8 text-[14px] lg:text-[16px]">
+        <ul className="list-disc mt-2 ml-8 text-[14px] lg:text-[16px] mb-14">
             <li><span className="bg-blue-200">stay Hydrated :</span>  You should drink plenty of water throughout the day, especially when engaging in outdoor activities.</li>
             <li><span className="bg-blue-200">Avoid Sugary Drinks:</span> Choose healthier beverages like water or natural fruit juices diluted with water.</li>
             <li><span className="bg-blue-200">Eat Light and Fresh:</span> Opt for light meals and snacks that are easy to digest and won&apos;t weigh you down in the heat.</li>
         </ul>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
