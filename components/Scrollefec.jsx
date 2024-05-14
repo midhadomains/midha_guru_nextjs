@@ -321,14 +321,14 @@ export default function Scrollefec() {
             <div>
               {/* Render announcements here */}
 
-              <Image src="Announce.svg" alt="image" width={807} height={553} className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[800px]"  priority={true} />
+              <Image src="https://files.midhafin.com/wp-content/uploads/Offers.png" alt="image" width={807} height={553} className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[800px]"  priority={true} />
             </div>
           )}
           {selectedButton === 3 && (
             <div>
               {/* Render offers here */}
               <Image
-                src="Achievements.svg"
+                src="https://files.midhafin.com/wp-content/uploads/Achievement.png"
                 alt="image"
                 width={807}
                 height={553}
