@@ -3,6 +3,7 @@ import Navbar3 from "@/components/Navbar3";
 import TableOfContents from "@/components/TableOfContents";
 import Image from "next/image";
 import Link from "next/link";
+import Freecall from "@/components/Freecall.jsx";
 
 
 export default function page() {
@@ -20,13 +21,16 @@ export default function page() {
     <div >
     
     <div className=" mx-auto  ">  
-    <Navbar3/>   
-    <TableOfContents toc={toc}/>     
-       
+    <Navbar3/>  
+    
+    <TableOfContents toc={toc}/>  
+    <Freecall/>  
+    
       <div className="max-w-[850px] mx-auto  sm:px-[50px] px-[25px] scroll-smooth ">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] " >
           Here are some myths in biology and debunking it
         </h1>
+        
 
         <div className="flex mt-4">
           <p className="text-[12px] md:text-[16px] my-auto">Prashanti Bharagava</p>
