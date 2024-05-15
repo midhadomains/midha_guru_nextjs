@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar3 from "@/components/Navbar3";
 import Footer from "@/components/Footer";
 import TableOfContents from "@/components/TableOfContents";
+import Freecall from "@/components/Freecall";
 
 export default function page() {
   const toc = [
@@ -14,7 +15,8 @@ export default function page() {
   return (
     <>
     <Navbar3/>
-    <TableOfContents toc={toc}/>   
+    <TableOfContents toc={toc}/> 
+    <Freecall/>  
     <div className=" mx-auto ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[40px] underline text-center">

@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import Freecall from "@/components/Freecall";
 import Navbar3 from "@/components/Navbar3";
 import TableOfContents from "@/components/TableOfContents";
 import Image from "next/image";
@@ -16,6 +17,7 @@ export default function page() {
     <>
     <Navbar3/>
     <TableOfContents toc={toc}/>
+    <Freecall/>
     <div className=" mx-auto  ">
       <div className="max-w-[850px] mx-auto  mt-10 sm:px-[50px] px-[25px]">
         <h1 className="font-bold text-[16px] sm:text-[26px] lg:text-[36px] ">

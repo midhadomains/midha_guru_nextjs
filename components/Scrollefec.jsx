@@ -10,14 +10,14 @@ export default function Scrollefec() {
   const handleButtonClick = (buttonIndex) => {
     setSelectedButton((prevSelected) =>
       prevSelected === buttonIndex ? null : buttonIndex
-    ); //change null to 1 if you dont want space to be empty
+    ); //change null to 1 if you don't want space to be empty
     setSelectedCategory(null); // Reset selected category when Popular Courses is clicked
     setSelectedSubButton(null); // Reset selected subcategory when Popular Courses is clicked
   };
 
   return (
     <div>
-      <div className="flex flex-wrap md:flex-nowrap justify-center max-w-[1350px] mx-auto md:px-[25px] mt-6 md:mt-20 mb-8 sm:mb-0">
+      <div className="flex flex-wrap md:flex-nowrap justify-center max-w-[1400px] mx-auto  px-[25px] md:px-[50px] mt-6 md:mt-20 mb-8 sm:mb-0">
         <ul className="flex flex-row md:flex-col sm:mr-10 md:border-r-2 border-b-2 md:border-b-0 overflow-x-scroll no-scrollbar sm:overflow-hidden w-full sm:w-cover md:w-auto sm:justify-center md:justify-normal px-[20px] sm:px-0 md:flex-shrink-0">
           {/* Other list items */}
           <li
