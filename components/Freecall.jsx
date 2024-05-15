@@ -40,8 +40,8 @@ import  { useState} from "react";
     </div>
     )}
      {!isVisible && (
-        <button onClick={toggleVisibility} className="fixed right-0 z-10 bg-[#F6F2E9] text-black text-[25px] p-2 rounded-xl shadow-xl">
-         <BiSolidPhoneCall className="my-auto mr-2" />
+        <button onClick={toggleVisibility} className="fixed right-0 z-10 bg-[#F6F2E9] text-black text-[25px] p-2 rounded-xl shadow-xl hidden lg:block">
+         <BiSolidPhoneCall className="my-auto mr-2 hidden lg:block" />
         </button>
       )}
     </>
