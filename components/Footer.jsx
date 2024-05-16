@@ -64,7 +64,7 @@ function Footer() {
                     href="/blogs"
                     className="transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
                   >
-                    Blogs
+                    Blog
                   </Link>
                   <Link
                     href="https://www.midha.in/"

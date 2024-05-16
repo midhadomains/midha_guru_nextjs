@@ -40,7 +40,7 @@ const Navbar = () => {
         ref={navbarRef}
         className={`mx-auto block sticky top-0 z-10 bg-[#FFFDF6] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition-all duration-300 ease-in-out ${visible ? 'transform translate-y-0' : '-translate-y-full'}`}
       >
-        <div className="bg-[#6A1C1A] md:flex justify-center  hidden">
+        <div className="bg-[#6A1C1A] mg:flex justify-center  hidden">
           <Link
             href="tel:+91 95061 25061"
             className="flex py-[10px] text-[20px] lg:text-[25px] text-center text-white  font-[500] mx-auto"
@@ -68,32 +68,32 @@ const Navbar = () => {
             </Link>
             <div className="flex">
               <Link href="tel:+91 95061 25061" className="m-auto w-fit">
-                <MdCall className="block md:hidden m-auto text-[#6A1C1A] text-[25px] " />
+                <MdCall className="block mg:hidden m-auto text-[#6A1C1A] text-[25px] " />
               </Link>
               <Link
                 href="https://edu.midha.guru/s/authenticate"
-                className="block md:hidden bg-[#6A1C1A] py-1 px-5 rounded-3xl text-[#F9ECC7] mx-4 max-w-[100px] w-fit"
+                className="block mg:hidden bg-[#6A1C1A] py-1 px-5 rounded-3xl text-[#F9ECC7] mx-4 max-w-[100px] w-fit"
               >
                 Login
               </Link>
               {toggle ? (
                 <IoClose
                   onClick={() => setToggle(!toggle)}
-                  className="text-3xl md:hidden block mr-2 text-[#9A391D]"
+                  className="text-3xl mg:hidden block mr-2 text-[#9A391D]"
                 />
               ) : (
                 <CgMenuLeftAlt
                   onClick={() => setToggle(!toggle)}
-                  className="text-3xl md:hidden block mr-2 text-[#9A391D]"
+                  className="text-3xl mg:hidden block mr-2 text-[#9A391D]"
                 />
               )}
             </div>
 
-            <ul className="hidden md:flex  justify-around flex-nowrap  max-w-[1000px] w-[100%]">
+            <ul className="hidden mg:flex  justify-around flex-nowrap  max-w-[1000px] w-[100%]">
               <NavItem to="/" name="Home" />
               <li>
                 <div className="relative inline-block group py-[0.6rem] text-center">
-                  <button className="text-[1.1rem] font-[500] h-[100%] cursor-pointe  px-1 hover:text-[#BE4E1E] my-auto  transition duration-300 ">
+                  <button className="text-[1rem] font-[500] h-[100%] cursor-pointe  px-1 hover:text-[#BE4E1E] my-auto  transition duration-300 ">
                     <span className="flex">
                       Courses <IoIosArrowDown className="mt-[5px] ml-1" />{" "}
                     </span>
@@ -115,7 +115,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-
+              <NavItem to="/student-time-table" name="Time Table" />
               <NavItem to="/about" name="About" />
               <NavItem to="/contact-us" name="Contact Us" />
               <NavItem to="/founder-profile" name="Founder's Profile" />
@@ -130,10 +130,11 @@ const Navbar = () => {
             </ul>
             {/* Responsive */}
             <ul
-              className={`md:hidden w-[220px] sm:w-[300px] md:w-[40%] h-auto fixed bg-white top-[60px] right-[0]  shadow-2xl
+              className={`mg:hidden w-[220px] sm:w-[300px] md:w-[40%] h-auto fixed bg-white top-[60px] right-[0]  shadow-2xl
                      ${toggle ? "visible" : "hidden"}`}
             >
               <SmNavItem to="/" name="Home" />
+             
               <hr />
               <SmNavItem to="/about" name="About" />
               <hr />
@@ -146,6 +147,8 @@ const Navbar = () => {
               />
               <hr className="w-[70%] ml-5" />
               <SmNavItem to="classroom-coaching" name="Classroom Coaching" />
+              <hr />
+              <SmNavItem to="/student-time-table" name="Time Table" />
               <hr />
               <SmNavItem to="/contact-us" name="Contact Us" />
               <hr />
@@ -164,7 +167,7 @@ const NavItem = ({ to, name }) => {
     <li className="relative group  p-4 md:p-0 my-auto">
       <Link
         href={to}
-        className="text-[1.1rem] font-[500] cursor-pointer pb-2 px-1 hover:text-[#BE4E1E]  transition duration-300 "
+        className="text-[1rem] font-[500] cursor-pointer pb-2 px-1 hover:text-[#BE4E1E]  transition duration-300 "
       >
         {name}
       </Link>
