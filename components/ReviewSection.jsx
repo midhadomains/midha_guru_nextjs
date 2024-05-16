@@ -22,7 +22,7 @@ function ReviewSection() {
     }, []);
     const data = [
         {
-            titles: 'myths in biology & debunking it',
+            titles: 'Myths in biology & debunking it',
             author: "Prashanti Bharagava",
             dates: 'April 22, 2024',
             images: '/Myths.png',
