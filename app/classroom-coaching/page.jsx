@@ -8,6 +8,7 @@ import Scrollefec from '@/components/Scrollefec.jsx';
 import Structureofstudies from '@/components/Structureofstudies.jsx';
 import Approachtolearning from '@/components/Approachtolearning.jsx';
 import ReviewSection from '@/components/ReviewSection.jsx';
+import Achievements from '@/components/Achievements.jsx';
 
 
 const TimeTable = dynamic(() => import ("../../components/TimeTable.jsx"), { ssr: false })
@@ -46,7 +47,7 @@ export default function page() {
            Smart Classroom
           </h1>
           <h3 className="text-[#BE4E1E] max-w-[280px] xl:max-w-[380px] lg:max-w-[390px] 2xl:max-w-[560px] text-center text-[14px]  md:text-[18px] sm:max-w-[330px] lg:my-[20px] 2xl:text-[24px] sm:my-[15px]  mx-auto">
-            Unlocking brilliance One lesson at a time in Midha Guru&apos;s Classroom.
+            Unlocking brilliance - One lesson at a time in Midha Guru&apos;s Classroom.
           </h3>
           <div className=" lg:ml-[200px] xl:ml-[209px] 2xl:ml-[200px] mx-auto md:ml-[75px] ml-[66px] sm:ml-[75px] mt-[10px]">
             <Link
@@ -86,7 +87,7 @@ export default function page() {
     </div>
    
     <Scrollefec/>
-    <TimeTable/>
+    <Achievements/>
     <Structureofstudies/>
     <Approachtolearning/>
     <ReviewSection/>

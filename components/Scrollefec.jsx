@@ -18,7 +18,7 @@ export default function Scrollefec() {
   return (
     <div>
       <div className="flex flex-wrap md:flex-nowrap justify-center max-w-[1400px] mx-auto  px-[25px] md:px-[50px] mt-6 md:mt-20 mb-8 sm:mb-0">
-        <ul className="flex flex-row md:flex-col sm:mr-10 md:border-r-2 border-b-2 md:border-b-0 overflow-x-scroll no-scrollbar sm:overflow-hidden w-full sm:w-cover md:w-auto sm:justify-center md:justify-normal px-[20px] sm:px-0 md:flex-shrink-0">
+        <ul className="flex flex-row md:flex-col sm:mr-10 md:border-r-2 border-b-2 md:border-b-0  w-full sm:w-cover md:w-auto justify-center md:justify-normal px-[20px] sm:px-0 md:flex-shrink-0">
           {/* Other list items */}
           <li
             onClick={() => handleButtonClick(1)}
@@ -32,7 +32,7 @@ export default function Scrollefec() {
               }`}
             >
               <p
-                className={`text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2   justify-center font-semibold md:leading-[100px] flex cursor-pointer  ${
+                className={`text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2 md:mb-7   justify-center font-semibold md:leading-[100px] flex cursor-pointer  ${
                   selectedButton === 1 ? "text-[#BE4E1E]" : ""
                 }`}
               >
@@ -52,7 +52,7 @@ export default function Scrollefec() {
               }`}
             >
               <p
-                className={`text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2  justify-center font-semibold md:leading-[100px] flex cursor-pointer ${
+                className={`text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2 md:mb-8 justify-center font-semibold md:leading-[100px] flex cursor-pointer ${
                   selectedButton === 2 ? "text-[#BE4E1E]" : ""
                 }`}
               >
@@ -60,26 +60,7 @@ export default function Scrollefec() {
               </p>
             </div>
           </li>
-          <li
-            onClick={() => handleButtonClick(3)}
-            className={selectedButton === 4 ? "activee" : ""}
-          >
-            <div
-              className={`md:pr-8 mr-7 md:mr-0 ${
-                selectedButton === 3
-                  ? "border-b-4 md:border-b-0 md:border-r-4 border-[#BE4E1E]"
-                  : ""
-              }`}
-            >
-              <p
-                className={`text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2  justify-center font-semibold md:leading-[100px] flex cursor-pointer ${
-                  selectedButton === 3 ? "text-[#BE4E1E]" : ""
-                }`}
-              >
-                Achievements{" "}
-              </p>
-            </div>
-          </li>
+          
           <li
             onClick={() => handleButtonClick(4)}
             className={selectedButton === 5 ? "activee" : ""}
@@ -322,19 +303,6 @@ export default function Scrollefec() {
               {/* Render announcements here */}
 
               <Image src="https://files.midhafin.com/wp-content/uploads/Offers.png" alt="image" width={807} height={553} className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[800px]"  priority={true} />
-            </div>
-          )}
-          {selectedButton === 3 && (
-            <div>
-              {/* Render offers here */}
-              <Image
-                src="https://files.midhafin.com/wp-content/uploads/Achievement.png"
-                alt="image"
-                width={807}
-                height={553}
-                className="mt-4 md:mt-16 lg:mt-10 w-[100%] max-w-[800px]" 
-                priority={true}
-              />
             </div>
           )}
           {selectedButton === 4 && (
