@@ -11,8 +11,8 @@ export default function Scrollefec() {
     setSelectedButton((prevSelected) =>
       prevSelected === buttonIndex ? null : buttonIndex
     ); //change null to 1 if you don't want space to be empty
-    setSelectedCategory(null); // Reset selected category when Popular Courses is clicked
-    setSelectedSubButton(null); // Reset selected subcategory when Popular Courses is clicked
+    setSelectedCategory(null); 
+    setSelectedSubButton(null); 
   };
 
   return (
@@ -306,7 +306,7 @@ export default function Scrollefec() {
             </div>
           )}
           {selectedButton === 4 && (
-            <div className="bg-[#FCFBF7]  w-[320px] sm:w-[550px] lg:w-[55vw] xl:w-[47vw] border text-center  h-[395px] overflow-y-scroll mt-4  ">
+            <div className="bg-[#FCFBF7]  w-[320px] sm:w-[550px] lg:w-[55vw] xl:w-[50vw] 2xl:w-[42vw] border text-center  h-[395px] overflow-y-scroll mt-4  ">
               {/* Render achievements here */}
               <p className="font-bold text-[#BE4E1E] text-[16px] lg:text-[32px] mt-2 lg:mt-8 lg:ml-4">
                 Holidays 2024-2025
