@@ -4,25 +4,22 @@ import Image from "next/image";
 
 export default function Scrollefec() {
   const [selectedButton, setSelectedButton] = useState(1);
-  const [selectedCategory, setSelectedCategory] = useState(null);
-  const [selectedSubButton, setSelectedSubButton] = useState(null);
 
-  const handleButtonClick = (buttonIndex) => {
-    setSelectedButton((prevSelected) =>
-      prevSelected === buttonIndex ? null : buttonIndex
-    ); //change null to 1 if you don't want space to be empty
-    setSelectedCategory(null); 
-    setSelectedSubButton(null); 
+
+  const handleButtonClick = (buttonId) => {
+    if (selectedButton !== buttonId) {
+      setSelectedButton(buttonId);
+    }
   };
 
   return (
     <div>
-      <div className="flex flex-wrap md:flex-nowrap justify-center max-w-[1400px] mx-auto  px-[25px] md:px-[50px] mt-6 md:mt-20 mb-8 sm:mb-0">
+      <div className="flex flex-wrap md:flex-nowrap justify-center max-w-[1150px] mx-auto  px-[25px] md:px-[50px] mt-6 md:mt-20 mb-8 sm:mb-0">
         <ul className="flex flex-row md:flex-col sm:mr-10 md:border-r-2 border-b-2 md:border-b-0  w-full sm:w-cover md:w-auto justify-center md:justify-normal px-[20px] sm:px-0 md:flex-shrink-0">
           {/* Other list items */}
           <li
             onClick={() => handleButtonClick(1)}
-            className={selectedButton === 2 ? "activee" : ""}
+            className={selectedButton === 1 ? "activee" : ""}
           >
             <div
               className={`md:pr-8 mr-7 md:mr-0 ${
@@ -42,7 +39,7 @@ export default function Scrollefec() {
           </li>
           <li
             onClick={() => handleButtonClick(2)}
-            className={selectedButton === 3 ? "activee" : ""}
+            className={selectedButton === 2 ? "activee" : ""}
           >
             <div
               className={`md:pr-8 mr-7 md:mr-0 ${
@@ -62,19 +59,19 @@ export default function Scrollefec() {
           </li>
           
           <li
-            onClick={() => handleButtonClick(4)}
-            className={selectedButton === 5 ? "activee" : ""}
+            onClick={() => handleButtonClick(3)}
+            className={selectedButton === 3 ? "activee" : ""}
           >
             <div
               className={` md:pr-8 ${
-                selectedButton === 4
+                selectedButton === 3
                   ? "border-b-4 md:border-b-0 md:border-r-4 border-[#BE4E1E]"
                   : ""
               }`}
             >
               <p
                 className={` text-[12px] sm:text-[14px] md:text-[16px]  lg:text-[24px] mb-2  justify-center font-semibold md:leading-[100px] flex  cursor-pointer ${
-                  selectedButton === 4 ? "text-[#BE4E1E]" : ""
+                  selectedButton === 3 ? "text-[#BE4E1E]" : ""
                 }`}
               >
                 Holiday<span className="text-white">_</span>List{" "}
@@ -305,8 +302,8 @@ export default function Scrollefec() {
               <Image src="https://files.midhafin.com/wp-content/uploads/Offers.png" alt="image" width={807} height={553} className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[800px]"  priority={true} />
             </div>
           )}
-          {selectedButton === 4 && (
-            <div className="bg-[#FCFBF7]  w-[320px] sm:w-[550px] lg:w-[55vw] xl:w-[50vw] 2xl:w-[42vw] border text-center  h-[395px] overflow-y-scroll mt-4  ">
+          {selectedButton === 3 && (
+            <div className="bg-[#FCFBF7]  w-[320px] sm:w-[550px] lg:w-[55vw] xl:w-[51vw] 2xl:w-[41vw] border text-center  h-[395px] overflow-y-scroll mt-4  ">
               {/* Render achievements here */}
               <p className="font-bold text-[#BE4E1E] text-[16px] lg:text-[32px] mt-2 lg:mt-8 lg:ml-4">
                 Holidays 2024-2025
