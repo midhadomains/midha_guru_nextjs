@@ -55,7 +55,7 @@ export default function Structureofstudies() {
 
     return (
         <div>    
-            <div className="bg-[#BE4E1E] h-[913px] flex justify-center items-center relative">
+            <div className="bg-[#BE4E1E] h-[913px] flex justify-center items-center relative mt-14">
                 <h1 className="text-white absolute top-0 left-0 right-0 text-center text-[24px] lg:text-[50px] font-bold mt-10">Structure of Studies</h1>
                 <Image src={ImageComponent} alt="Image" width={imageWidth} height={imageHeight} className="" />
             </div>
