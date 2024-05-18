@@ -19,7 +19,7 @@ export default function Achievements() {
         <Image src='/Nandani.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" /> 
         <Image src='/Aarav.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
         <Image src='/Tanmay.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
-        <Image src='/Veedant.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
+        <Image src='/veedant.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
         <Image src='/Ujjwal.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" /> 
         <Image src='/Harsh.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
         <Image src='/Rishika.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
