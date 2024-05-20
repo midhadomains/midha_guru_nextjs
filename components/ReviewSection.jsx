@@ -91,9 +91,9 @@ function ReviewSection() {
         ]
     };
     return (
-        <div className="mx-auto max-w-[1350px] md:px-[25px] px-[10px] overflow-hidden mb-[80px]">
+        <div className="mx-auto max-w-[1400px] mg:px-[50px] px-[25px] overflow-hidden mb-[80px]">
             
-            <div className=' md:my-[3rem] mt-8 px-2 text-center'>
+            <div className=' md:mb-[3rem] mb-[1.5rem] px-2 text-center'>
                 <h2 className='lg:text-[3rem] md:text-[2.5rem]  sm:text-[2rem] text-[1.6rem] font-semibold inline-block'>Blogs</h2>
           </div>
             <div className="slider-container">
