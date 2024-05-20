@@ -3,33 +3,27 @@ import Link from "next/link";
 
 export default function Approachtolearning() {
   return (
-    <div className="flex flex-wrap sm:flex-nowrap xl:mx-40">
-      <div className="my-4 sm:my-20 sm:ml-10 md:ml-20 lg:ml-40 ">
+    <div>
+      <div className="max-w-[1400px] px-[25px] mg:px-[50px] mx-auto md:flex justify-center my-[30px] sm:my-[60px] lg:my-[132px]">
         <Image
           src="/Approach.png"
-          alt="Approach to Learning"
           width={500}
           height={300}
-          className="w-[100%] min-w-[310px] max-w-[500px] px-5 sm:px-0"
-
+          alt="img"
+          className="md:max-w-[500px] max-w-[450px] md:w-[40%] w-[100%] flex-shrink-0 min-w-[280px] my-auto mx-auto "
         />
-      </div>
-
-      {/* <div className="ml-6 sm:ml-20 sm:mt-16 md:mt-16 lg:mt-16 xl:mt-16 2xl:mt-28"> */}
-      <div className="flex ">
-      <div className="my-auto ml-6 sm:ml-12 lg:ml-20">
-        <h1 className="font-bold text-[24px] sm:text-[22px] lg:text-[28px] xl:text-[40px]">
-          Approach to <span className="text-[#BE4E1E]">learning</span>
-        </h1>
-        <p className="sm:w-[80%] lg:w-[70%] mt-6 sm:mt-3 md:mt-6 text-[14px] lg:text-[20px]">
-          <span className="font-bold text-[#BE4E1E]">Midha Guru</span> offers a
-          holistic educational experience that nurtures not only academic
-          success but also personal growth.
-        </p>
-        <button className="text-[#BE4E1E] font-bold text-[16px]  lg:text-[25px] mt-6 sm:mt-3 md:mt-6">
-          <Link href="https://www.midha.guru/about">Read More &#62;</Link>
-        </button>
-      </div>
+        <div className="max-w-[450px] mx-auto mg:mx-0 mg:ml-8 md:max-w-[748px]  my-auto  md:ml-[50px]">
+          <h1 className="text-[24px] sm:text-[35px] lg:text-[50px] lg:leading-[62px] font-bold mt-4 md:mt-0">
+            Approach to <span className="text-[#BE4E1E]">learning</span>
+          </h1>
+          <p className="text-[14px] lg:text-[20px] lg:leading-[30px] my-4 lg:my-6 font-semibold">
+           <span  className="font-bold text-[#BE4E1E]"> Midha Guru</span> offers a holistic educational experience that nurtures
+            not only academic success but also personal growth.
+          </p>
+          <button className="text-[20px] text-[#BE4E1E] lg:text-[30px] lg:leading-[30px] font-bold">
+            <Link href="https://www.midha.guru/about">Read More &#62;</Link>
+          </button>
+        </div>
       </div>
     </div>
   );
