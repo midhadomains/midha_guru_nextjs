@@ -83,9 +83,9 @@ export default function Scrollefec() {
         </ul>
         <div className="md:max-w-[600px] lg:max-w-[700px]">
           {selectedButton === 1 && (
-            <div className="relative mt-4 md:mt-16 lg:mt-4 w-full max-w-[800px]">
+            <div className="relative mt-4 md:mt-16 lg:mt-4 w-full max-w-[700px]">
               <Image
-                src="/Summerpark.png"
+                src="/SummerPark.png"
                 alt="image"
                 width={810}
                 height={553}
