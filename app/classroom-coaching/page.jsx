@@ -11,8 +11,6 @@ import ReviewSection from '@/components/ReviewSection.jsx';
 import Achievements from '@/components/Achievements.jsx';
 
 
-const TimeTable = dynamic(() => import ("../../components/TimeTable.jsx"), { ssr: false })
-
 export default function page() {
   return ( 
     <>
