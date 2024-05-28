@@ -42,7 +42,7 @@ function hero() {
             width={1500}
             height={1600}
             className="2xl:w-[610px] lg:w-[500px] w-[300px] sm:w-[450px] mx-auto lg:mx-0 "
-            src="/Group 331.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Hero+Section/Hero.png"
             alt="Additional Image"
             priority={true}
             quality={100}
