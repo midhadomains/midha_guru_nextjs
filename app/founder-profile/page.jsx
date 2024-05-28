@@ -16,7 +16,7 @@ export default function Page() {
               </h1>
               <div className="block sm:hidden w-[70%] sm:w-[35%] lg:w-[50%] mx-auto mb-4">
                 <Image
-                  src="Group 312.svg"
+                  src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Hero+Section/Hero.png"
                   alt="Image"
                   width={400}
                   height={400}
