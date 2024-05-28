@@ -18,7 +18,7 @@ const Card = ({ imageSrc, title, details }) => {
     </div>
   </div>
       {isHovered && (
-        <div className="absolute inset-0 flex flex-col  justify-center bg-[#E7E6DF] bg-opacity-100 text-black p-4">
+        <div className="absolute inset-0 flex flex-col  justify-center bg-[#E7E6DF] bg-opacity-100 text-black p-4 animate-fadeInDown">
           <h2 className="text-[16px] sm:text-[14px] md:text-[22px] text-left font-bold text-[#6A1C1A] mb-2 ">{title}</h2>
           <p className=" text-[12px] sm:text-[12px] md:text-[14px] lg:text-[20px] mt-2">{details}</p>
         </div>

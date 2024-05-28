@@ -25,6 +25,9 @@ module.exports = {
         "2xlherobgimg":"url('/Vector 10 (2).svg' )",
         "smherobgimg":"url('/Vector 10 (3).svg' )",
       },
+      animation: {
+        fadeInDown: 'fadeInDown 700ms ease-out'
+      }
       
     },
     screens: {
