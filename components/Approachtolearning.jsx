@@ -6,7 +6,7 @@ export default function Approachtolearning() {
     <div>
       <div className="max-w-[1400px] px-[25px] mg:px-[50px] mx-auto md:flex justify-center my-[30px] sm:my-[60px] lg:my-[132px]">
         <Image
-          src="/Approach.png"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Approach+to+learning/ApproachtoLearning.png"
           width={500}
           height={300}
           alt="img"
