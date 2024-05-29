@@ -3,30 +3,30 @@ import Image from "next/image";
 import Link from "next/link";
 function hero() {
   return (
-    <div className="sm:bg-herobgimg bg-smherobgimg xl:bg-2xlherobgimg sm:bg-cover bg-contain  bg-no-repeat bg-bottom 2xl:bg-cover flex-shrink-0 lg:mt-12 mb-[50px] ">
+    <div className="sm:bg-herobgimg bg-smherobgimg xl:bg-2xlherobgimg sm:bg-cover bg-contain  bg-no-repeat bg-bottom 2xl:bg-cover flex-shrink-0 lg:mt-12 mb-[50px]">
 
-      <div className="flex flex-wrap 2xl:max-w-[1400px] justify-center mx-auto ">
-        <div className="max-w-[400px] lg:max-w-[600px] flex flex-col  lg:block mb-5">
-          <h1 className="lg:leading-[70px]  text-center lg:text-left text-2xl sm:text-2xl md:text-4xl xl:text-5xl  font-bold ">
+      <div className="mg:flex  2xl:max-w-[1400px] justify-center mx-auto px-[20px] mg:px-[50px]">
+        <div className="max-w-[400px] lg:max-w-[610px] flex flex-col  lg:block mb-5 md:px-2 mx-auto">
+          <h1 className="lg:leading-[70px]  text-center lg:text-left  text-2xl sm:text-2xl md:text-[32px] xl:text-5xl  font-bold ">
             <span className="">&quot;</span>
             <span className="text-[#9A391D] ">Your exam</span>
             <span className=""> is</span>
             <span className="text-[#9A391D] "> Our </span>
             <span className="">Exam&quot;</span>
           </h1>
-          <h3 className="text-center lg:text-left font-bold sm:text-[18px] my-[18px] ">
+          <h3 className="text-center mg:text-left font-bold text-[16px] sm:text-[18px] my-[18px] ">
             is what the team at
             <span className="text-[#9A391D] "> MidhaGURU </span>proudly 
             &nbsp;announces and lives up to.
           </h3>
-          <h3 className="text-center sm:text-left text-[14px] sm:text-[20px] min-w-[20px] max-w-[600px]">
+          <h3 className="text-center mg:text-left text-[12px] sm:text-[14px] lg:text-[18px] min-w-[20px] max-w-[600px] ">
             Enroll with us now for high quality and smartest way of learning for classes 6th to 10th students.
           </h3>
-          <p className="text-[#9A391D] font-bold text-center lg:text-left  w-[100%] my-1">
+          <p className="text-[#9A391D] font-bold text-center mg:text-left  w-[100%] my-1">
             Separate batches for CBSE and ICSE
           </p>
 
-          <Link href='https://edu.midha.guru/s/authenticate' className="mx-auto ">
+          <Link href='https://edu.midha.guru/s/authenticate' className="mx-auto mg:mx-0">
           <button
           
             type="Sign Up"
