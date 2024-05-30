@@ -30,9 +30,6 @@ function page() {
         <BookDemoClass />
         <About />
         <Choose />
-        <div className="mx-[20px]">
-          <iframe style={{ aspectRatio: "16/9", width: "100%", maxWidth: "1000px", margin: "0 auto",}} src="https://www.youtube.com/embed/1i7IQj8zmcw?si=R8LXWNP65--T2PMz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
         <PlatformFeatures />
         <div className='sm:bg-contactbgimage bg-smherobgimg bg-contain sm:bg-cover bg-no-repeat bg-bottom	 md:my-[100px] my-[40px]'>
           <div className='max-w-[1340px] flex justify-center md:justify-around flex-col-reverse items-center md:items-end md:flex-row mx-auto flex-wrap md:flex-nowrap md:px-5 px-2 '>
