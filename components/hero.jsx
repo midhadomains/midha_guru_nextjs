@@ -19,7 +19,7 @@ function hero() {
             <span className="text-[#9A391D] "> MidhaGURU </span>proudly 
             &nbsp;announces and lives up to.
           </h3>
-          <h3 className="text-center mg:text-left text-[12px] sm:text-[14px] lg:text-[18px] min-w-[20px] max-w-[600px] ">
+          <h3 className="text-center mg:text-left text-[12px] sm:text-[14px] lg:text-[19px] min-w-[20px] max-w-[600px] ">
             Enroll with us now for high quality and smartest way of learning for classes 6th to 10th students.
           </h3>
           <p className="text-[#9A391D] font-bold text-center mg:text-left  w-[100%] my-1">
