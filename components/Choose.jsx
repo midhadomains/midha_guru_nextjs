@@ -54,7 +54,7 @@ export default function Choose() {
           <Card
             imageSrc="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Why+to+Choose+Us/Separate_Batches.png"
             title="Separate Batches for ICSE & CBSE"
-            details="At MidhaGuru, we understand that different education boards have distinct requirements. That’s why we offer seperate batches for ICSE and CBSE students, ensuring that each student receives the appropriate guidance & support."
+            details="At MidhaGuru, we understand that different education boards have distinct requirements. That&apos;s why we offer seperate batches for ICSE and CBSE students, ensuring that each student receives the appropriate guidance & support."
           />
           <Card
             imageSrc="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Why+to+Choose+Us/Highly_Qulaified_Mentors.png"
