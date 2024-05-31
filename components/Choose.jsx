@@ -57,7 +57,7 @@ export default function Choose() {
             details="At MidhaGuru, we understand that different education boards have distinct requirements. That&apos;s why we offer seperate batches for ICSE and CBSE students, ensuring that each student receives the appropriate guidance & support."
           />
           <Card
-            imageSrc="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Why+to+Choose+Us/Highly_Qulaified_Mentors.png"
+            imageSrc="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Why+to+Choose+Us/Highly_Qualified_Mentors.png"
             title="Highly Qualified Mentors"
             details="At MidhaGuru, We are driven by a passion for education and a commitment to nurture young minds. We have a team of experienced teachers & educators who are dedicated in providing the best learning experience for students in classes 6 to 10."
           />
