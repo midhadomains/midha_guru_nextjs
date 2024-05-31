@@ -417,7 +417,7 @@ export default function Scrollefec() {
                   </tr>
                   <tr className="bg-[#FFFFFF] border leading-10">
                     <td className="pr-8 text-[12px] sm:text-[16px]">
-                      31/10/2024
+                    07/11/2024
                     </td>
                     <td className="pr-8 text-[12px] sm:text-[16px]">
                       Thursday
@@ -441,15 +441,6 @@ export default function Scrollefec() {
                       Wednesday
                     </td>
                     <td className="text-[12px] sm:text-[16px]">Christmas</td>
-                  </tr>
-                  <tr className="bg-[#FCFBF7] border leading-10">
-                    <td className="pr-8 text-[12px] sm:text-[16px]">
-                      31/10/2024
-                    </td>
-                    <td className="pr-8 text-[12px] sm:text-[16px]">
-                      Thursday
-                    </td>
-                    <td className="text-[12px] sm:text-[16px]">Diwali</td>
                   </tr>
                   <tr className="bg-[#FFFFFF] border  leading-10">
                     <td className="pr-8 text-[12px] sm:text-[16px]">
