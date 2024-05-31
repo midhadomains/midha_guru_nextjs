@@ -7,10 +7,10 @@ export default function Choose() {
       <div className="mx-auto">
         <div className="flex flex-wrap sm:flex-nowrap justify-center ">
           <div className=" relative overflow-hidden border border-gray-300  rounded-md shadow-md w-[350px] h-[178px]  sm:w-[500px] sm:h-[170px] md:w-[350px] md:h-[200px] lg:w-[562px] lg:h-[280px] xl:w-[650px] xl:h-[300px]  mb-1  sm:m-4">
-            <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl ml-2 mt-2 font-bold">
+            <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl ml-4 mt-2 font-bold">
               Why to <span className="text-[#6A1C1A]">choose us.</span>
             </h1>
-            <p className=" text-[14px] sm:text-[12px] md:text-[14px] lg:text-[20px] mt-12  mg:mt-14 ml-2">
+            <p className=" text-[14px] sm:text-[12px] md:text-[14px] lg:text-[20px] mt-12  mg:mt-14 ml-2 px-2">
               Choose <b>Midha Guru</b> to tutor your children for personalized,{" "}
               <b>expert guidance that fosters academic excellence</b> and
               confidence.
