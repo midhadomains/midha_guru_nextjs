@@ -9,7 +9,7 @@ export default function Structureofstudies() {
           <span className="text-[#6A1C1A]">of Studies</span>
         </h1>
         <Image
-          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Structure+of+Studies/Structureofstudies.webp"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Structure+of+Studies/StructureofStudies.webp"
           alt="image"
           width={1500}
           height={400}
@@ -17,7 +17,7 @@ export default function Structureofstudies() {
           quality={100}
         />
         <Image
-          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Structure+of+Studies/Structureofstudies3.webp"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Structure+of+Studies/StructureofStudies2.webp"
           alt="image"
           width={600}
           height={1000}
@@ -26,7 +26,7 @@ export default function Structureofstudies() {
 
         />
         <Image
-          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Structure+of+Studies/Structureofstudies2.webp"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Structure+of+Studies/StructureofStudies3.webp"
           alt="image"
           width={400}
           height={850}
