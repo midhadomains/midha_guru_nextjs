@@ -39,7 +39,7 @@ export default function Choose() {
             </h1>
           </div> */}
           <Card
-            imageSrc="/Teaching_Visualization.png"
+            imageSrc="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Why+to+Choose+Us/Teaching_Visualization.png"
             title="Teaching by Visualization"
             details="One of the most powerful and successful strategy we use in teaching is Teaching by Visualisation. Our faculties help students understand abstract topics more clearly by putting them into visual representations like animations, interactive simulations, charts & diagrams."
           />

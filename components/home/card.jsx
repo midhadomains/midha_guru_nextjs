@@ -26,7 +26,7 @@ function ReviewCarousel({ images, titles, videos, currentIndex }) {
             </p>
           </div>
           <div
-            className="border rounded-full w-[80px] h-[80px] bg-cover m shadow-xl "
+            className="border rounded-full w-[80px] h-[80px] bg-cover  shadow-xl "
             style={{ backgroundImage: `url(${images[currentIndex]})` }}
           ></div>
         </div>
