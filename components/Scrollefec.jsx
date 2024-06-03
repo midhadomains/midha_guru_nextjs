@@ -308,7 +308,15 @@ export default function Scrollefec() {
                 alt="image"
                 width={700}
                 height={553}
-                className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[700px] animate-fadeInDown"
+                className="mt-4 hidden md:block md:mt-16 lg:mt-4 w-[100%] max-w-[700px] animate-fadeInDown"
+                priority={true}
+              />
+               <Image
+                src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Announcement+Section/Offers2.webp"
+                alt="image"
+                width={700}
+                height={553}
+                className="mt-4 block md:hidden md:mt-16 lg:mt-4 w-[100%] max-w-[700px] animate-fadeInDown"
                 priority={true}
               />
             </div>
@@ -359,7 +367,7 @@ export default function Scrollefec() {
                     <td className="pr-8 text-[12px] sm:text-[16px]">
                       Thursday
                     </td>
-                    <td className="text-[12px] sm:text-[16px]">
+                    <td className="text-[12px] sm:text-[16px]  ">
                       Independence Day
                     </td>
                   </tr>
