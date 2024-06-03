@@ -44,9 +44,9 @@ export default function Scrollefec() {
             className={selectedButton === 2 ? "activee" : ""}
           >
             <div
-              className={`md:pr-8 mr-7 md:mr-0 ${
+              className={`md:pr-8 mr-7 md:mr-0  ${
                 selectedButton === 2
-                  ? "border-b-4 md:border-b-0 md:border-r-4 border-[#BE4E1E]"
+                  ? "border-b-4 md:border-b-0 md:border-r-4  border-[#BE4E1E]"
                   : ""
               }`}
             >
@@ -81,9 +81,9 @@ export default function Scrollefec() {
             </div>
           </li>
         </ul>
-        <div className="md:max-w-[600px] lg:max-w-[800px]">
+        <div className="md:max-w-[600px] lg:max-w-[800px] ">
           {selectedButton === 1 && (
-            <div className="relative mt-4 md:mt-16 lg:mt-4 w-full max-w-[700px]">
+            <div className="relative mt-4 md:mt-16 lg:mt-4 w-full max-w-[700px] animate-fadeInDown">
               <p className=" w-[300px] md:w-[70%] mb-3 mt-2">
                 <span className="font-bold text-[#BE4E1E] text-[14px] sm:text-[18px] lg:mt-8">
                   Experience the difference with our free demo class!
@@ -308,13 +308,13 @@ export default function Scrollefec() {
                 alt="image"
                 width={700}
                 height={553}
-                className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[700px]"
+                className="mt-4 md:mt-16 lg:mt-4 w-[100%] max-w-[700px] animate-fadeInDown"
                 priority={true}
               />
             </div>
           )}
           {selectedButton === 3 && (
-            <div className="bg-[#FCFBF7]  w-[320px] sm:w-[550px] lg:w-[55vw] xl:w-[51vw] 2xl:w-[41vw] border text-center  h-[395px] overflow-y-scroll mt-4  ">
+            <div className="bg-[#FCFBF7]  w-[320px] sm:w-[550px] lg:w-[55vw] xl:w-[51vw] 2xl:w-[41vw] border text-center  h-[395px] overflow-y-scroll mt-4 animate-fadeInDown ">
               {/* Render achievements here */}
               <p className="font-bold text-[#BE4E1E] text-[16px] lg:text-[32px] mt-2 lg:mt-8 lg:ml-4">
                 Holidays 2024-2025
