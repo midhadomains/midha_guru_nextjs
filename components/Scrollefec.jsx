@@ -342,7 +342,7 @@ export default function Scrollefec() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="bg-[#FCFBF7] border leading-10">
+                  <tr className="bg-[#FCFBF7] border leading-10 ">
                     <td className="pr-8 text-[12px] sm:text-[16px]">
                       17/04/2024
                     </td>
@@ -367,7 +367,7 @@ export default function Scrollefec() {
                     <td className="pr-8 text-[12px] sm:text-[16px]">
                       Thursday
                     </td>
-                    <td className="text-[12px] sm:text-[16px]  ">
+                    <td className="text-[12px] sm:text-[16px]  leading-[14px]">
                       Independence Day
                     </td>
                   </tr>
@@ -387,7 +387,7 @@ export default function Scrollefec() {
                     <td className="pr-8 text-[12px] sm:text-[16px]">Monday</td>
                     <td className="text-[12px] sm:text-[16px]">Janmashtami</td>
                   </tr>
-                  <tr className="bg-[#FFFFFF] border sm:leading-10">
+                  <tr className="bg-[#FFFFFF] border ">
                     <td className="pr-8 text-[12px] sm:text-[16px]">
                       02/10/2024
                     </td>
@@ -437,7 +437,7 @@ export default function Scrollefec() {
                       15/11/2024
                     </td>
                     <td className="pr-8 text-[12px] sm:text-[16px]">Friday</td>
-                    <td className="text-[12px] sm:text-[16px]">
+                    <td className="text-[12px] sm:text-[16px] leading-[14px]">
                       Guru Nanak Jayanti
                     </td>
                   </tr>
@@ -482,7 +482,7 @@ export default function Scrollefec() {
                       02/02/2025
                     </td>
                     <td className="pr-8 text-[12px] sm:text-[16px]">Sunday</td>
-                    <td className="text-[12px] sm:text-[16px]">
+                    <td className="text-[12px] sm:text-[16px] leading-[14px]">
                       Vasant panchami
                     </td>
                   </tr>
