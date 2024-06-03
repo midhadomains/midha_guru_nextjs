@@ -8,7 +8,7 @@ export default function Structureofstudies() {
           <span className="text-[#BE4E1E]">Structure</span>{" "}
           <span className="text-[#6A1C1A]">of Studies</span>
         </h1>
-        <Image
+        <Image 
           src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Structure+of+Studies/StructureofStudies.webp"
           alt="image"
           width={1500}
