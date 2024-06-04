@@ -7,35 +7,35 @@ const data = [
     titles: 'myths in biology & debunking it',
     author: "Prashanti Bharagava",
     dates: 'April 22, 2024',
-    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Myths.png',
+    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Blog++carousel/Myths.png',
     link: "/blogs/myths-in-biology"
   },
   {
     titles: '5 Magic Foods which can keep students cool during summer',
     author: 'Prashanti Bharagava',
     dates: 'April 30, 2024',
-    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/fruitdrink.png',
+    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Blog++carousel/fruitdrink.png',
     link: "/blogs/5-Magic-Foods"
   },
   {
     titles: 'The power of visualization in teaching',
     author: "Prashanti Bharagava",
     dates: 'April 30, 2024',
-    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/powerofvisualization.png',
+    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Blog++carousel/powerofvisualization.png',
     link: '/blogs/The-power-of-visualization'
   },
   {
     titles: 'Embracing New Horizons: The Transformative Power of Studying Abroad and Cultural Exchange',
     author: "Malobika Mukherjee",
     dates: "May 7, 2024",
-    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Abroad.png',
+    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Blog++carousel/Abroad.png',
     link: "/blogs/Embracing-New-Horizons"
   },
   {
     titles: 'Unraveling the Enigma: Exploring the Intricacies of Mind Psychology',
     author: "Sachin Semwal",
     dates: "May 10, 2024",
-    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Mindpysc.png',
+    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Blog++carousel/Mindpysc.png',
     link: "/blogs/Unravelling-the-Enigma"
   },
 ];
