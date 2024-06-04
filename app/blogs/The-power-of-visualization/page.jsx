@@ -46,7 +46,7 @@ export default function page() {
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-1" id='section1'>Engaging students:</h2>
 
         <Image
-          src="/students.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/The-Power-of-Visualization/students.jpg"
           alt="img"
           width={800}
           height={545}
@@ -66,7 +66,7 @@ export default function page() {
 
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-4"id='section2'>Stimulating Imagination:</h2>
         <Image
-          src="/imagination.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/The-Power-of-Visualization/imagination.jpg"
           alt="img"
           width={460}
           height={351}
@@ -88,7 +88,7 @@ export default function page() {
 
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section3'>Facilitating Understanding:</h2>
         <Image
-          src="/understanding.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/The-Power-of-Visualization/understanding.jpg"
           alt="img"
           width={460}
           height={351}
@@ -110,7 +110,7 @@ export default function page() {
 
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section4'>Enhancing Memory:</h2>
         <Image
-          src="/memory.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/The-Power-of-Visualization/memory.jpg"
           alt="img"
           width={560}
           height={351}
@@ -132,7 +132,7 @@ export default function page() {
 
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-4"id='section5'>Promoting Active Learning:</h2>
         <Image
-          src="/learnings.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/The-Power-of-Visualization/learnings.jpg"
           alt="img"
           width={560}
           height={351}

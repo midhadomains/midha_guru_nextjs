@@ -39,7 +39,7 @@ export default function page() {
         </div>
 
         <Image
-          src="https://files.midhafin.com/wp-content/uploads/Image-249.png"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Myths-in-biology/Brain.png"
           alt="img"
           width={800}
           height={545}
@@ -62,7 +62,7 @@ export default function page() {
         </p>
 
         <Image
-          src="https://files.midhafin.com/wp-content/uploads/Image-250.png"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Myths-in-biology/Brain_Cells.png"
           alt="img"
           width={560}
           height={351}
@@ -83,7 +83,7 @@ export default function page() {
         </p>
 
         <Image
-          src="https://files.midhafin.com/wp-content/uploads/Image-251.png"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Myths-in-biology/Monkey.png"
           alt="img"
           width={560}
           height={351}
@@ -104,7 +104,7 @@ export default function page() {
         </p>
 
         <Image
-          src="https://files.midhafin.com/wp-content/uploads/Image-252.png"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Myths-in-biology/Hairfall.png"
           alt="img"
           width={560}
           height={351}
@@ -126,7 +126,7 @@ export default function page() {
         </p>
 
         <Image
-          src="https://files.midhafin.com/wp-content/uploads/hairfall.png"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Myths-in-biology/Stress.png"
           alt="img"
           width={560}
           height={351}

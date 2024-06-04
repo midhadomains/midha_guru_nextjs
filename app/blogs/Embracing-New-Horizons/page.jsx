@@ -45,7 +45,7 @@ export default function page() {
           </p>
 
           <Image
-            src="/Horizons.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Embracing-New-Horizons/Horizons.png"
             alt="img"
             width={800}
             height={545}
@@ -83,7 +83,7 @@ export default function page() {
           </p>
 
           <Image
-            src="/Enrichment.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Embracing-New-Horizons/Enrichment.png"
             alt="img"
             width={460}
             height={351}
@@ -119,7 +119,7 @@ export default function page() {
           </p>
 
           <Image
-            src="/language.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Embracing-New-Horizons/language.png"
             alt="img"
             width={460}
             height={351}
@@ -158,7 +158,7 @@ export default function page() {
           </p>
 
           <Image
-            src="/networks.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Embracing-New-Horizons/networks.png"
             alt="img"
             width={560}
             height={351}
@@ -197,7 +197,7 @@ export default function page() {
           </p>
 
           <Image
-            src="/globe.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Embracing-New-Horizons/globe.png"
             alt="img"
             width={560}
             height={351}

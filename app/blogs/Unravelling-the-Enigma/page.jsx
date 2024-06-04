@@ -30,7 +30,7 @@ export default function page() {
           </div>
 
           <Image
-            src="/Mind.jpg"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Unravelling-the-Enigma/Mind.jpg"
             alt="img"
             width={800}
             height={545}
@@ -58,7 +58,7 @@ export default function page() {
           </h2>
 
           <Image
-            src="/Essence.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Unravelling-the-Enigma/Essence.png"
             alt="img"
             width={460}
             height={351}
@@ -86,7 +86,7 @@ export default function page() {
           </h2>
 
           <Image
-            src="/perception.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Unravelling-the-Enigma/perception.png"
             alt="img"
             width={460}
             height={351}
@@ -116,7 +116,7 @@ export default function page() {
           </h2>
 
           <Image
-            src="/power.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Unravelling-the-Enigma/power.png"
             alt="img"
             width={460}
             height={351}
@@ -145,7 +145,7 @@ export default function page() {
           </h2>
 
           <Image
-            src="/emotions.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Unravelling-the-Enigma/emotions.png"
             alt="img"
             width={560}
             height={351}
@@ -193,7 +193,7 @@ export default function page() {
           </h2>
 
           <Image
-            src="/depth.png"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Unravelling-the-Enigma/depth.png"
             alt="img"
             width={560}
             height={351}
