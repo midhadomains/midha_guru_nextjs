@@ -304,7 +304,7 @@ export default function Scrollefec() {
             <div>
 
               <Image
-                src="https://files.midhafin.com/wp-content/uploads/Offers.png"
+                src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Announcement+Section/Offers.png"
                 alt="image"
                 width={700}
                 height={553}
