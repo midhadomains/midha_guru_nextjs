@@ -16,7 +16,7 @@ export default function Page() {
               </h1>
               <div className="block sm:hidden w-[70%] sm:w-[35%] lg:w-[50%] mx-auto mb-4">
                 <Image
-                  src="Group 312.svg"
+                  src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Founder's+Profile/MickyMidha.png"
                   alt="Image"
                   width={400}
                   height={400}
@@ -37,7 +37,7 @@ export default function Page() {
             </div>
             <div className=" hidden sm:block max-w-[400px]  w-[40%] sm:w-[35%] lg:w-[50%] mt-8 pr-[32px] overflow-hidden">
               <Image
-                src="Group 312.svg"
+                src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Founder's+Profile/MickyMidha.png"
                 alt="Image"
                 width={400}
                 height={400}
@@ -51,7 +51,7 @@ export default function Page() {
       <div className="max-w-[1300px] mx-auto">
         <div className="w-[100%] mt-12">
           <div className=" w-[12%] sm:w-[30%] lg:w-[50%] ml-8">
-            <Image src="Group 232.svg" alt="image" width={100} height={60} />
+            <Image src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Founder's+Profile/Education.png" alt="image" width={100} height={60} />
           </div>
           <h1 className="text-[#6A1C1A] text-[22px] md:text-[28px] lg:text-[28px] font-bold mb-4 ml-8 text-left ">
             Education
@@ -68,7 +68,7 @@ export default function Page() {
           </p>
 
           <div className=" w-[12%] sm:w-[30%] lg:w-[50%] ml-8 mt-12">
-            <Image src="Group 233.svg" alt="image" width={100} height={60} />
+            <Image src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Founder's+Profile/Professional+Journey.png" alt="image" width={100} height={60} />
           </div>
           <h1 className="text-[#6A1C1A] text-[22px] md:text-[28px] lg:text-[28px] font-bold mb-4 ml-8 text-left ">
             Professional Journey:
@@ -84,7 +84,7 @@ export default function Page() {
 
           <div className=" w-[12%] sm:w-[30%] lg:w-[50%] ml-8 mt-12">
             <Image
-              src="Mask group copy.svg"
+              src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Founder's+Profile/Teaching+and+Mentoring.png"
               alt="image"
               width={100}
               height={60}
@@ -107,7 +107,7 @@ export default function Page() {
           </p>
 
           <div className=" w-[12%] sm:w-[30%] lg:w-[50%] ml-8 mt-12">
-            <Image src="Layer 2.svg" alt="image" width={100} height={60} />
+            <Image src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Founder's+Profile/Beyond+Academia.png" alt="image" width={100} height={60} />
           </div>
           <h1 className="text-[#6A1C1A] text-[22px] md:text-[28px] lg:text-[28px] font-bold mb-4 ml-8 text-left ">
             Beyond Academia

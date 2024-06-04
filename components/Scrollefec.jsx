@@ -376,7 +376,7 @@ export default function Scrollefec() {
                       19/08/2024
                     </td>
                     <td className="pr-8 text-[12px] sm:text-[16px]">Monday</td>
-                    <td className="text-[12px] sm:text-[16px]">
+                    <td className="text-[12px] sm:text-[16px] leading-[14px]">
                       Raksha Bandhan
                     </td>
                   </tr>

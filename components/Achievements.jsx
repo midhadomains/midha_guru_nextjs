@@ -15,14 +15,14 @@ export default function Achievements() {
       </div>
 
       <div className="flex mt-4 justify-center mx-auto gap-[10px] md:gap-[20px] xl:gap-[30px] flex-wrap ">
-        <Image src='/Deeksha.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
-        <Image src='/Nandani.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" /> 
-        <Image src='/Aarav.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
-        <Image src='/Tanmay.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
-        <Image src='/veedant.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
-        <Image src='/Ujjwal.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" /> 
-        <Image src='/Harsh.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
-        <Image src='/Rishika.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
+        <Image src='https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Achievements/Deeksha.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
+        <Image src='https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Achievements/Nandani.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" /> 
+        <Image src='https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Achievements/Aarav.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
+        <Image src='https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Achievements/Tanmay.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
+        <Image src='https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Achievements/veedant.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
+        <Image src='https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Achievements/Ujjwal.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" /> 
+        <Image src='https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Achievements/Harsh.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
+        <Image src='https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Achievements/Rishika.png' width={274} height={318} alt="img" className="w-[48%] max-w-[274px] min-w-[140px]" />
       </div>
     </div>
   );
