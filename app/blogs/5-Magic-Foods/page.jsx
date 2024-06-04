@@ -44,7 +44,7 @@ export default function page() {
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-1" id='section1'>1. Watermelon</h2>
 
         <Image
-          src="/watemelon.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/5-Magic-Foods/watemelon.jpg"
           alt="img"
           width={800}
           height={545}
@@ -63,7 +63,7 @@ export default function page() {
 
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section2'>2. yogurt</h2>
         <Image
-          src="/cup.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/5-Magic-Foods/cup.jpg"
           alt="img"
           width={560}
           height={351}
@@ -82,7 +82,7 @@ export default function page() {
 
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section3'>3. Cucumber</h2>
         <Image
-          src="/cucumber.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/5-Magic-Foods/cucumber.jpg"
           alt="img"
           width={460}
           height={351}
@@ -101,7 +101,7 @@ export default function page() {
 
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section4'>4. Berries</h2>
         <Image
-          src="/bluberries.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/5-Magic-Foods/bluberries.jpg"
           alt="img"
           width={560}
           height={351}
@@ -120,7 +120,7 @@ export default function page() {
 
         <h2 className="font-bold text-[16px] sm:text-[24px] mt-4" id='section5'>5.Coconut water</h2>
         <Image
-          src="/coconut.jpg"
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/5-Magic-Foods/coconut.jpg"
           alt="img"
           width={560}
           height={351}
