@@ -22,7 +22,7 @@ export default function page() {
             width={500}
             height={600}
             className="2xl:w-[273px] lg:w-[200px] w-[125px] sm:w-[160px] mx-auto mt-[80px] sm:block hidden mb-[20px]"
-            src="/Group 344.svg"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Smart+Classroom/classroomHeroLeft.png"
             alt="Additional Image"
             priority={true}
             quality={100}
@@ -33,8 +33,8 @@ export default function page() {
             <Image
               width={500}
               height={600}
-              className=" lg:w-[100px] xl:h-[60px] w-[75px] sm:w-[100px]  justify-center "
-              src="/image 4.svg"
+              className=" lg:w-[100px]  w-[75px] sm:w-[100px]  justify-center "
+              src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Smart+Classroom/MidhaguruLogo.png"
               alt="Additional Image"
               priority={true}
               quality={100}
@@ -65,8 +65,8 @@ export default function page() {
         <Image
             width={500}
             height={600}
-            className="2xl:w-[273px] sm:hidden block lg:w-[200px] w-[126px] sm:w-[140px] mx-auto sm:mt-[80px] mr-[30px] "
-            src="/Group 344.svg"
+            className="2xl:w-[273px] sm:hidden block lg:w-[200px] w-[130px] h-fit mt-4 sm:w-[140px] mx-auto sm:mt-[80px] mr-[30px] "
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Smart+Classroom/classroomHeroLeft.png"
             alt="Additional Image"
             priority={true}
             quality={100}
@@ -75,7 +75,7 @@ export default function page() {
             width={500}
             height={600}
             className="2xl:w-[273px] lg:w-[200px] w-[126px] sm:w-[160px] mx-auto lg:mx-0 xl:mt-[40px] lg:mt-[50px] sm:mt-[65px] sm:ml-0 ml-[30px] mb-[20px]"
-            src="/Group 343.svg"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Classroom+page/Smart+Classroom/classroomHeroRight.png"
             alt="Additional Image"
             priority={true}
             quality={100}

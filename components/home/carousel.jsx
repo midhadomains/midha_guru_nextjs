@@ -9,8 +9,8 @@ export default function Home() {
     const [dotColors, setDotColors] = useState(['bg-indigo-900', 'bg-gray-200']);
 
     const images = [
-        "https://files.midhafin.com/wp-content/uploads/Diksha.png",
-        " https://files.midhafin.com/wp-content/uploads/Nandini.png"
+        "https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Youtube+carousel/Diksha.png",
+        "https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Youtube+carousel/Nandini.png"
     ];
 
     const titles = [
