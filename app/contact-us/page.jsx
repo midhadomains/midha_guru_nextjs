@@ -16,8 +16,8 @@ export default function page() {
           <Image
             width={500}
             height={1400}
-            className="object-bottom mx-auto sm:mx-0  sm:w-[50%] mt-[30px] sm:mr-[10px] xl:mr-[60px] lg:w-[34%] 2xl:w-[23%]"
-            src="/Group 161.svg"
+            className="object-bottom mx-auto sm:mx-0  sm:w-[50%] mt-[30px] sm:mr-[10px] xl:mr-[60px] lg:w-[34%] 2xl:w-[26%]"
+            src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Contact+Us/ContactUs-Hero.png"
             alt="Midhaguru Image"
           />
           <div className="xl:w-[420px] w-[350px] sm:w-[390px]  2xl:pt-[0px] lg:pt-[0px] md:mt-[200px]  xl:text-[150%] text-[20px]  sm:mx-[35px] mx-auto sm:my-[30px] justify-center  ">
@@ -41,10 +41,10 @@ export default function page() {
             </h1>
             <div className="flex  xl:mt-[6px] sm:mx-0 mx-[55px]  ">
               <Image
-                width={500}
-                height={500}
-                className="w-[17px] mr-[10px] "
-                src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Contact+Us/ContactUs-Hero.png"
+                width={350}
+                height={300}
+                className="w-[18px] mr-[10px] "
+                src="/Mail-Image.svg"
                 alt="Midhaguru Image"
               />
               <h3 className="text-[#9A391D] text-[15px] ">
