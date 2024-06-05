@@ -44,7 +44,7 @@ export default function page() {
                 width={500}
                 height={500}
                 className="w-[17px] mr-[10px] "
-                src="/Group 244.svg"
+                src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Contact+Us/ContactUs-Hero.png"
                 alt="Midhaguru Image"
               />
               <h3 className="text-[#9A391D] text-[15px] ">
