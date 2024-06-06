@@ -12,16 +12,16 @@ export default function page() {
     <>
       <Navbar3 />
       <div className="min-h-[1220px] sm:min-h-[100%]">
-        <div className="bg-contactbgimage w-[100%]  bg-contain  bg-no-repeat bg-bottom flex flex-wrap md:flex-nowrap flex-col-reverse md:flex-row justify-center xl:bg-cover">
+        <div className="bg-contactbgimage w-[100%]  bg-contain sm:bg-cover md:bg-contain  bg-no-repeat bg-bottom flex flex-wrap md:flex-nowrap flex-col-reverse sm:flex-row justify-center xl:bg-cover">
           <Image
             width={500}
             height={1400}
-            className="object-bottom mx-auto sm:mx-0  sm:w-[50%] mt-[30px] sm:mr-[10px] xl:mr-[60px] lg:w-[34%] 2xl:w-[26%]"
+            className="object-bottom mx-auto sm:mx-0 w-[80%] sm:w-[40%] mt-[10px] sm:mr-[10px] xl:mr-[60px] lg:w-[34%] 2xl:w-[26%]"
             src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Contact+Us/ContactUs-Hero.png"
             alt="Midhaguru Image"
           />
-          <div className="xl:w-[420px] w-[350px] sm:w-[390px]  2xl:pt-[0px] lg:pt-[0px] md:mt-[200px]  xl:text-[150%] text-[20px]  sm:mx-[35px] mx-auto sm:my-[30px] justify-center  ">
-            <h3 className="text-[#6A1C1A] font-semibold text-center justify-center ">
+          <div className="xl:w-[420px] w-[310px] sm:w-[290px] lg:w-[300px]  lg:text-[17px]  2xl:pt-[180px] lg:pt-[150px] md:pt-[146px]  xl:text-[150%] text-[16px] sm:text-[15px]  sm:mx-[35px] mx-auto  justify-center  lg:justify-between ">
+            <h3 className="text-[#6A1C1A] font-semibold text-center justify-center mt-[30px] sm:mt-[100px] lg:mt-[0px] md:mt-[20px]  ">
               Have questions or need assistance?{" "}
               <span className="text-[#2E3442] font-normal justify-center text-center mx-auto ">
                 Feel free to reach out to our friendly support team at{" "}
@@ -31,8 +31,8 @@ export default function page() {
           </div>
         </div>
         {/* <div className=" flex flex-wrap sm:ustify-between justify-center  sm:mx-[110px] mt-[60px] max-w-[1500px] xl:mx-auto "> */}
-        <div className=" flex flex-wrap sm:justify-between justify-center 2xl:mx-auto xl:mx-[180px]  sm:mx-[100px] mt-[60px] max-w-[1300px] xl:mx:[50px] 2xl:max-w-[1000px]">
-          <div className="xl:w-[490px] sm:w-[310px] w-[300px] h-[242px] text-[15px]  ">
+        <div className=" flex flex-wrap sm:justify-between justify-center 2xl:mx-auto xl:mx-[180px]  sm:mx-[100px] mt-[60px] max-w-[1300px] md:mx-[120px] lg:mx-[130px] 2xl:max-w-[1000px]">
+          <div className="xl:w-[490px] sm:w-[310px]  w-[300px] h-[242px] text-[15px]  ">
             <h1 className="text-[#6A1C1A] font-bold text-[30px] xl:text-[48px] leading-[35px] text-center sm:text-left justify-center ">
               Get in touch with us{" "}
               <span className="text-[#2E3442] font-normal xl:text-lg   text-[15px]">
@@ -157,7 +157,7 @@ export default function page() {
             <form
               action="https://api.web3forms.com/submit"
               method="POST"
-              className="lg:w-[450px] xl:w-[400px] md:w-[250px] 2xl:w-[465px] md:h-[310px] w"
+              className="lg:w-[450px] xl:w-[400px] md:w-[250px]  2xl:w-[465px] md:h-[310px] w"
               // onSubmit={handleSubmit}
             >
               <input
