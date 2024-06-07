@@ -59,7 +59,7 @@ export default function Choose() {
           <Card
             imageSrc="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/HomePage/Why+to+Choose+Us/Highly_Qualified_Mentors.png"
             title="Highly Qualified Mentors"
-            details="At MidhaGuru, We are driven by a passion for education and a commitment to nurture young minds. We have a team of experienced teachers & educators who are dedicated in providing the best learning experience for students in classes 6 to 10."
+            details="At MidhaGuru, we are driven by a passion for education and a commitment to nurture young minds. We have a team of experienced teachers & educators who are dedicated in providing the best learning experience for students in classes 6 to 10."
           />
         </div>
       </div>
