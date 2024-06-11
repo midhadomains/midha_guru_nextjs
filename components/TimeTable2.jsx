@@ -1116,12 +1116,9 @@ function TimeTable() {
                     <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#FF7A30] border-l-[6px] font-bold text-center bg-[#FFEFE6] border-[#B7B7B7]">
                       Physics
                     </td>
-                    <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-[#B7B7B7]">
-                      <a
-                        href="#"
-                        class="font-medium text-white hover:underline"
-                      ></a>
-                    </td>
+                    <td class="w-[155px] text-center py-4 border-r border-l-[#24F9F9] border-l-[6px] font-bold bg-[#D9FFFA] border-[c]">
+                    Comp
+                  </td>
                     <td class="xl:w-[10%] sm:text-[11px] xl:text-[14px] lg:text-[13px] sm:w-[90px] lg:w-[120px] py-4 border-r border-l-[#4A74DF] border-l-[6px] font-bold text-center bg-[#E9EEFB] border-[#B7B7B7]">
                       Maths
                     </td>
@@ -4101,7 +4098,9 @@ function TimeTable() {
                     <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
                     6:00 PM
                   </th>
-                  <td class="w-[155px] px-6 py-4 border border-[#B7B7B7]"></td>
+                  <td class="w-[155px] text-center py-4 border-r border-l-[#24F9F9] border-l-[6px] font-bold bg-[#D9FFFA] border-[c]">
+                    Comp
+                  </td>
                 </tr>
                 <tr class=" border-b border-[#B7B7B7] ">
                   <th

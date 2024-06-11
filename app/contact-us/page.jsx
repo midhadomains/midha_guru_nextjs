@@ -31,8 +31,8 @@ export default function page() {
           </div>
         </div>
         {/* <div className=" flex flex-wrap sm:ustify-between justify-center  sm:mx-[110px] mt-[60px] max-w-[1500px] xl:mx-auto "> */}
-        <div className=" flex flex-wrap sm:justify-between justify-center 2xl:mx-auto xl:mx-[180px]  sm:mx-[100px] mt-[60px] max-w-[1300px] md:mx-[120px] lg:mx-[130px] 2xl:max-w-[1000px]">
-          <div className="xl:w-[490px] sm:w-[310px]  w-[300px] h-[242px] text-[15px]  ">
+        <div className=" flex flex-wrap sm:justify-between justify-center 2xl:mx-auto xl:mx-[180px] md:max-w-[700px] lg:max-w-[900px]   sm:mx-[50px] mt-[60px] max-w-[1300px] md:mx-[120px] lg:mx-[130px] xl:max-w-[1000px]">
+          <div className="xl:w-[490px] sm:w-[300px]  w-[300px] h-[242px] text-[15px]  ">
             <h1 className="text-[#6A1C1A] font-bold text-[30px] xl:text-[48px] leading-[35px] text-center sm:text-left justify-center ">
               Get in touch with us{" "}
               <span className="text-[#2E3442] font-normal xl:text-lg   text-[15px]">
@@ -157,7 +157,7 @@ export default function page() {
             <form
               action="https://api.web3forms.com/submit"
               method="POST"
-              className="lg:w-[450px] xl:w-[400px] md:w-[250px]  2xl:w-[465px] md:h-[310px] w"
+              className="lg:w-[450px] xl:w-[400px] md:w-[250px] sm:w-[200px]  2xl:w-[465px] md:h-[310px] w"
               // onSubmit={handleSubmit}
             >
               <input
