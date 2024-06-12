@@ -4098,7 +4098,7 @@ function TimeTable() {
                     <span class="text-[#BE4E1E] text-sm">5:10 PM</span>&nbsp;-
                     6:00 PM
                   </th>
-                  <td class="w-[155px] text-center py-4 border-r border-l-[#24F9F9] border-l-[6px] font-bold bg-[#D9FFFA] border-[c]">
+                  <td class="w-[155px] text-center py-4 border-r border-l-[#24F9F9] border-l-[6px] font-bold bg-[#D9FFFA] border-[#B7B7B7]">
                     Comp
                   </td>
                 </tr>
