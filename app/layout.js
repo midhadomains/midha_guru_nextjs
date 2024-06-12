@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en" style={{scrollBehavior:"smooth"}}>
   <head>
   <meta name="google-site-verification" content="oQoGSnBMdxfmwcRetmX71jj_DzPC4lyUX7XC9qbOHx4" />
-  <head/>
+  </head>
       <body className={inter.className}>{children}</body>
       <GoogleAnalytics gaId="G-YYJYHRV8EM" />
     </html>
