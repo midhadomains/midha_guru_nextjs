@@ -11,6 +11,9 @@ import ContinuousSlidingText from "../components/ContinuousSlidingText.jsx";
 import Carousel from "../components/home/carousel.jsx";
 import Navbar3 from "@/components/Navbar3.jsx";
 import Footer from "@/components/Footer.jsx";
+import Accordion from "@/components/Accordion";
+import Faqs from "./faqs/page";
+ 
 
 
 export const metadata = {
@@ -42,6 +45,7 @@ function page() {
           </div>
         </div>
         <Carousel />
+        <Faqs/>
       </div>
       <Footer />
     </>
