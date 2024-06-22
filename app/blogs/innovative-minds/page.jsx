@@ -38,6 +38,14 @@ export default function page() {
             <p className="text-[12px] md:text-[16px] my-auto">22 June, 2024</p>
           </div>
 
+          <Image src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Innovative+Minds_+How+STEM+Education+is+Shaping+the+Future.webp" className="mt-4 w-[100%] "
+            priority={true}
+            quality={100}
+            width={800}
+            height={600}
+            alt=" INNOVATIVE MINDS: HOW STEM EDUCATION IS SHAPING THE FUTURE"
+          />
+
           <p className="text-[14px] lg:text-[16px] mt-1 sm:mt-2">
             The rapid advancement in Science, Technology, Engineering, and Mathematics (STEM) is changing our world at
             an unparalleled pace. Their importance in every phase of modern life is unassailable. We see this in revolutionary
