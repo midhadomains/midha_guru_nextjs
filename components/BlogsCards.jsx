@@ -38,6 +38,13 @@ const data = [
     images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Blog++carousel/Mindpysc.png',
     link: "/blogs/Unravelling-the-Enigma"
   },
+  {
+    titles: 'INNOVATIVE MINDS: HOW STEM EDUCATION IS SHAPING THE FUTURE',
+    author: "Shweta Munjal",
+    dates: "June 22, 2024",
+    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Innovative+Minds_+How+STEM+Education+is+Shaping+the+Future.webp',
+    link: "/blogs/innovative-minds"
+  },
 ];
 
 function BlogsCards() {
