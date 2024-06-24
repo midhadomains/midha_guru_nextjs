@@ -10,28 +10,32 @@ export default function page() {
     {
       id: "section1",
       title:
-        "Government CM RISE Ideal Secondary School, Jhabua, MP (Category: Supporting Healthy Living)",
+        "Government CM RISE Ideal Secondary School",
     },
     {
       id: "section2",
       title:
-        "Ryan International School, Vasant Kunj, Delhi: Category: Environmental Action",
+        "Ryan International School, Vasant Kunj",
     },
     {
       id: "section3",
       title:
-        "Government High School Vinoba Ambedkar Nagar, Ratlam, Madhya Pradesh",
+        "Government High School Vinoba Ambedkar Nagar",
     },
     {
       id: "section4",
       title:
-        "Mumbai Public School LK Waghji International (IGCSE), Maharashtra - Category: Supporting Healthy Living",
+        "Community Collaboration",
     },
-    { id: "section5", title: "The Winners" },
+    { id: "section5", title: "Mumbai Public School LK Waghji International (IGCSE)" },
     {
       id: "section6",
-      title: "In the Business of Inspiring Future Generations!",
+      title: "The Winners",
     },
+    {
+        id: "section7",
+        title: "In the Business of Inspiring Future Generations!",
+      },
   ];
 
   return (
@@ -72,8 +76,8 @@ export default function page() {
             <Image
               src="https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Five-Indian-Schools/World-Best.jpg"
               alt="img"
-              width={560}
-              height={351}
+              width={570}
+              height={350}
               className="mt-4 mx-auto"
               priority={true}
               quality={100}
