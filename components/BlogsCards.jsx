@@ -45,6 +45,13 @@ const data = [
     images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Innovative+Minds_+How+STEM+Education+is+Shaping+the+Future.webp',
     link: "/blogs/innovative-minds"
   },
+  {
+    titles: "5 Indian schools glittering on global horizon: Shortlisted for the World's Best Schools Awards 2024",
+    author: "Shweta Munjal",
+    dates: "June 24, 2024",
+    images: 'https://midha-images.s3.ap-south-1.amazonaws.com/MidhaGuru/Blog/Five-Indian-Schools/5-Indian-Schools.png',
+    link: "/blogs/Five-Indian-Schools"
+  }
 ];
 
 function BlogsCards() {
