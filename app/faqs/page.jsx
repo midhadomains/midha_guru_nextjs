@@ -1,5 +1,6 @@
 
 import Accordion from '@/components/Accordion';
+import Navbar from '@/components/Navbar3';
 
 export const metadata = {
     title: "Faqs",
@@ -42,7 +43,6 @@ export default function Faqs() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(JsonLD) }} />
             <div className="select-none">
                 
-            
                 <div className="center-container px-4 ">
                     <h1 className="lg:text-[50px] sm:text-[38px] text-[24px] font-style:normal text-center font-bold lg:pt-6 sm:pt-4">
                         Frequently <span style={{ color: '#8B4513' }}>Asked </span> Questions
